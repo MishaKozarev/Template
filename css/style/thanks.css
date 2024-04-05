@@ -1,0 +1,30 @@
+/**** THANKS ****/
+.thanks {
+  height: 100%;
+}
+
+.thanks__section {
+  position: relative;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.thanks__container {
+  padding: 80px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+}
+
+.thanks p {
+  line-height: 30px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 640px) {
+  .thanks h1 {
+    font-size: 2rem;
+  }
+}

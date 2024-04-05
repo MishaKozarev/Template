@@ -1,0 +1,89 @@
+/**** BURGER ****/
+
+.burger__btn {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  height: 28px;
+}
+
+.burger__btn:hover {
+  transform: scale(1.1);
+}
+
+.burger__btn span {
+  display: inline-block;
+  width: 28px;
+  height: 5px;
+  border-radius: 4px;
+  background-color: var(--background-body);
+  transition: 0.4s ease;
+}
+
+.burger__btn::before,
+.burger__btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 34px;
+  height: 5px;
+  border-radius: 4px;
+  background-color: var(--background-body);
+  transition: 0.3s ease;
+}
+
+.burger__btn::before {
+  top: 0;
+}
+
+.burger__btn::after {
+  bottom: 0;
+}
+
+.active span {
+  transform: scale(0);
+}
+
+.active::before {
+  transform: rotate(-45deg);
+  top: 12px;
+}
+
+.active::after {
+  transform: rotate(45deg);
+  bottom: 10px;
+}
+
+.menu.active {
+  max-height: 500px;
+  padding: 100px 0;
+}
+
+@media (max-width: 940px) {
+  .burger__btn {
+    display: flex;
+    z-index: 999;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu__link {
+    color: var(--color-white);
+    font-size: 2rem;
+  }
+
+  .menu.active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: var(--background-header);
+  }
+}

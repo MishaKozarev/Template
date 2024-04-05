@@ -1,0 +1,51 @@
+/**** INFORMATION ****/
+
+.information {
+  padding: 150px 20px;
+}
+
+.information h2,
+.information span {
+  color: rgb(15, 14, 14);
+  font-weight: 700;
+}
+
+.information__container {
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  border-radius: 9px;
+}
+
+.information__container ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.information__container li {
+  border-bottom: 1px solid rgb(0, 0, 0, 0.4);
+  padding: 0 0 5px 0;
+  align-self: flex-start;
+  font-size: 1.2rem;
+}
+
+.information__container a {
+  color: blue;
+}
+
+.information .btn {
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .information h1 {
+    font-size: 2rem;
+  }
+}
