@@ -1,7 +1,10 @@
 @font-face {
-  font-family: "GeorgiaRegular";
-  src: url("../../fonts/Georgia_regular.woff") format("woff"),
-    url("../../fonts/Georgia_regular.woff2") format("woff2");
+  font-family: "Saira SemiBold";
+  src: url("../../fonts/Lora-Regular.woff") format("woff"),
+    url("../../fonts/Lora-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -12,23 +15,25 @@
 }
 
 :root {
-  --background-body: #ebebeb;
-  --background-header: #142a2d;
-  --background-footer: #142a2d;
-  --background-dark: #ccd7e4;
-  --color-button: #142a2d;
-  --color-hover: #40ee29;
-  --color-allocation: #142a2d;
-  --color-white: #f9ffef;
-  --color-black: #000000;
+  --background-body: #f5f5f5;
+  --background-header: rgb(46, 55, 70);
+  --background-footer: rgb(46, 55, 70);
+  --background-dark: #e4ccd3;
+  --color-button: #b4719d;
+  --color-hover: #b4719d;
+  --color-allocation: black;
+  --color-dark: rgb(0, 0, 0, 0.4);
+  --color-light: rgb(255, 255, 255, 0.4);
+  --color-gray: #54595f;
 }
 
 body {
   background: var(--background-body);
-  color: var(--color-black);
-  font-family: "Saira SemiBold";
+  color: #54595f;
+  font-family: "Lora", serif;
   font-style: normal;
   font-weight: 500;
+  letter-spacing: 0px;
 }
 
 h1,
@@ -80,21 +85,22 @@ textarea {
 .btn {
   display: inline-block;
   padding: 16px 25px;
-  border-radius: 10px;
+  border-radius: 4px;
   color: var(--background-header);
   background-color: var(--color-button);
   font-size: 1rem;
   line-height: 20px;
   text-transform: uppercase;
   text-align: center;
-  color: var(--color-white);
+  color: white;
   box-shadow: 0px 0px 20px -10px grey;
   font-weight: 700;
+  min-width: 180px;
 }
 
 .btn:hover {
-  background-color: var(--color-hover);
-  color: black;
+  background-color: #54595f;
+  color: white;
 }
 
 .container {
@@ -127,14 +133,12 @@ textarea {
 }
 
 .allocation {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
-  text-align: center;
+  text-align: flex-start;
   margin-bottom: 20px;
   position: relative;
+  color: #000000;
 }
 
 @media (max-width: 480px) {
@@ -146,10 +150,8 @@ textarea {
 .allocation-subtitle {
   font-size: 1.5rem;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
-  text-align: center;
+  text-align: flex-start;
   margin-bottom: 20px;
   position: relative;
+  color: #000000;
 }

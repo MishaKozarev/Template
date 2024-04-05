@@ -1,102 +1,54 @@
-/**** OFFER ****/
-
 .offer {
-  background-color: var(--background-light);
+  background-color: var(--background-header);
 }
 
 .offer__container {
-  display: flex;
-  align-items: center;
+  padding: 70px 20px;
   gap: 20px;
-  padding: 50px 80px;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: white;
 }
 
-.offer__content {
-  gap: 20px;
-}
-
-.offer__main {
+.offer__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
   gap: 40px;
 }
 
-.offer__block {
-  width: 50%;
-}
-
-.offer__image {
-  width: 50%;
-}
-
-.offer__image img {
-  width: 100%;
-}
-
-.rounded {
-  counter-reset: li;
-  list-style: none;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  gap: 20px;
-}
-
-.rounded li {
-  position: relative;
-  display: block;
-  padding: 0.4em 0.4em 0.4em 2em;
-  margin: 0.5em 0;
-  background-color: var(--background-dark);
-  border-radius: 0.3em;
-  font-size: 1.5rem;
+.offer__item {
+  gap: 30px;
+  border-radius: 8px;
+  padding: 20px;
+  align-items: flex-end;
   transition: 0.5s;
   cursor: pointer;
 }
 
-.rounded li:hover {
+.offer__item:hover {
   transform: scale(1.05);
 }
 
-.rounded li:before {
-  content: counter(li);
-  counter-increment: li;
-  position: absolute;
-  left: -2.3em;
-  margin-top: 0em;
-  background: var(--background-header);
-  height: 3em;
-  width: 3em;
-  border-radius: 50%;
-  line-height: 3em;
-  border: 0.3em solid white;
-  text-align: center;
-  font-weight: bold;
-  transition: all 0.3s ease-out;
-  color: #faf4ee;
+.offer__content {
+  gap: 20px;
+  font-size: 1.2rem;
 }
 
-@media (max-width: 980px) {
-  .offer__main {
-    flex-direction: column;
-  }
+.offer__content h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: black;
+}
 
-  .offer__block {
-    width: 100%;
-  }
-
-  .offer__image {
-    width: 100%;
+@media (max-width: 860px) {
+  .offer__grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 480px) {
-  .rounded li:before {
-    left: -1.3em;
-    margin-top: -1.3em;
-
-    height: 2em;
-    width: 2em;
-    line-height: 2em;
-  }
-
-  .offer__container {
-    padding: 50px 40px;
+@media (max-width: 460px) {
+  .offer__grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

@@ -1,0 +1,33 @@
+/**** DOCUMENT ****/
+
+.document {
+  padding: 150px 20px;
+}
+
+.document h1,
+.document strong {
+  color: rgb(42, 42, 42);
+  font-weight: 700;
+  border-bottom: 2px solid rgb(42, 42, 42);
+}
+
+.document__container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  gap: 20px;
+}
+
+.document__container ol {
+  gap: 25px;
+}
+
+.document__container li {
+  padding: 0 0 5px 0;
+  align-self: flex-start;
+  font-size: 1.2rem;
+}
+
+.document__container a {
+  color: rgb(199, 47, 9);
+}

@@ -1,0 +1,24 @@
+/**** gratitude-page ****/
+.thanks-page {
+  height: 100vh;
+  background-color: var(--background-dark);
+}
+
+.thanks-page__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 75px 25px;
+  max-width: 850px;
+}
+
+.thanks-page__title {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--color-gray);
+}
+
+.thanks-page__text {
+  font-size: 1.1rem;
+}
