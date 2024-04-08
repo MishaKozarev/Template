@@ -16,11 +16,3 @@ function addStyle() {
   logo.classList.toggle("active");
 }
 addBurger();
-
-window.addEventListener("scroll", function () {
-  if (window.scrollY > 350) {
-    header.style.backgroundColor = "rgb(46, 55, 70";
-  } else {
-    header.style.backgroundColor = "";
-  }
-});
