@@ -1775,70 +1775,77 @@ a {
   }
 }
 
-/**** THANK_PAGE ****/
+/**** THANK ****/
 
-.thanks-page__title {
-  font-size: 3rem;
+.thanks {
+  background-color: #fafafa;
 }
 
-.thanks-page__btn {
-  border: 1px solid #1b4942;
+.thanks__title {
+  font-size: 3rem;
+  color: #040b32;
+}
+
+.thanks__btn {
+  border: 1px solid #040b32;
   padding: 10px 25px;
   border-radius: 20px;
   text-decoration: none;
   font-weight: 700;
 }
 
-.thanks-page__btn:hover {
-  background-color: #1b4942;
+.thanks__btn:hover {
+  background-color: #040b32;
   color: whitesmoke;
 }
 
-.thanks-page__section {
+.thanks__section {
   height: 100vh;
 }
 
-.thanks-page__container {
+.thanks__container {
   max-width: 900px;
   gap: 20px;
   padding: 80px 30px 0;
 }
 
-.thanks-page__container p {
-  font-size: 1.2rem;
+.thanks__container p {
+  font-size: 1.3rem;
+  color: #040b32;
+  font-weight: 500;
 }
 
 /**** DOCUMENT_PAGE ****/
 
-.document-page {
-  padding: 150px 20px;
+.informations {
+  background-color: #fafafa;
 }
 
-.document-page h1 {
-  color: rgb(15, 14, 14);
+.informations__container {
+  padding: 150px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.informations h1 {
   font-weight: 700;
   font-size: 3rem;
 }
 
-.document-page__container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
-  gap: 20px;
-}
-
-.document-page__container ol {
+.informations__container ol {
   gap: 25px;
 }
 
-.document-page__container li {
+.informations__container li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
+  border-bottom: 1px solid #cac4c4;
 }
 
-.document-page__container a {
-  color: rgb(199, 69, 9);
+.informations__container a {
+  color: rgb(9, 85, 199);
 }
 
 /**** HEADER ****/
