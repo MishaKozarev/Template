@@ -2025,7 +2025,7 @@ a {
     width: 100%;
     background-color: var(--color--dark);
     max-height: 500px;
-    transform: translateX(-100%);
+    transform: translateY(-100%);
     opacity: 0;
   }
 
@@ -2041,7 +2041,7 @@ a {
     text-align: center;
     overflow: hidden;
     background-color: var(--color--dark);
-    transform: translateX(0);
+    transform: translateY(0);
     max-height: 500px;
     opacity: 1;
     padding: 100px 0 40px 0;
