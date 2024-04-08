@@ -1,6 +1,6 @@
 const logo = document.querySelector(".header__logo");
 const links = document.querySelectorAll(".menu__link");
-const nav = document.querySelector(".nav");
+const nav = document.querySelector(".menu");
 const btn = document.querySelector(".burger__btn");
 
 function addBurger() {
