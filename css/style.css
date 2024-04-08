@@ -1769,3 +1769,36 @@ a {
     padding: 24px;
   }
 }
+
+/**** THANK_PAGE ****/
+
+.thanks-page__title {
+  font-size: 3rem;
+}
+
+.thanks-page__btn {
+  border: 1px solid #1b4942;
+  padding: 10px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.thanks-page__btn:hover {
+  background-color: #1b4942;
+  color: whitesmoke;
+}
+
+.thanks-page__section {
+  height: 100vh;
+}
+
+.thanks-page__container {
+  max-width: 900px;
+  gap: 20px;
+  padding: 80px 30px 0;
+}
+
+.thanks-page__container p {
+  font-size: 1.2rem;
+}
