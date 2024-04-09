@@ -1858,6 +1858,18 @@ body {
   color: rgb(9, 85, 199);
 }
 
+@media (max-width: 930px) {
+  .informations__container {
+    padding: 300px 40px;
+  }
+}
+
+@media (max-width: 530px) {
+  .informations__container {
+    padding: 150px 40px;
+  }
+}
+
 /**** HEADER ****/
 .header {
   position: fixed;
@@ -2048,7 +2060,10 @@ body {
   background-color: white;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 540px) {
+  .header-top {
+    display: none;
+  }
   .burger__btn {
     display: flex;
   }
@@ -2104,6 +2119,10 @@ body {
 @media (max-width: 540px) {
   .header__phone {
     display: none;
+  }
+
+  .uUyelsFTEpSAKfh {
+    margin-top: 0;
   }
 }
 
