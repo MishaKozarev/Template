@@ -42,98 +42,92 @@ body {
 }
 
 /**** THANK ****/
-
-.thanks {
-  background-color: #202124;
-}
-
-.thanks__title {
+.thanks-page__title {
   font-size: 3rem;
-  color: #fafafa;
-
-  text-transform: none;
 }
 
-.thanks__btn {
-  border: 1px solid #fafafa;
+.thanks-page__container {
+  max-width: 850px;
+  gap: 20px;
+  padding: 75px 30px 0;
+}
+
+.thanks-page__container p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.thanks-page__container span {
+  color: chocolate;
+}
+
+.thanks-page__content {
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.thanks-page__btn {
+  border: 2px solid chocolate;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #fafafa;
+  color: chocolate;
+  border-radius: 6px;
 }
 
-.thanks__btn:hover {
-  color: #040b32;
-  background-color: whitesmoke;
+.thanks-page__btn:hover {
+  background-color: #040b32;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
 }
 
-.thanks__section {
+.thanks-page__section {
   height: 100vh;
 }
 
-.thanks__container {
-  max-width: 900px;
-  gap: 20px;
-  padding: 80px 30px 0;
-}
-
-.thanks__container p {
-  font-size: 1.3rem;
-  color: #fafafa;
-
-  font-weight: 500;
-  text-transform: none;
-}
-
 /**** DOCUMENT_PAGE ****/
-
-.informations {
-  color: #fafafa;
-  background-color: #202124;
-}
-
-.informations__container {
+.document-page__container {
   padding: 150px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.informations h1 {
+.document-page h1 {
   font-weight: 600;
   font-size: 3rem;
+  color: chocolate;
 }
 
-.informations__container ol {
+.document-page__container ol {
   gap: 25px;
 }
 
-.informations__container li {
+.document-page__container li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
-  border-bottom: 1px solid #cac4c4;
-  text-transform: none;
 }
 
-.informations__container strong {
+.document-page__container strong {
   font-weight: 500;
   font-size: 1.5rem;
+  padding: 0 0 10px 0;
 }
 
-.informations__container a {
-  color: rgb(213, 247, 26);
+.document-page__container a {
+  color: rgb(247, 96, 26);
 }
 
 @media (max-width: 930px) {
-  .informations__container {
+  .document-page__container {
     padding: 300px 40px;
   }
 }
 
 @media (max-width: 530px) {
-  .informations__container {
+  .document-page__container {
     padding: 150px 40px;
   }
 }
@@ -149,7 +143,7 @@ body {
   max-height: fit-content;
   width: 100%;
   color: white;
-  background-color: #202124;
+  background-color: #21232d;
 }
 
 .header__container {
@@ -211,16 +205,18 @@ body {
   width: 100%;
 }
 
-.header__phone {
-  gap: 20px;
+.header__btn {
+  padding: 10px 16px;
+  border: 1px solid #ffa857;
+  border-radius: 6px;
+  color: #ffa857;
+  transition: 0.4s;
 }
 
-.header__phone img {
-  width: 40px;
-}
-
-.header__info {
-  gap: 20px;
+.header__btn:hover {
+  background-color: #ffa857;
+  color: white;
+  border: 1px solid #ffa857;
 }
 
 .nav {
@@ -240,17 +236,10 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   color: rgb(255, 255, 255, 0.7);
-  border-bottom: 1px solid rgb(255, 255, 255, 0.7);
 }
 
 .menu__link:hover {
   color: rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(255, 255, 255);
-}
-
-.header__btn {
-  border: 1px solid var(--color-white);
-  padding: 10px 20px;
 }
 
 @media (max-width: 930px) {
