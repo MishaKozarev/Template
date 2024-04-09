@@ -535,8 +535,8 @@ strong {
 }
 
 .CrShvOxPeDsFzsS {
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1240px;
+  margin: 0 auto;
 }
 
 .FQhknNKNFQGruCX {
@@ -663,7 +663,6 @@ strong {
 }
 
 .lxJvvwGwGGzllnz {
-  min-height: 100svh;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
