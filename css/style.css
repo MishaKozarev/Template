@@ -2686,7 +2686,7 @@ body {
 .title {
   font-size: 5rem;
   line-height: 80px;
-  padding: 0 90px;
+  padding: 20px 90px;
 }
 
 @media (max-width: 760px) {
@@ -2712,4 +2712,8 @@ body {
 
 .header__block-item p {
   display: none;
+}
+
+.subtitle {
+  padding: 10px 5%;
 }
