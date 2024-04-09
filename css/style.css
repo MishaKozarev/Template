@@ -565,7 +565,7 @@ strong {
 }
 
 .EHjRHhIpeGblHww {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
   letter-spacing: 1px;
   text-transform: uppercase;
   flex: none;
@@ -690,7 +690,7 @@ strong {
 }
 
 .VAATPqKSdQAaBec {
-  width: 94px;
+  width: 130px;
 }
 
 .RObhZHqcKWlpaCg {
@@ -1092,7 +1092,7 @@ strong {
 }
 
 .NwyeliLugNBxfWq {
-  width: 50%;
+  width: 47%;
   flex: none;
 }
 
@@ -1541,10 +1541,6 @@ strong {
     grid-template-columns: 1.5fr 0.5fr;
   }
 
-  .VAATPqKSdQAaBec {
-    width: 100px;
-  }
-
   .RObhZHqcKWlpaCg {
     height: auto;
     align-items: flex-start;
@@ -1753,10 +1749,6 @@ strong {
     position: relative;
   }
 
-  .VAATPqKSdQAaBec {
-    width: 90px;
-  }
-
   .NyRfXPusUBkGtex {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -1878,10 +1870,6 @@ strong {
     grid-template-columns: 1fr 1fr;
   }
 
-  .VAATPqKSdQAaBec {
-    width: 90px;
-  }
-
   .bOowLapaEBRUzYW {
     border-right-style: none;
   }
@@ -1954,7 +1942,7 @@ strong {
   }
 
   .PodskqOYqYCkjhr.blzcAITiQEIMlyr {
-    font-size: 43px;
+    font-size: 36px;
     line-height: 1.3;
   }
 
@@ -2213,26 +2201,16 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
-  background-color: white;
-  color: black;
+  color: white;
+  background-color: #202124;
 }
 
 .header__container {
   height: 100%;
 }
 
-.header-top {
-  width: 100%;
-  height: 40%;
-  border-bottom: 1px solid rgb(0, 0, 0, 0.4);
-  justify-content: flex-start;
-  color: #a9a9a9;
-  padding: 20px;
-}
-
 .header-bottom {
   width: 100%;
-  height: 60%;
 }
 
 .header-bottom__container {
@@ -2253,7 +2231,7 @@ body {
 }
 
 .header__block-item a {
-  color: #040b32;
+  color: white;
 }
 
 .header__block-item img {
@@ -2294,6 +2272,10 @@ body {
   width: 40px;
 }
 
+.header__info {
+  gap: 20px;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -2308,13 +2290,15 @@ body {
   position: relative;
   transition: 0.2s ease;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
-  color: #040b32;
+  color: rgb(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgb(255, 255, 255, 0.7);
 }
 
 .menu__link:hover {
-  color: 2px solid rgb(235, 142, 21);
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .header__btn {
@@ -2348,7 +2332,7 @@ body {
   width: 22px;
   height: 5px;
   border-radius: 4px;
-  background-color: #040b32;
+  background-color: rgb(255, 255, 255, 0.7);
   transition: 0.4s ease;
 }
 
@@ -2360,7 +2344,7 @@ body {
   width: 34px;
   height: 5px;
   border-radius: 4px;
-  background-color: #040b32;
+  background-color: rgb(255, 255, 255, 0.7);
   transition: 0.3s ease;
 }
 
@@ -2393,8 +2377,8 @@ body {
   background-color: white;
 }
 
-@media (max-width: 540px) {
-  .header-top {
+@media (max-width: 640px) {
+  .header__info {
     display: none;
   }
   .burger__btn {
@@ -2406,8 +2390,7 @@ body {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    top: 0;
-    left: 0;
+
     width: 100%;
     max-height: 600px;
     padding: 100px 70px;
@@ -2417,7 +2400,7 @@ body {
 
   .menu__link {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
     border-bottom: none;
     text-decoration: none;
@@ -2431,21 +2414,21 @@ body {
   .nav.active {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    transform: translate(-100%, 0);
+    width: fit-content;
+    min-width: 320px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #040b32;
+    background-color: #000000;
     opacity: 0.2;
     transform: translateX(0);
     max-height: 750px;
     opacity: 1;
-    font-size: 1.3rem;
-    border: 1px solid white;
-    border-radius: 10px;
+    font-size: 1.1rem;
   }
 }
 
@@ -2648,8 +2631,16 @@ textarea {
   background-color: var(--color-button);
 }
 
+.checkbox {
+  padding: 20px 0;
+}
+
 .checkbox span {
   color: white;
+}
+
+.checkbox a {
+  color: rgb(247, 102, 19);
 }
 
 @media (max-width: 860px) {
@@ -2690,4 +2681,35 @@ body {
   font-family: "GeorgiaRegular";
   font-style: normal;
   font-weight: 500;
+}
+
+.title {
+  font-size: 5rem;
+  line-height: 80px;
+  padding: 0 90px;
+}
+
+@media (max-width: 760px) {
+  .title {
+    font-size: 4rem;
+    line-height: 60px;
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 3rem;
+    line-height: 40px;
+  }
+}
+
+.style-italic {
+  font-style: italic;
+  text-transform: lowercase;
+  color: #cac4c4;
+}
+
+.header__block-item p {
+  display: none;
 }
