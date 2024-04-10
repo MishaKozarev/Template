@@ -3375,7 +3375,7 @@ body {
 }
 
 .thanks-page__container span {
-  color: #ed6436;
+  color: #3898ec;
 }
 
 .thanks-page__content {
@@ -3384,16 +3384,16 @@ body {
 }
 
 .thanks-page__btn {
-  border: 2px solid #ed6436;
+  border: 2px solid #3898ec;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: chocolate;
+  color: #3898ec;
   border-radius: 6px;
 }
 
 .thanks-page__btn:hover {
-  background-color: #ed6436;
+  background-color: #3898ec;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
@@ -3413,7 +3413,7 @@ body {
 .document h1 {
   font-weight: 600;
   font-size: 3rem;
-  color: #ed6436;
+  color: #3898ec;
 }
 
 .document__container ol {
@@ -3431,11 +3431,11 @@ body {
   font-weight: 500;
   font-size: 1.5rem;
   padding: 0 0 10px 0;
-  color: #ed6436;
+  color: #3898ec;
 }
 
 .document__container a {
-  color: #ed6436;
+  color: #3898ec;
 }
 
 /**** HEADER ****/
