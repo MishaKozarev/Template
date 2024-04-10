@@ -474,13 +474,14 @@ img {
       from(rgba(38, 105, 159, 0.6)),
       to(rgba(38, 105, 159, 0.6))
     ),
-    url("https://assets.website-files.com/611d3ca095f8a21c412f9927/611f696c3cc84171974edf9e_Home-IMG-4%402x-min.jpg");
+    url("../img/picture/about-7.jpg");
   background-image: linear-gradient(
       180deg,
       rgba(38, 105, 159, 0.6),
       rgba(38, 105, 159, 0.6)
     ),
-    url("https://assets.website-files.com/611d3ca095f8a21c412f9927/611f696c3cc84171974edf9e_Home-IMG-4%402x-min.jpg");
+    url("../img/picture/about-7.jpg");
+
   background-position: 0px 0px, 50% 0%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
@@ -498,7 +499,6 @@ img {
   bottom: auto;
   overflow: visible;
   height: 30vh;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/611e760af416a900f722a52b_section-top-devider.svg");
   background-position: 0% 0%;
   background-size: 100vw;
   background-repeat: no-repeat;
@@ -627,7 +627,7 @@ img {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background-image: url(../img/picture/home-1.jpeg);
+  background-image: url("../img/picture/home-1.jpeg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -842,7 +842,7 @@ img {
   z-index: 0;
   width: 100%;
   height: 100px;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/611f62185a6fada2b125bd92_price-bg.png");
+  background-image: url("../img/picture/about-8.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -892,7 +892,7 @@ img {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/615411c5cd332f062b2f4a56_Testimonial-box-img-1.jpg");
+  background-image: url("../img/picture/people-9.jpeg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -920,7 +920,7 @@ img {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/615411c5754ad99728956149_Testimonial-box-img-2.jpg");
+  background-image: url("../img/picture/people-10.jpeg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -937,13 +937,14 @@ img {
       from(rgba(66, 167, 247, 0.88)),
       to(rgba(66, 167, 247, 0.88))
     ),
-    url("https://assets.website-files.com/611d3ca095f8a21c412f9927/611fa62cf0051ee1e8f4bc04_Home-CTA.jpg");
+    url("../img/picture/about-4.jpg");
   background-image: linear-gradient(
       180deg,
       rgba(66, 167, 247, 0.88),
       rgba(66, 167, 247, 0.88)
     ),
-    url("https://assets.website-files.com/611d3ca095f8a21c412f9927/611fa62cf0051ee1e8f4bc04_Home-CTA.jpg");
+    url("../img/picture/about-4.jpg");
+
   background-position: 0px 0px, 50% 0%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -981,7 +982,7 @@ img {
   height: 18vh;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/614ecf8f428b2b7da1ad07d4_curve.png");
+  background-image: url("../img/picture/about-5.png");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -1114,13 +1115,14 @@ img {
       from(rgba(34, 147, 215, 0.7)),
       to(rgba(34, 147, 215, 0.7))
     ),
-    url("https://assets.website-files.com/611d3ca095f8a21c412f9927/61211ba19bf6c5850dd79985_About-Hero-image.jpg");
+    url("../img/picture/about-6.jpg");
   background-image: linear-gradient(
       180deg,
       rgba(34, 147, 215, 0.7),
       rgba(34, 147, 215, 0.7)
     ),
-    url("https://assets.website-files.com/611d3ca095f8a21c412f9927/61211ba19bf6c5850dd79985_About-Hero-image.jpg");
+    url("../img/picture/about-6.jpg");
+
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -1478,50 +1480,50 @@ img {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/6122666f41a1f2c4a13e5e01_Team-1.jpg");
   background-position: 50% 50%;
   background-size: 100% 100%;
 }
 
 .BlEILBnAIIwWMmw.CIkjxdHyzgNukMA {
   overflow: hidden;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/615412b0a49a4219e38de067_Untitled-5.jpg");
+  background-image: url("../img/picture/people-1.jpeg");
 }
 
 .BlEILBnAIIwWMmw.xvvOrzMqWhMbetE {
   overflow: hidden;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/615412b1754ad99dc99561c6_Untitled-6.jpg");
+  background-image: url("../img/picture/people-3.jpeg");
+
   background-position: 50% 0%;
 }
 
 .BlEILBnAIIwWMmw.KyGmzeLjCoHagcx {
   overflow: hidden;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/615412b1328e579ae6064444_Untitled-7.jpg");
+  background-image: url("../img/picture/people-2.jpeg");
 }
 
 .BlEILBnAIIwWMmw.XKqCJTcaQSQblvi {
   overflow: hidden;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/615412b12eab1895f8cdb1f2_Untitled-4.jpg");
+  background-image: url("../img/picture/people-4.jpeg");
 }
 
 .BlEILBnAIIwWMmw.VKfldTrhMSkRdrA {
   overflow: hidden;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/615412b134d6a38583b1d85f_Untitled-8.jpg");
+  background-image: url("../img/picture/people-5.jpeg");
 }
 
 .BlEILBnAIIwWMmw.GzytySJrlGPBcfT {
   overflow: hidden;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/615412b0cd332f36762f4b29_Untitled-2.jpg");
+  background-image: url("../img/picture/people-7.jpeg");
 }
 
 .BlEILBnAIIwWMmw.njAZuhTwaXWHAXe {
   overflow: hidden;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/615412af799bbe19580e30d0_Untitled-1.jpg");
+  background-image: url("../img/picture/people-6.jpeg");
 }
 
 .BlEILBnAIIwWMmw.zwwqzQzCRjWcZNe {
   overflow: hidden;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/615412b0b7e9a5db4f4de784_Untitled-3.jpg");
+  background-image: url("../img/picture/people-8.jpeg");
 }
 
 .vwMjkIOQmXBtiRt {
@@ -2169,7 +2171,7 @@ img {
   padding-top: 205px;
   padding-bottom: 345px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../img/picture/home-0.jpeg);
+    url("../img/picture/home-0.jpeg");
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2207,7 +2209,7 @@ img {
   height: 18vh;
   margin-top: 120px;
   margin-bottom: 0px;
-  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/614ecf8f428b2b7da1ad07d4_curve.png");
+  background-image: url("../img/picture/about-5.png");
   background-position: 50% 0%;
   background-size: cover;
 }
@@ -2259,7 +2261,6 @@ img {
   height: 225px;
   max-width: 360px;
   margin-bottom: 30px;
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -2581,9 +2582,10 @@ img {
         from(null),
         to(null)
       ),
-      url("https://assets.website-files.com/611d3ca095f8a21c412f9927/61211ba19bf6c5850dd79985_About-Hero-image.jpg");
+      url("../img/picture/about-8.png");
     background-image: linear-gradient(180deg, null, null),
-      url("https://assets.website-files.com/611d3ca095f8a21c412f9927/61211ba19bf6c5850dd79985_About-Hero-image.jpg");
+      url("../img/picture/about-8.png");
+
     background-size: auto, cover;
   }
 
@@ -3405,7 +3407,7 @@ body {
 
 /**** DOCUMENT ****/
 .info__container {
-  padding: 150px 40px;
+  padding: 190px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
@@ -3562,6 +3564,16 @@ body {
   .header__block-menu {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .info__container {
+    padding: 270px 40px;
+  }
+}
+
+@media (max-width: 540px) {
+  .info__container {
+    padding: 125px 40px;
   }
 }
 
