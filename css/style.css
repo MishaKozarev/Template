@@ -2432,20 +2432,6 @@ body {
   width: 100%;
 }
 
-.header__btn {
-  padding: 10px 16px;
-  border: 1px solid #ffa857;
-  border-radius: 6px;
-  color: #ffa857;
-  transition: 0.4s;
-}
-
-.header__btn:hover {
-  background-color: #ffa857;
-  color: white;
-  border: 1px solid #ffa857;
-}
-
 .nav {
   display: flex;
   align-items: center;
@@ -2620,32 +2606,25 @@ body {
   text-align: center;
 }
 
-.footer__top {
-  border-bottom: 2px solid rgb(255, 255, 255, 0.4);
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
 .footer__bottom {
   justify-content: space-between;
 }
 
-.footer__block {
+.footer__block-data {
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+  justify-content: space-between;
+}
+
+.footer__bottom {
   padding: 20px;
   gap: 20px;
 }
 
-.footer__block a:hover {
-  color: chocolate;
-}
-
-.footer__block-data,
-.footer__block-menu {
-  gap: 20px;
-}
-
-.footer__block-menu {
-  border-left: 2px solid rgb(255, 255, 255, 0.4);
+.footer__bottom p {
+  color: white;
 }
 
 .footer__item {
@@ -2667,9 +2646,10 @@ body {
 }
 
 .separator-bottom::before {
-  content: "\002F";
+  content: "\2022";
   color: white;
   font-size: 1.5rem;
+  padding: 0 10px;
 }
 
 .footer__logo {
@@ -2688,44 +2668,24 @@ body {
   width: 100%;
 }
 
-@media (max-width: 820px) {
-  .footer__block-logo {
-    display: none;
+@media (max-width: 860px) {
+  .footer__bottom,
+  .footer__block-data {
+    flex-direction: column;
   }
+}
 
-  .footer__block-menu {
-    border-left: none;
+@media (max-width: 420px) {
+  .footer__block_info {
+    flex-direction: column;
   }
 
   .separator-bottom::before {
     content: "";
   }
 
-  .footer__block {
-    gap: 15px;
-  }
-
-  .footer__block-menu,
-  .footer__block-data {
-    align-items: center;
-  }
-
-  .footer__bottom {
-    flex-direction: column-reverse;
-    padding: 20px 0;
-  }
-
-  .footer__top {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-@media (max-width: 720px) {
-  .footer__block_info {
-    flex-direction: column;
-  }
-
   .footer__block-menu {
+    border-bottom: 1px solid rgb(255, 255, 255, 0.4);
     padding: 0 0 20px 0;
   }
 
@@ -2733,13 +2693,9 @@ body {
     font-size: 1rem;
   }
 
-  .footer__block-menu {
-    border-right: none;
+  .footer__top {
+    grid-template-columns: repeat(1, 1fr);
   }
-}
-
-.link-info:hover {
-  color: chocolate;
 }
 
 /* SECTION_FORM*/
