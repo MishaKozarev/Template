@@ -3403,38 +3403,38 @@ body {
 }
 
 /**** DOCUMENT ****/
-.document__container {
+.info__container {
   padding: 150px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.document h1 {
+.info h1 {
   font-weight: 600;
   font-size: 3rem;
-  color: #3898ec;
+  color: #0962af;
 }
 
-.document__container ol {
+.info__container ol {
   gap: 25px;
 }
 
-.document__container li {
+.info__container li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.document__container strong {
-  font-weight: 500;
-  font-size: 1.5rem;
+.info__container strong {
+  font-weight: 600;
+  font-size: 1.3rem;
   padding: 0 0 10px 0;
-  color: #3898ec;
+  color: #0c3a63;
 }
 
-.document__container a {
+.info__container a {
   color: #3898ec;
 }
 
@@ -3489,7 +3489,7 @@ body {
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 160px;
+  width: 120px;
   display: flex;
   gap: 15px;
   align-items: center;
@@ -3497,6 +3497,7 @@ body {
   padding: 0;
   background-color: inherit;
   z-index: 5;
+  padding: 20px 0;
 }
 
 .header__logo:hover {
