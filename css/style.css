@@ -2278,7 +2278,7 @@ body {
   margin: 0;
 }
 
-/**** THANK ****/
+/**** THANKS-PAGE ****/
 .thanks-page__title {
   font-size: 3rem;
 }
@@ -2295,7 +2295,7 @@ body {
 }
 
 .thanks-page__container span {
-  color: chocolate;
+  color: #ed6436;
 }
 
 .thanks-page__content {
@@ -2304,7 +2304,7 @@ body {
 }
 
 .thanks-page__btn {
-  border: 2px solid chocolate;
+  border: 2px solid #ed6436;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
@@ -2313,7 +2313,7 @@ body {
 }
 
 .thanks-page__btn:hover {
-  background-color: #040b32;
+  background-color: #ed6436;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
@@ -2322,55 +2322,40 @@ body {
   height: 100vh;
 }
 
-/**** DOCUMENT_PAGE ****/
-.document-page__container {
+/**** DOCUMENT ****/
+.document__container {
   padding: 150px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.document-page h1 {
+.document h1 {
   font-weight: 600;
   font-size: 3rem;
-  color: chocolate;
+  color: #ed6436;
 }
 
-.document-page__container ol {
+.document__container ol {
   gap: 25px;
 }
 
-.document-page__container li {
+.document__container li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.document-page__container strong {
-  color: #f3f3f3;
-}
-
-.document-page__container strong {
+.document__container strong {
   font-weight: 500;
   font-size: 1.5rem;
   padding: 0 0 10px 0;
+  color: #ed6436;
 }
 
-.document-page__container a {
-  color: rgb(247, 96, 26);
-}
-
-@media (max-width: 930px) {
-  .document-page__container {
-    padding: 300px 40px;
-  }
-}
-
-@media (max-width: 530px) {
-  .document-page__container {
-    padding: 150px 40px;
-  }
+.document__container a {
+  color: #ed6436;
 }
 
 /**** HEADER ****/
