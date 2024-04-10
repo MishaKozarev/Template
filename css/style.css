@@ -3722,9 +3722,14 @@ body {
 
 .footer__block p {
   font-size: 1.5rem;
+  border-bottom: 2px solid white;
 }
 
 .footer__block a {
+  font-size: 1.2rem;
+}
+
+.footer__block h3 {
   font-size: 1.2rem;
 }
 
