@@ -793,7 +793,7 @@ figure {
   -ms-flex-align: end;
   align-items: flex-end;
   border-radius: 16px;
-  background-image: url("https://assets.website-files.com/622ffc5e56dce6e2f53ffe44/6237ee2414b3db1cdf24b1c1_girl-puppy-bg-image-min.jpg");
+  background-image: url(../img/image/home-3.jpeg);
   background-position: 50% 0%;
   background-size: cover;
   color: #fff;
@@ -2531,7 +2531,7 @@ body {
   background-color: white;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 880px) {
   .header__info {
     display: none;
   }
@@ -2813,10 +2813,6 @@ textarea {
 
 .checkbox {
   padding: 20px 0;
-}
-
-.checkbox span {
-  color: white;
 }
 
 .checkbox a {
