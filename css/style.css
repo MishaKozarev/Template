@@ -637,9 +637,12 @@ img {
   flex-flow: column;
   justify-content: space-between;
   align-items: center;
-  height: 50rem;
+  height: auto;
   display: flex;
   overflow: hidden;
+  padding-top: 140px;
+  padding-bottom: 40px;
+  background-color: #ddebec;
 }
 
 .MPPNKrrqPWLbvxZ {
@@ -875,8 +878,8 @@ img {
 }
 
 .umCDAdHVWGGPHFC {
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d6beed8eaef9775ad48c57_bg.png"),
-    url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d6bbdc5ab7cb9ca0338a20_bg.png");
+  background-image: url("../img/icons/bg-1.png"),
+    url("../img/pictures/home-2.png");
   background-position: 0 0, 100% 100%;
   background-repeat: repeat, no-repeat;
   background-size: auto, contain;
@@ -1168,8 +1171,9 @@ img {
 }
 
 .xdxPmRdrvZNlviQ {
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+  /* background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg"); */
   background-position: 50%;
+  background-color: #ffdede;
   background-repeat: no-repeat;
   background-size: cover;
   flex-flow: column;
