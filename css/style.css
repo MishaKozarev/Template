@@ -2301,7 +2301,7 @@ body {
   background-color: white;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 690px) {
   .header__info {
     display: none;
   }
@@ -2314,10 +2314,11 @@ body {
     justify-content: center;
     flex-direction: column;
     position: absolute;
+    top: 0;
+    right: -300px;
     width: 100%;
     max-height: 600px;
     padding: 100px 70px;
-    transform: translateX(-100%);
     opacity: 0;
   }
 
@@ -2337,8 +2338,9 @@ body {
   .nav.active {
     position: absolute;
     top: 0;
-    right: -300px;
-    /* transform: translate(0, -100%); */
+    right: 0;
+
+    transition: right 0.3s ease;
     width: fit-content;
     min-width: 320px;
     display: flex;
@@ -2348,7 +2350,6 @@ body {
     overflow: hidden;
     background-color: #fe5c45;
     opacity: 0.2;
-    transform: translateX(0);
     max-height: 750px;
     opacity: 1;
     font-size: 1.1rem;
