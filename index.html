@@ -55,7 +55,7 @@
                     <h1 class="FyRBeZkFPbVlqyZ hEykoRXvMaULcTI">Cycle Quest</h1>
                   </div>
                   <div class="ywqXHTVIzsUBXlB OiPYAiItmMrdkIY">
-                    <h1 class="FyRBeZkFPbVlqyZ">bicycle rent</h1>
+                    <h2 class="FyRBeZkFPbVlqyZ">bicycle rent</h2>
                   </div>
                 </div>
                 <p class="wRYuFtobOyRqmln">
@@ -498,87 +498,64 @@
                   <div class="eFKlMQNcqHIBJru">
                     <div class="SfyxRencdDyrdwh HQCmFetyoKaPSEU">
                       <form
-                        method="get"
-                        name="email-form-3"
                         id="KjAxzMwPhbPnIAA"
                         class="YayKdEJYMktvCqf"
-                        data-wf-page-id="65f906d6daf1019263b47b34"
-                        data-wf-element-id="296c23a3-cecb-918a-68a9-e6063bf6d2e9"
+                        action="send-form.php"
+                        method="post"
                       >
                         <div class="HKpIxkhhgQsEhQn">
                           <div class="yGjFdsTMHaTyhDE">
                             <input
                               class="LRScoGTXphTvifV OqUDkRdDufzweHf"
-                              maxlength="256"
-                              name="Your-Name"
                               placeholder="Your Name*"
-                              type="text"
                               id="DVGYRkbnCMKSMTY"
-                              required=""
+                              type="text"
+                              required
+                              name="name"
                             />
                           </div>
                           <div id="YiXeXjQnuVlmhAy" class="yGjFdsTMHaTyhDE">
                             <input
                               class="LRScoGTXphTvifV OqUDkRdDufzweHf"
-                              maxlength="256"
-                              name="Company-Name"
-                              placeholder="Company Name"
-                              type="text"
+                              type="email"
+                              required
+                              name="email"
+                              placeholder="Email Address*"
                               id="dByoJyEMlaLPSPG"
                             />
                           </div>
-                          <div class="yGjFdsTMHaTyhDE">
-                            <input
-                              class="LRScoGTXphTvifV OqUDkRdDufzweHf"
-                              maxlength="256"
-                              name="Email-Address"
-                              placeholder="Email Address*"
-                              type="email"
-                              id="dZHPeXsExbkXFtT"
-                              required=""
-                            />
-                          </div>
-                          <div class="yGjFdsTMHaTyhDE">
-                            <input
-                              class="LRScoGTXphTvifV OqUDkRdDufzweHf"
-                              maxlength="256"
-                              name="Mobile-Number"
-                              placeholder="Mobile Number"
-                              type="text"
-                              id="NiSnPOyRRSRUMoH"
-                            />
-                          </div>
+
                           <div id="UUxmEOZIthfzBpW" class="yGjFdsTMHaTyhDE">
-                            <input
+                            <textarea
                               class="LRScoGTXphTvifV OqUDkRdDufzweHf"
-                              maxlength="256"
-                              name="Statement-of-needs"
-                              placeholder="Statement of needs*"
-                              type="text"
+                              required
+                              name="message"
+                              placeholder="You message*"
                               id="YNiNYaXFCCRfscD"
-                              required=""
-                            />
+                            ></textarea>
                           </div>
                         </div>
                         <input
+                          required
                           type="submit"
-                          data-wait="Please wait..."
                           id="uxmvWVIznJtJeca"
                           class="sDwMcRkgRmQDLLO YOUdXEhvOIJDFqA hYeuIGxbevtFOFH"
                           value="Send"
                         />
-                      </form>
-                      <div
-                        class="RYzgNaoxqSeoBrF aJMCMzOEeHCwVVT"
-                        tabindex="-1"
-                      >
-                        <div>Thank you! Your submission has been received!</div>
-                      </div>
-                      <div class="LPLNUGiJPIuzIMG" tabindex="-1">
-                        <div>
-                          Oops! Something went wrong while submitting the form.
+                        <div class="checkbox row">
+                          <input
+                            class="form__checkbox"
+                            name="privacy"
+                            value="on"
+                            type="checkbox"
+                            required
+                          />
+                          <span class="row"
+                            >I agree
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                          </span>
                         </div>
-                      </div>
+                      </form>
                     </div>
                   </div>
                 </div>

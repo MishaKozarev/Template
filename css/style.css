@@ -1795,7 +1795,7 @@ img {
     background-position: 0 0;
     background-repeat: repeat;
     background-size: auto;
-    padding-top: 100px;
+    padding-top: 110px;
     padding-bottom: 100px;
   }
 
@@ -1958,7 +1958,7 @@ img {
   }
 
   .DnYgdhNhykGNPJw {
-    padding-top: 80px;
+    padding-top: 110px;
     padding-bottom: 80px;
   }
 
@@ -2101,7 +2101,7 @@ img {
   }
 
   .DnYgdhNhykGNPJw {
-    padding-top: 60px;
+    padding-top: 110px;
     padding-bottom: 60px;
   }
 }
@@ -2345,7 +2345,7 @@ img {
 }
 
 .sDwMcRkgRmQDLLO.YOUdXEhvOIJDFqA {
-  background-image: url("https://assets-global.website-files.com/65cb00f6f3e7bcf8fb18b01e/65cc4af803489b6f85ba9cb1_icon.svg");
+  background-image: url(../img/icons/icon-6.svg);
   background-position: 64%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -3150,8 +3150,18 @@ body {
 
 .checkbox {
   padding: 20px 0;
+  gap: 10px;
+  justify-content: flex-start;
 }
 
 .checkbox a {
   color: #3898ec;
+}
+
+.checkbox a {
+  color: #3898ec;
+}
+
+.checkbox span {
+  gap: 5px;
 }
