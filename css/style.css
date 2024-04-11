@@ -512,7 +512,7 @@ img {
 }
 
 .ieJmnbWcmMQgTye {
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d411c1b6e9c0fa8ae540dd_Footer%20Bg.png");
+  background-image: url("../img/icons/bg-2.png");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -569,7 +569,7 @@ img {
 
 .etlLArrHUhPykCZ.DzYlNOclNBDrJXV {
   color: var(--white);
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d42ca58cc7033ddfc4b3cf_Hero%20text%20bg.svg");
+  background-image: url("../img/icons/bg-4.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -581,7 +581,6 @@ img {
 }
 
 .etlLArrHUhPykCZ.XrTPvCkJgVCFYhu {
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d2c66f09a73841873e89f3_Vector%203.png");
   background-position: 0 0;
   background-size: cover;
   justify-content: center;
@@ -731,7 +730,6 @@ img {
 }
 
 .EVkEVrWqfxFcIah.XrTPvCkJgVCFYhu {
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d2c66de96ecdcc195c0a0f_Srivces%20bg.png");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -813,7 +811,6 @@ img {
 
 .lsPxQSoimOeYFbp {
   background-color: #fff1f1;
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d44ee598fdab78352decfb_Counter%20Bg.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -821,7 +818,7 @@ img {
 }
 
 .lsPxQSoimOeYFbp.XrTPvCkJgVCFYhu {
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d2c65e88fdaa6c6e8511d7_Countact%20Area%20Bg.png");
+  background-color: #adf0f5;
 }
 
 .qmfNEQuLtbuieqY {
@@ -883,6 +880,8 @@ img {
   background-position: 0 0, 100% 100%;
   background-repeat: repeat, no-repeat;
   background-size: auto, contain;
+  max-width: 1340px;
+  margin: 0 auto;
 }
 
 .clVBvpknBDnNLRy {
@@ -926,11 +925,10 @@ img {
 }
 
 .sqGZqLYrPXSxuIu.XrTPvCkJgVCFYhu {
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d6d8bfa7607dc102c6ad0f_Hero%20Image%20v2.webp");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: auto;
-  height: 95vh;
+  height: fit-content;
   position: relative;
 }
 
@@ -946,10 +944,10 @@ img {
 }
 
 .dWoGmoTzWWHTqrU {
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d2c65c09276732012b5f81_Benefit%20bg.png");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #ffe3ac;
 }
 
 .dTxhJILXsTiBDZY.lcZYzLwKnDdEQBW {
@@ -998,7 +996,6 @@ img {
 }
 
 .MOOInEyBBYLNRyA {
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d2c65b0e91536442f17283_About%20Happy%20Hours.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1171,7 +1168,6 @@ img {
 }
 
 .xdxPmRdrvZNlviQ {
-  /* background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg"); */
   background-position: 50%;
   background-color: #ffdede;
   background-repeat: no-repeat;
@@ -1531,7 +1527,7 @@ img {
   }
 
   .umCDAdHVWGGPHFC {
-    background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d6beed8eaef9775ad48c57_bg.png");
+    background-image: url("../img/icons/bg-6.png");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
