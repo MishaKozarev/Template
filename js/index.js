@@ -22,18 +22,8 @@ window.addEventListener("scroll", function () {
   var scrollPosition = window.scrollY;
 
   if (scrollPosition > 100) {
-    headerTop.style.display = "none";
     headerBottom.style.backgroundColor = "white";
   } else {
-    headerTop.style.display = "block";
     headerBottom.style.backgroundColor = "inherit";
-  }
-});
-
-window.addEventListener("resize", function () {
-  if (window.innerWidth <= 700) {
-    headerTop.style.display = "none";
-  } else {
-    headerTop.style.display = "block";
   }
 });
