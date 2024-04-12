@@ -433,7 +433,7 @@ figure {
   padding-top: 115px;
   padding-bottom: 45px;
   background-color: #faf3e8;
-  background-image: url("https://assets.website-files.com/620a7612af716dbffa6c4a61/620cc7d7a19e491a724fc4cc_hero-background-image-min.png");
+  background-image: url("../img/icons/bg-1.png");
   background-position: 50% 50%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -634,7 +634,7 @@ figure {
 
 .pqyuAcPxHBmBjnq.CCFDRgYMOQWlAwC {
   padding-left: 45px;
-  background-image: url("https://assets.website-files.com/620a7612af716dbffa6c4a61/620cbbbb1fdc3818db1c6484_phone.svg");
+  background-image: url("../img/icons/bg-2.svg");
   background-position: 30px 50%;
   background-size: 15px 15px;
   background-repeat: no-repeat;
@@ -647,7 +647,7 @@ figure {
   border-width: 1.5px;
   border-color: hsla(0, 0%, 100%, 0.4);
   background-color: transparent;
-  background-image: url("https://assets.website-files.com/620a7612af716dbffa6c4a61/620cbbbb1fdc3818db1c6484_phone.svg");
+  background-image: url("../img/icons/bg-4.png");
   background-position: 30px 50%;
   background-size: 15px 15px;
   background-repeat: no-repeat;
@@ -724,7 +724,7 @@ figure {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  background-image: url("https://assets.website-files.com/620a7612af716dbffa6c4a61/628374c59e4f78e5b1071bd3_form-img-min.jpg");
+  background-image: url("../img/pictures/home-1.jpeg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -993,7 +993,7 @@ figure {
   padding-top: 90px;
   padding-bottom: 100px;
   background-color: #dfa245;
-  background-image: url("https://assets.website-files.com/620a7612af716dbffa6c4a61/62127da1f0966ef61f3ed5e2_treatment-background-min.png");
+  background-image: url("../img/icons/bg-4.png");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1360,7 +1360,7 @@ figure {
   padding-top: 90px;
   padding-bottom: 100px;
   background-color: #dfa245;
-  background-image: url("https://assets.website-files.com/620a7612af716dbffa6c4a61/62127da1f0966ef61f3ed5e2_treatment-background-min.png");
+  background-image: url("../img/icons/bg-5.png");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1749,21 +1749,21 @@ figure {
 }
 
 .oobtCskVbRkdeDf.jMOtyTGgGFwZPZk {
-  background-image: url("https://assets.website-files.com/620a7612af716dbffa6c4a61/6217b5cb060ef8378dedc90f_User.svg");
+  background-image: url("../img/icons/bg-6.svg");
   background-position: 15px 50%;
   background-size: 16px 16px;
   background-repeat: no-repeat;
 }
 
 .oobtCskVbRkdeDf.nOlEyzKKupikrua {
-  background-image: url("https://assets.website-files.com/620a7612af716dbffa6c4a61/6217b5cb781a9c6bd8aac610_phone%202.svg");
+  background-image: url("../img/icons/bg-7.svg");
   background-position: 15px 50%;
   background-size: 16px 16px;
   background-repeat: no-repeat;
 }
 
 .oobtCskVbRkdeDf.ImNvpKZzUKaaNNU {
-  background-image: url("https://assets.website-files.com/620a7612af716dbffa6c4a61/6217b5ca2a2db1a9e0faa17c_mail.svg");
+  background-image: url("../img/icons/bg-8.svg");
   background-position: 15px 50%;
   background-size: 16px 16px;
   background-repeat: no-repeat;
@@ -3041,12 +3041,11 @@ body {
 }
 
 .checkbox span {
-  color: white;
+  color: black;
 }
 
 .checkbox a {
-  color: #fdfbfb;
-  border-bottom: 1px solid white;
+  color: blue;
 }
 
 .checkbox span {
@@ -3061,4 +3060,8 @@ body {
   padding: 120px 40px;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.NNdUDDmSEVZebRt img {
+  width: 15px;
 }
