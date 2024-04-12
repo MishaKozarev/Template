@@ -2149,6 +2149,10 @@ figure {
 }
 
 @media screen and (max-width: 991px) {
+  .VNMyIGKkvtCcobv {
+    height: 1070px;
+  }
+
   .EbudXZErHFIAkcW {
     font-size: 54px;
   }
@@ -3052,16 +3056,26 @@ body {
   gap: 5px;
 }
 
+.NNdUDDmSEVZebRt img {
+  width: 15px;
+}
+
 .section-text {
-  background-color: #47b9b5;
 }
 
 .section-text__container {
-  padding: 120px 40px;
+  padding: 80px 40px;
   max-width: 1280px;
   margin: 0 auto;
 }
 
-.NNdUDDmSEVZebRt img {
-  width: 15px;
+.section-text__content {
+  margin-left: 50px;
+  padding-left: 10px;
+}
+
+.section-text__item {
+  margin-bottom: 0px;
+  font-size: 18px;
+  line-height: 28px;
 }
