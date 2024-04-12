@@ -180,7 +180,6 @@ figure {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  vertical-align: middle;
   background-color: #ffffff;
   border: 1px solid #cccccc;
 }
@@ -1493,7 +1492,7 @@ figure {
 }
 
 .dFBrCqHvQeQuRJK {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 100px;
   background-color: #faf3e8;
 }
@@ -2695,6 +2694,10 @@ body {
 }
 
 /**** THANKS-PAGE ****/
+.thanks-pages {
+  background-color: #fff2de;
+}
+
 .thanks-pages__title {
   font-size: 2.5rem;
 }
@@ -2710,28 +2713,23 @@ body {
   font-weight: 500;
 }
 
-.thanks-pages__container span {
-  color: #05f;
-}
-
 .thanks-pages__content {
   gap: 20px;
   align-items: flex-start;
 }
 
 .thanks-pages__btn {
-  border: 2px solid #2873bc;
+  border: 2px solid black;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #2873bc;
-  border-radius: 20px;
+  color: black;
 }
 
 .thanks-pages__btn:hover {
-  background-color: #2873bc;
-  color: whitesmoke;
-  border: 2px solid whitesmoke;
+  background-color: #dfa245;
+  color: black;
+  border: 2px solid black;
 }
 
 .thanks-pages__section {
@@ -2739,6 +2737,10 @@ body {
 }
 
 /**** DOCUMENT ****/
+.document__section {
+  background-color: #fff2de;
+}
+
 .document__container {
   padding: 190px 40px;
   max-width: 800px;
@@ -2760,6 +2762,7 @@ body {
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.4);
 }
 
 .document__container strong {
