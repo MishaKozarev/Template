@@ -507,7 +507,6 @@ p {
   display: block;
   overflow: hidden;
   height: 100%;
-  min-height: 100vh;
   padding-top: 140px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -583,7 +582,6 @@ p {
   width: 100%;
   height: auto;
   max-height: 100%;
-  min-height: 100vh;
 }
 
 .vIBfgCvcZUiEVLr.AGxQuvTVuoAfRUg {
@@ -634,7 +632,6 @@ p {
   display: block;
   overflow: hidden;
   height: 100%;
-  min-height: 100vh;
   padding-top: 130px;
   padding-bottom: 130px;
   -webkit-box-orient: vertical;
@@ -830,7 +827,6 @@ p {
   display: block;
   overflow: hidden;
   height: 100%;
-  min-height: 100vh;
   padding-top: 130px;
   padding-bottom: 130px;
   -webkit-box-orient: vertical;
@@ -923,7 +919,6 @@ p {
   display: block;
   overflow: hidden;
   height: 100%;
-  min-height: 100vh;
   padding-top: 130px;
   padding-bottom: 130px;
   -webkit-box-orient: vertical;
@@ -1076,7 +1071,6 @@ p {
   display: block;
   overflow: hidden;
   height: 100%;
-  min-height: 100vh;
   padding-top: 130px;
   padding-bottom: 130px;
   -webkit-box-orient: vertical;
@@ -1181,7 +1175,6 @@ p {
   display: block;
   overflow: hidden;
   height: 100%;
-  min-height: 100vh;
   padding-top: 130px;
   padding-bottom: 130px;
   -webkit-box-orient: vertical;
@@ -1331,7 +1324,6 @@ p {
   display: block;
   overflow: hidden;
   height: 100%;
-  min-height: 100vh;
   padding-top: 130px;
   padding-bottom: 130px;
   -webkit-box-orient: vertical;
@@ -1506,7 +1498,6 @@ p {
   display: block;
   overflow: hidden;
   height: 100%;
-  min-height: 100vh;
   padding-top: 130px;
   padding-bottom: 130px;
   -webkit-box-orient: vertical;
@@ -3315,5 +3306,10 @@ body {
 
 .section-text {
   background-color: #47b9b5;
+}
+
+.section-text__container {
   padding: 120px 40px;
+  max-width: 1280px;
+  margin: 0 auto;
 }
