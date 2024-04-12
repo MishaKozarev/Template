@@ -56,9 +56,6 @@ textarea {
   overflow: auto;
 }
 
-/* ==========================================================================
-   Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
-   ========================================================================== */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2924,10 +2921,10 @@ body {
 
 .burger__btn span {
   display: inline-block;
-  width: 22px;
-  height: 5px;
+  width: 28px;
+  height: 3px;
   border-radius: 4px;
-  background-color: white;
+  background-color: black;
   transition: 0.4s ease;
 }
 
@@ -2937,9 +2934,9 @@ body {
   position: absolute;
   left: 0;
   width: 34px;
-  height: 5px;
+  height: 3px;
   border-radius: 4px;
-  background-color: white;
+  background-color: black;
   transition: 0.3s ease;
 }
 
@@ -2957,7 +2954,7 @@ body {
 
 .active::before {
   transform: rotate(-45deg);
-  top: 12px;
+  top: 14px;
   background-color: white;
 }
 
@@ -2967,9 +2964,13 @@ body {
   background-color: white;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 700px) {
   .burger__btn {
     display: flex;
+  }
+
+  .header__top {
+    display: none;
   }
 
   .nav {
@@ -2978,18 +2979,16 @@ body {
     flex-direction: column;
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    max-height: 600px;
+    right: -100px;
     padding: 100px 70px;
-    transform: translateY(-100%);
+    transition: right 0.3s ease;
     opacity: 0;
   }
 
   .menu__link {
     color: white;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 500;
     border-bottom: none;
     text-decoration: none;
   }
@@ -3002,20 +3001,16 @@ body {
   .nav.active {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 320px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #47b9b5;
-    opacity: 0.2;
-    transform: translateX(0);
-    max-height: 750px;
+    background-color: black;
     opacity: 1;
-    font-size: 1.3rem;
-    border-radius: 10px;
   }
 }
 
