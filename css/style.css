@@ -431,7 +431,7 @@ img {
   color: #fff;
   text-align: center;
   background-color: #2d3d33;
-  background-image: url("https://assets-global.website-files.com/65e98c23dfa498aff375138e/660fb5e4e276ded99923e9db_Button-Arrow-Light.svg");
+  background-image: url("../img/icons/icon-8.svg");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: 37px 72%;
@@ -444,27 +444,17 @@ img {
   display: inline-block;
 }
 
-.WfiTeEEAwtFWmVM:hover {
-  opacity: 1;
-  color: #fff;
-  background-color: #2d3d33;
-  background-position: 94%;
-  background-size: 0% 0%;
-  border-color: #2d3d33;
-  padding-right: 30px;
-}
-
 .WfiTeEEAwtFWmVM.pCIARNzuihiGnQp {
   color: #232323;
   background-color: #fff;
-  background-image: url("https://assets-global.website-files.com/65e98c23dfa498aff375138e/660fb5e4e276ded99923e9da_Button-Arrow.svg");
+  background-image: url("../img/icons/icon-9.svg");
   border-color: rgba(0, 0, 0, 0);
 }
 
 .dwtTHTUmAHRjgVn {
   z-index: 999;
   background-color: #2d3d33;
-  background-image: url("https://assets-global.website-files.com/65e98c23dfa498aff375138e/660fb5e4e276ded99923e9e8_Banner%20BG-01.svg");
+  background-image: url("../img/icons/icon-10.svg");
   background-position: 50%;
   background-size: cover;
   border-bottom-right-radius: 30px;
@@ -761,7 +751,7 @@ img {
       rgba(35, 35, 35, 0.3),
       rgba(35, 35, 35, 0.3)
     ),
-    url("https://assets-global.website-files.com/65e98c23dfa498aff375138e/660fb5ff95f4640393c8f5ca_american-public-power-association-513dBrMJ_5w-unsplash%20(1)%20(1).webp");
+    url("../img/pictures/about-1.jpeg");
   background-position: 0 0, 50% 60%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1187,7 +1177,7 @@ img {
       rgba(35, 35, 35, 0.3),
       rgba(35, 35, 35, 0.3)
     ),
-    url("https://assets-global.website-files.com/65e98c23dfa498aff375138e/660fc58ac31733563728c52b_nuno-marques-0GbrjL3vZF4-unsplash.webp");
+    url("../img/pictures/about-2.jpeg");
   background-position: 0 0, 50% 30%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -2416,10 +2406,13 @@ body {
   background-color: white;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 960px) {
   .header__info {
     display: none;
   }
+}
+
+@media (max-width: 680px) {
   .burger__btn {
     display: flex;
   }
