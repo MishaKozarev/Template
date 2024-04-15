@@ -2830,12 +2830,12 @@ body {
 }
 
 .checkbox span {
-  color: white;
+  color: black;
 }
 
 .checkbox a {
-  color: #fdfbfb;
-  border-bottom: 1px solid white;
+  color: black;
+  border-bottom: 1px solid black;
 }
 
 .checkbox span {
