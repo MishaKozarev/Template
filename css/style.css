@@ -2179,7 +2179,7 @@ body {
 }
 
 .thanks-pages__container span {
-  color: #05f;
+  color: #2d3d33;
 }
 
 .thanks-pages__content {
@@ -2188,16 +2188,16 @@ body {
 }
 
 .thanks-pages__btn {
-  border: 2px solid #2873bc;
+  border: 2px solid #2d3d33;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #2873bc;
+  color: #2d3d33;
   border-radius: 20px;
 }
 
 .thanks-pages__btn:hover {
-  background-color: #2873bc;
+  background-color: #2d3d33;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
