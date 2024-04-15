@@ -165,7 +165,6 @@ p {
 .YgMAgxUQsYOenRH,
 .sNWduzGlTzhCCTB {
   color: #333;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
   width: 100%;
@@ -2649,12 +2648,46 @@ body {
   gap: 5px;
 }
 
-.section-text {
-  background-color: #47b9b5;
-}
-
 .section-text__container {
   padding: 120px 40px;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.rounded {
+  counter-reset: li;
+  list-style: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  padding: 20px 30px 0;
+}
+
+.rounded li {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.4em 0.4em 2em;
+  margin: 0.5em 0;
+  background: #eefaf0;
+  border-radius: 0.3em;
+  color: var(--black-800);
+  margin-bottom: 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+.rounded li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #a36630;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: 0.3em solid white;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
 }
