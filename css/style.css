@@ -2582,79 +2582,82 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.thanks-pages__title {
+.gratitude__title {
   font-size: 2.5rem;
 }
 
-.thanks-pages__container {
+.gratitude__container {
   max-width: 850px;
   gap: 20px;
   padding: 75px 30px 0;
 }
 
-.thanks-pages__container p {
+.gratitude__container p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
-.thanks-pages__container span {
+.gratitude__container span {
   color: #05f;
 }
 
-.thanks-pages__content {
+.gratitude__content {
   gap: 20px;
   align-items: flex-start;
 }
 
-.thanks-pages__btn {
-  border: 2px solid #2873bc;
+.gratitude__btn {
+  border: 2px solid #64b45c;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #2873bc;
-  border-radius: 20px;
+  color: #64b45c;
 }
 
-.thanks-pages__btn:hover {
-  background-color: #2873bc;
+.gratitude__btn:hover {
+  background-color: #64b45c;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
 
-.thanks-pages__section {
+.gratitude__section {
   height: 100vh;
 }
 
 /**** DOCUMENT ****/
-.document__container {
+.information {
+  background-color: #d7f0d4;
+}
+
+.information__container {
   padding: 190px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.document h1 {
+.information h1 {
   font-weight: 600;
   font-size: 3rem;
 }
 
-.document__container ol {
+.information__container ol {
   gap: 25px;
 }
 
-.document__container li {
+.information__container li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.document__container strong {
+.information__container strong {
   font-weight: 600;
   font-size: 1.3rem;
 }
 
-.document__container a {
+.information__container a {
   color: #275ff7;
 }
 
