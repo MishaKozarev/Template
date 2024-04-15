@@ -2207,35 +2207,35 @@ body {
 }
 
 /**** DOCUMENT ****/
-.document__container {
+.document-page__container {
   padding: 190px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.document h1 {
+.document-page h1 {
   font-weight: 600;
   font-size: 3rem;
 }
 
-.document__container ol {
+.document-page__container ol {
   gap: 25px;
 }
 
-.document__container li {
+.document-page__container li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.document__container strong {
+.document-page__container strong {
   font-weight: 600;
   font-size: 1.3rem;
 }
 
-.document__container a {
+.document-page__container a {
   color: #275ff7;
 }
 
