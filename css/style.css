@@ -2353,16 +2353,15 @@ body {
 }
 
 .thanks-pages__btn {
-  border: 2px solid #2873bc;
+  border: 2px solid #333;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #2873bc;
-  border-radius: 20px;
+  color: #333;
 }
 
 .thanks-pages__btn:hover {
-  background-color: #2873bc;
+  background-color: #333;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
@@ -2372,36 +2371,38 @@ body {
 }
 
 /**** DOCUMENT ****/
-.document__container {
+.info-page__container {
   padding: 190px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.document h1 {
+.info-page h1 {
   font-weight: 600;
   font-size: 3rem;
 }
 
-.document__container ol {
+.info-page__container ol {
   gap: 25px;
 }
 
-.document__container li {
+.info-page__container li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
-.document__container strong {
+.info-page__container strong {
   font-weight: 600;
   font-size: 1.3rem;
 }
 
-.document__container a {
-  color: #275ff7;
+.info-page__container a {
+  border-bottom: 1px solid rgb(82, 25, 236);
+  color: rgb(82, 25, 236);
 }
 
 /**** HEADER ****/
