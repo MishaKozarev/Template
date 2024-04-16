@@ -508,7 +508,7 @@ ul {
 }
 
 .gIontiOJgIuDpQk.TUudEGuPdGCiPRS {
-  padding-top: 80px;
+  padding-top: 150px;
 }
 
 .gIontiOJgIuDpQk.yeOapjIleAQXvJX {
@@ -675,12 +675,13 @@ ul {
 
 .iHdgcprQBbydsnz {
   color: var(--white);
-  background-image: url("https://assets-global.website-files.com/65ec595234196b9c9032a0d4/65eca80b4e64d3fad5070fcc_image%204.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   flex-flow: column;
   padding: 120px 80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/pictures/item-4.jpeg");
 }
 
 .lHmRNChGLzEGBVH {
@@ -888,7 +889,7 @@ ul {
 }
 
 .VzRFEubxTcEkllq {
-  background-image: url("https://assets-global.website-files.com/65ec595234196b9c9032a0d4/65ecc2d02622bb534308b6f5_line.svg");
+  background-image: url("../img/icons/icon-10.svg");
   background-position: 50%;
   background-size: cover;
   width: 1px;
@@ -923,7 +924,7 @@ ul {
 
 .mqWqTEMFSLoqbYF {
   grid-column-gap: 150px;
-  grid-row-gap: 150px;
+  grid-row-gap: 50px;
   border-left: 1px solid rgba(25, 50, 106, 0.1);
   flex-flow: column;
   justify-content: space-between;
@@ -1125,7 +1126,7 @@ ul {
 }
 
 .EqqhABVyNocZLrw {
-  background-image: url("https://assets-global.website-files.com/65ec595234196b9c9032a0d4/65edaa36fa4e0b7effbe5018_Checkmark.svg");
+  background-image: url("../img/icons/icon-11.svg");
   background-position: 0 6px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -1151,7 +1152,7 @@ ul {
 
 .soTiVNmMpBJvcNh {
   color: var(--white);
-  background-image: url("https://assets-global.website-files.com/65ec595234196b9c9032a0d4/65ee1a8e305da811b397e5a3_image%2022.png");
+  background-image: url("../img/pictures/item-2.jpeg");
   background-position: 50%;
   background-size: cover;
   flex-flow: column;
@@ -1381,7 +1382,7 @@ ul {
 
   .mqWqTEMFSLoqbYF {
     grid-column-gap: 100px;
-    grid-row-gap: 100px;
+    grid-row-gap: 50px;
   }
 
   .TLmkPWqicZwKhDx {
@@ -1569,7 +1570,7 @@ ul {
   }
 
   .gIontiOJgIuDpQk.TUudEGuPdGCiPRS {
-    padding-top: 60px;
+    padding-top: 130px;
   }
 
   .vhLpqnUnQvUoCIO {
@@ -2199,12 +2200,12 @@ body {
 }
 
 .checkbox span {
-  color: white;
+  color: #19326a;
 }
 
 .checkbox a {
-  color: #fdfbfb;
-  border-bottom: 1px solid white;
+  color: #19326a;
+  border-bottom: 1px solid #19326a;
 }
 
 .checkbox span {
