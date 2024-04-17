@@ -573,7 +573,7 @@ a {
       rgba(32, 32, 32, 0.2),
       rgba(32, 32, 32, 0.2)
     ),
-    url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/660712053690513dea4150de_Brand-1.png");
+    url("../img/pictures/item-7.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -587,7 +587,7 @@ a {
       rgba(32, 32, 32, 0.2),
       rgba(32, 32, 32, 0.2)
     ),
-    url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/6607120491697418a59d9807_Brand-2.png");
+    url("../img/pictures/item-8.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -601,7 +601,8 @@ a {
       rgba(32, 32, 32, 0.2),
       rgba(32, 32, 32, 0.2)
     ),
-    url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/66071205a4be8a41ca9bfe05_Brand-3.png");
+    url("../img/pictures/item-9.jpeg");
+
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -615,21 +616,8 @@ a {
       rgba(32, 32, 32, 0.2),
       rgba(32, 32, 32, 0.2)
     ),
-    url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/660da135c26e9f675f274a5f_karsten-winegeart-_hoAqzp39tk-unsplash%20(1).jpg");
-  background-position: 0 0, 50%;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
+    url("../img/pictures/item-9.jpeg");
 
-.ocGBtAokOuvMUdR.hYUvkNbgOeznTBb {
-  background-image: linear-gradient(
-      rgba(32, 32, 32, 0.2),
-      rgba(32, 32, 32, 0.2)
-    ),
-    url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/660da134ca64cc5a7eb9022b_feey-4mZS7uuRw3Y-unsplash%20(1).jpg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1236,7 +1224,7 @@ a {
 }
 
 .XtnkZeoBLUyEdFp {
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+  background-image: url("../img/pictures/item-10.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1253,60 +1241,14 @@ a {
   right: 0;
 }
 
-.XtnkZeoBLUyEdFp.TmMSJZwIBtGCtzK {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/6607120484f1b9b789479910_Video-bg.jpg");
-  display: flex;
-}
-
-.XtnkZeoBLUyEdFp.CdtRDatJQetcRsR {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/660712047ebd66342de9ad32_Guy.jpg");
-  background-position: 24%;
-  display: flex;
-}
-
-.XtnkZeoBLUyEdFp.eDtEeLdVSGpiKoX {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/66071205d70ef01411985bd4_Gallery-pre-1.png");
-  background-position: 24%;
-  height: 127%;
-  display: flex;
-}
-
-.XtnkZeoBLUyEdFp.KbjCnCqRAGOPmNf {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/660712040344e66cde142d53_Gallery-pre-2.jpg");
-  background-position: 24%;
-  height: 127%;
-  display: flex;
-}
-
-.XtnkZeoBLUyEdFp.zFWXcbNyIfSUwMr {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/6607120393849b58d0e11547_Gallery-pre-3.jpg");
-  background-position: 24%;
-  height: 127%;
-  display: flex;
-}
-
-.XtnkZeoBLUyEdFp.KZEIGQpOsCRWxSb {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/66071205b5690faabab59216_Gallery-pre-4.jpg");
-  background-position: 24%;
-  height: 127%;
-  display: flex;
-}
-
-.XtnkZeoBLUyEdFp.gieosZlYKiUGWNa {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/66071207a4be8a41ca9bff23_Gallery-pre-5.jpg");
-  background-position: 24%;
-  height: 127%;
-  display: flex;
-}
-
 .XtnkZeoBLUyEdFp.dLEuGXagsusszlE {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/66083e3b8d8302eabf82fc41_pexels-arina-krasnikova-5951720%20(1).jpg");
+  background-image: url("../img/pictures/item-10.jpeg");
   background-position: 50%;
   display: flex;
 }
 
 .XtnkZeoBLUyEdFp.UgUQCvlyVdxBipJ {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/660712052c8ac90cc1f19374_Building.jpg");
+  background-image: url("../img/pictures/item-11.jpeg");
   display: flex;
 }
 
@@ -2007,7 +1949,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   font-weight: 400;
-  display: flex;
   position: relative;
   overflow: hidden;
 }
@@ -2349,22 +2290,22 @@ a {
 }
 
 .KKFtggrYPRUFGSB.rbeNjAsJWvlOLfB {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/66071205bcf0333d091ea269_Intro-1.jpg");
+  background-image: url("../img/pictures/item-4.jpeg");
   display: flex;
 }
 
 .KKFtggrYPRUFGSB.JGOKyKylEmsYnoZ {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/6607120577a154102f8df43d_Intro-2.jpg");
+  background-image: url("../img/pictures/item-5.jpeg");
   display: flex;
 }
 
 .KKFtggrYPRUFGSB.TQaSOPStYjaGEbu {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/66071207a4be8a41ca9bfeee_Intro-3.jpg");
+  background-image: url("../img/pictures/item-6.jpeg");
   display: flex;
 }
 
 .YAPHWCvLHIGCIEt {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/6607120584f1b9b789479999_Tab-1.png");
+  background-image: url("../img/pictures/item-2.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2381,7 +2322,7 @@ a {
 }
 
 .FKHLsUpdjbAsNmC {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/660712048ddb098288849cce_Tab-2.png");
+  background-image: url("../img/pictures/item-3.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2395,7 +2336,7 @@ a {
 }
 
 .NZYvtvJLlwAeYSA {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/66071205c6bbd4d3b32cc659_Tab-3.png");
+  background-image: url("../img/pictures/item-4.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2409,7 +2350,7 @@ a {
 }
 
 .bATdKAIfigpTDeK {
-  background-image: url("https://assets-global.website-files.com/6606f64696bed8f3439726f9/6607120554c493341cd41cc6_Tab-4.png");
+  background-image: url("../img/pictures/item-5.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2735,8 +2676,8 @@ a {
   }
 
   .qZvpdiwgDjtOZFF {
-    font-size: 34px;
-    line-height: 42px;
+    font-size: 25px;
+    line-height: 25px;
   }
 
   .XqStTALCACzdtEm {
@@ -2788,8 +2729,8 @@ a {
   }
 
   .hKNzryzaisoAzpk {
-    font-size: 72px;
-    line-height: 72px;
+    font-size: 54px;
+    line-height: 54px;
   }
 
   .HGnsxJtOeDDCxHJ {
@@ -3727,30 +3668,67 @@ body {
 /* SECTION_FORM*/
 
 .checkbox {
-  padding: 20px 0;
+  padding: 20px 0 20px 20px;
   gap: 10px;
   justify-content: flex-start;
 }
 
 .checkbox span {
-  color: white;
+  color: #202020;
 }
 
 .checkbox a {
-  color: #fdfbfb;
-  border-bottom: 1px solid white;
+  color: #202020;
+  border-bottom: 1px solid #202020;
 }
 
 .checkbox span {
   gap: 5px;
 }
 
-.section-text {
-  background-color: #47b9b5;
-}
-
 .section-text__container {
   padding: 120px 40px;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.rounded {
+  counter-reset: li;
+  list-style: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  padding: 20px 30px 0;
+  text-align: start;
+}
+
+.rounded li {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.4em 0.4em 2em;
+  margin: 0.5em 0;
+  border-radius: 0.3em;
+  margin-bottom: 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+.rounded li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: 1px solid var(--bg-black-hover);
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all 0.3s ease-out;
+}
+
+.block-text {
+  padding: 40px 0;
 }
