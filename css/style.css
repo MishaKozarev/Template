@@ -3254,6 +3254,10 @@ body {
 }
 
 /**** THANKS-PAGE ****/
+.thanks-pages {
+  background-color: #d5cec6;
+}
+
 .thanks-pages__title {
   font-size: 2.5rem;
 }
@@ -3269,28 +3273,25 @@ body {
   font-weight: 500;
 }
 
-.thanks-pages__container span {
-  color: #05f;
-}
-
 .thanks-pages__content {
   gap: 20px;
   align-items: flex-start;
 }
 
 .thanks-pages__btn {
-  border: 2px solid #2873bc;
+  border: 2px solid #202020;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #2873bc;
-  border-radius: 20px;
+  color: #202020;
+  transition: 0.3s;
 }
 
 .thanks-pages__btn:hover {
-  background-color: #2873bc;
+  background-color: #202020;
   color: whitesmoke;
   border: 2px solid whitesmoke;
+  border-radius: 50px;
 }
 
 .thanks-pages__section {
@@ -3298,35 +3299,36 @@ body {
 }
 
 /**** DOCUMENT ****/
-.document__container {
+.special__container {
   padding: 190px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.document h1 {
+.special h1 {
   font-weight: 600;
   font-size: 3rem;
 }
 
-.document__container ol {
+.special__container ol {
   gap: 25px;
 }
 
-.document__container li {
+.special__container li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.document__container strong {
+.special__container strong {
   font-weight: 600;
   font-size: 1.3rem;
+  border-bottom: 2px solid #202020;
 }
 
-.document__container a {
+.special__container a {
   color: #275ff7;
 }
 
