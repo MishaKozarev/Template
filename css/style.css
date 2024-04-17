@@ -2127,16 +2127,15 @@ body {
 }
 
 .thanks-pages__btn {
-  border: 2px solid #2873bc;
+  border: 2px solid #f8971f;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #2873bc;
-  border-radius: 20px;
+  color: #f8971f;
 }
 
 .thanks-pages__btn:hover {
-  background-color: #2873bc;
+  background-color: #f8971f;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
