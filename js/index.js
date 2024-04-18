@@ -1,3 +1,5 @@
+const headerTop = document.querySelector(".header-top");
+const headerBottom = document.querySelector(".header-bottom");
 const logo = document.querySelector(".header__logo");
 const links = document.querySelectorAll(".menu__link");
 const nav = document.querySelector(".nav");
@@ -15,3 +17,13 @@ function addStyle() {
   logo.classList.toggle("active");
 }
 addBurger();
+
+window.addEventListener("scroll", function () {
+  let scrollPosition = window.scrollY;
+
+  if (scrollPosition > 100) {
+    headerBottom.style.borderBottom = "1px solid rgb(255, 255, 525, 0.4)";
+  } else {
+    headerBottom.style.borderBottom = "none";
+  }
+});
