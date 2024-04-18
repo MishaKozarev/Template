@@ -2376,46 +2376,33 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.thanks-pages__title {
-  font-size: 2.5rem;
+.gratitude {
+  background-color: #260403;
+  color: white;
 }
 
-.thanks-pages__container {
+.gratitude__title {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.gratitude__container {
   max-width: 850px;
   gap: 20px;
   padding: 75px 30px 0;
 }
 
-.thanks-pages__container p {
-  font-size: 1.3rem;
-  font-weight: 500;
+.gratitude__container p {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
-.thanks-pages__container span {
-  color: #05f;
-}
-
-.thanks-pages__content {
+.gratitude__content {
   gap: 20px;
   align-items: flex-start;
 }
 
-.thanks-pages__btn {
-  border: 2px solid #2873bc;
-  padding: 10px 25px;
-  text-decoration: none;
-  font-weight: 700;
-  color: #2873bc;
-  border-radius: 20px;
-}
-
-.thanks-pages__btn:hover {
-  background-color: #2873bc;
-  color: whitesmoke;
-  border: 2px solid whitesmoke;
-}
-
-.thanks-pages__section {
+.gratitude__section {
   height: 100vh;
 }
 
