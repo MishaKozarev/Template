@@ -462,7 +462,7 @@ label {
 }
 
 .eLkYOctkBMxbSEi {
-  background-image: url("https://assets-global.website-files.com/65fc5b5083350ec9423dbe8a/65fd6f538b3d4cb057d1d2f6_Lines.webp");
+  background-image: url("../img/icons/bg.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -481,6 +481,7 @@ label {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 80px;
   display: flex;
   position: relative;
 }
@@ -488,7 +489,7 @@ label {
 .FwVHxtJxzQqNhIO {
   z-index: 2;
   flex: 1;
-  max-width: 1200px;
+  max-width: 1210px;
   padding-left: 30px;
   padding-right: 30px;
   position: relative;
@@ -515,7 +516,7 @@ label {
 
 .vysBKRShMLyQaNO.zjUlVrRJejqcegn {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://assets-global.website-files.com/65fc5b5083350ec9423dbe8a/65fd7bf315738284f1fd1fe1_Clients%2002.webp");
+    url("../img/pictures/home-3.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -587,10 +588,6 @@ label {
   transition: transform 0.3s;
 }
 
-.ZaoQFZDdaUnoAyp:hover {
-  transform: translate(0, -15px);
-}
-
 .ZaoQFZDdaUnoAyp.TgbcTQJpsfHRqFM {
   background-color: rgba(0, 0, 0, 0);
   border-style: none;
@@ -615,7 +612,7 @@ label {
 
 .ZaoQFZDdaUnoAyp.TpsVNKoaQEMnMDG {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+  background-image: url("../img/icons/graph.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2300,7 +2297,7 @@ body {
   background-color: white;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 820px) {
   .header__info {
     display: none;
   }
@@ -2527,12 +2524,12 @@ body {
   gap: 5px;
 }
 
-.section-text {
-  background-color: #47b9b5;
+.section-text__container {
+  padding: 20px 30px 100px;
+  max-width: 1210px;
+  margin: 0 auto;
 }
 
-.section-text__container {
-  padding: 120px 40px;
-  max-width: 1280px;
-  margin: 0 auto;
+.section-text__title {
+  color: #f38e2f;
 }
