@@ -908,7 +908,7 @@ label {
   background-color: rgba(255, 168, 87, 0.1);
   border: 1px solid #ffa857;
   border-radius: 5px;
-  padding: 24px 30px;
+  padding: 24px 22px;
   line-height: 1em;
   transition: background-color 0.3s, color 0.3s;
   display: inline-block;
@@ -2532,4 +2532,10 @@ body {
 
 .section-text__title {
   color: #f38e2f;
+}
+
+@media screen and (max-width: 460px) {
+  .FCDXessvYjMrwul {
+    grid-template-columns: 1fr;
+  }
 }
