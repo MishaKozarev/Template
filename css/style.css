@@ -1704,7 +1704,6 @@ label {
 .twNtOlQAqapJzFu {
   flex: 0 46%;
   align-items: stretch;
-  max-width: 290px;
 }
 
 .nQHfbPsLampTWsI {
@@ -3200,9 +3199,13 @@ body {
 }
 
 .section-text__container {
-  padding: 120px 40px;
+  padding: 100px 20px;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.section-text__container li {
+  list-style-type: none;
 }
 
 .form-btn {
