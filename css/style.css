@@ -538,11 +538,12 @@ img {
   text-transform: uppercase;
   border-radius: 50px;
   margin-bottom: 0;
-  padding: 0 50px;
+  padding: 0 35px;
   font-size: 14px;
   font-weight: 700;
   line-height: 50px;
   transition: color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  height: fit-content;
 }
 
 .YtbKHHMrrjGsRxg:hover {
@@ -694,7 +695,7 @@ img {
 }
 
 .caxTUSUoYapRhhy {
-  margin-top: 40px;
+  margin-top: 39px;
 }
 
 .ijiILjtMacLYWqX {
@@ -1161,11 +1162,11 @@ img {
 }
 
 .bgVUYCbWfpFckOi {
-  background-color: var(--black);
-  color: var(--white-2);
+  background-color: #e6e6e6;
+  color: #444343;
   background-position: 0 0;
   background-size: 150px;
-  padding: 100px 20px 20px;
+  padding: 99px 20px 20px;
 }
 
 .oJeuAfvpzhVhoPJ {
