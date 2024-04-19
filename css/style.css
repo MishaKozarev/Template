@@ -1262,13 +1262,6 @@ label {
   min-height: 320px;
 }
 
-.gWAFAMqziAndfAI.SuwLyBIFjdOyQkI {
-  background-image: url("https://assets-global.website-files.com/65adeb26feebb66f6de57080/65adfea3a768e4ae06ff857f_Blog%20Image.webp");
-  flex-direction: column;
-  height: 453px;
-  display: flex;
-}
-
 .BnYHPnDXaGTsQSn {
   display: none;
 }
@@ -1999,7 +1992,7 @@ label {
 
 @media screen and (min-width: 1280px) {
   .QQoKXujmaCfIzUI {
-    transform: translate(0, 232px) rotate(-17.24deg);
+    transform: translate(0, 107px) rotate(-17.24deg);
   }
 
   .tAbUcGhwLTYQmdB {
@@ -2045,7 +2038,7 @@ label {
 
 @media screen and (min-width: 1920px) {
   .QQoKXujmaCfIzUI {
-    transform: translate(0, 180px) rotate(-17.24deg);
+    transform: translate(0, -100px) rotate(-17.24deg);
   }
 
   .UaOZvHtTCgiqtpq {
@@ -3227,4 +3220,8 @@ body {
   background-color: white;
   color: #0e0339;
   border: 1px solid #0e0339;
+}
+.count {
+  font-size: 2.5rem;
+  color: #0e0339;
 }
