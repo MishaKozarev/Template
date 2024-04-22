@@ -22,24 +22,30 @@
       <div class="header__container column">
         <div class="header-bottom">
           <div class="header-bottom__container container row">
+            <div class="header__info row">
+              <a
+                class="footer__link"
+                target="_blank"
+                href="https://maps.app.goo.gl/YgdbPikbL8zqhSNL6"
+              >
+                <img src="img/icons/icon-address.png" alt="icon"
+              /></a>
+              <a class="footer__link" href="mailto:dynamicfit@gmail.com"
+                ><p>dynamicfit@gmail.com</p>
+                <img src="img/icons/icon-email.png" alt="icon"
+              /></a>
+              <a class="footer__link" href="tel:+552240418813"
+                ><img src="img/icons/icon-phone.png" alt="icon"
+              /></a>
+            </div>
             <a class="header__logo" href="index.html">
               <img src="img/logo.png" alt="logo" />
             </a>
             <nav class="nav">
-              <a class="menu__link" href="index.html">Pagina inicial</a>
-              <a class="menu__link" href="index.html#section-about"
-                >Sobre nós</a
-              >
-              <a class="menu__link" href="index.html#section-services"
-                >Nossos serviços</a
-              >
+              <a class="menu__link" href="index.html">Inicial </a>
+              <a class="menu__link" href="index.html#section-team">Equipe </a>
               <a class="menu__link" href="index.html#section-form">Contatos</a>
             </nav>
-
-            <div class="header__info row">
-              <a href="index.html#section-form" class="header__btn">Write us</a>
-            </div>
-
             <div class="burger__btn">
               <span></span>
             </div>
@@ -1396,8 +1402,8 @@
                       class="OrdwLJXMNFxVEas"
                     />
                   </div>
-                  <a href="tel:(123)123-6789" class="flQYMofbbhIhfbg"
-                    >(123) 123-6789</a
+                  <a href="tel:+5589879054883" class="flQYMofbbhIhfbg"
+                    >+55 89 879054883</a
                   >
                 </div>
                 <div class="uTlDjgKQYodKWnL">
@@ -1408,10 +1414,8 @@
                       class="OrdwLJXMNFxVEas"
                     />
                   </div>
-                  <a
-                    href="mailto:hello@taskbes.com?subject=contact"
-                    class="flQYMofbbhIhfbg"
-                    >hello@taskbes.com</a
+                  <a href="mailto:dynamicfit@gmail.com" class="flQYMofbbhIhfbg"
+                    >dynamicfit@gmail.com</a
                   >
                 </div>
                 <div class="uTlDjgKQYodKWnL">
@@ -1422,7 +1426,12 @@
                       class="OrdwLJXMNFxVEas"
                     />
                   </div>
-                  <p class="eheQsnUOHeXLMTT">Northam Ave, OH, USA</p>
+                  <a
+                    class="flQYMofbbhIhfbg"
+                    target="_blank"
+                    href="https://maps.app.goo.gl/YgdbPikbL8zqhSNL6"
+                    >Palmas - TO, 77060-028, Brasil</a
+                  >
                 </div>
               </div>
               <div class="NjhNivrWgkdTVSi">
@@ -1455,81 +1464,69 @@
                     <div class="QiIDABGVTciRqyD">
                       <div class="ZsJqRVeYyIIidIN">
                         <h2 id="SCOBaYxqicrdLas" class="ZmagqQmmaXOVTXr">
-                          Let's get in touch
+                          Vamos entrar em contato
                         </h2>
                       </div>
                       <div class="quBShgntOaCqSJI SLBbkZCGxIPfkyP">
                         <p class="ztPRyaZYbdnCFpQ">
-                          If you need assistance with our new products or
-                          services, please contact us.
+                          Se precisar de assistência com nossos serviços, entre
+                          em contato conosco.
                         </p>
                       </div>
                     </div>
                     <form
                       id="IyJdVbrwSAznaHh"
-                      name="email-form"
-                      method="get"
+                      action="send-form.php"
+                      method="post"
                       class="TPzBcHJrNCPgMih"
-                      data-wf-page-id="65e7dda82d27113dad2c36d3"
-                      data-wf-element-id="44ff5be3-d67c-ee4d-d606-6d904f90c8b9"
                     >
                       <div class="HaKbXEqYyprambX">
                         <div class="ICxUsHNApNChDvK">
-                          <label for="name" class="EqqSrEsgNNYJdtZ"
-                            >First Name*</label
+                          <label for="name" class="EqqSrEsgNNYJdtZ">Nome*</label
                           ><input
                             class="CcEqlgrzQJOYDpv doXpFkSHPylqBNK"
-                            maxlength="256"
-                            name="First-Name"
-                            placeholder="Enter first name"
-                            type="text"
                             id="orDynNhRiTqpAtO"
-                            required=""
+                            type="text"
+                            required
+                            name="name"
+                            placeholder="Nome"
                           />
                         </div>
                         <div class="ICxUsHNApNChDvK">
                           <label for="Last-Name" class="EqqSrEsgNNYJdtZ"
-                            >Last Name*</label
+                            >E-mail*</label
                           ><input
                             class="CcEqlgrzQJOYDpv doXpFkSHPylqBNK"
-                            maxlength="256"
-                            name="Last-Name"
-                            placeholder="Enter last name"
-                            type="text"
                             id="vyXbCZrIvupkRDf"
-                            required=""
+                            type="email"
+                            required
+                            name="email"
+                            placeholder="E-mail"
                           />
                         </div>
 
                         <div id="luWBVZtTPsgqCvL" class="ICxUsHNApNChDvK">
                           <label for="Message" class="EqqSrEsgNNYJdtZ"
-                            >Message</label
+                            >Mensagem</label
                           ><textarea
-                            placeholder="Please write your Message.."
-                            maxlength="5000"
                             id="qBItWzdrgjNFaTT"
-                            name="Message"
+                            placeholder="Mensagem"
+                            id="OeCWHQskTkxZJwS"
+                            required
+                            name="message"
                             class="ZhzKfoOwvHyqDGu doXpFkSHPylqBNK"
                           ></textarea>
                         </div>
                       </div>
                       <div class="wplHvYoVAXunvxQ">
                         <input
-                          type="submit"
-                          data-wait="Please wait..."
                           class="MgISsbrFJLcqukG YcBpXPEwRJYWmZx"
-                          value="Submit Now"
+                          value="Enviar"
+                          required
+                          type="submit"
                         />
                       </div>
                     </form>
-                    <div class="ZhCCoiMFfcdyelU" tabindex="-1">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="PjWUkugUXiWbhLL" tabindex="-1">
-                      <div>
-                        Oops! Something went wrong while submitting the form.
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -1543,70 +1540,57 @@
         <div class="vGEqqQANYkhIGWz">
           <div class="YvXAhLycWscNOcy">
             <div class="ClfIjlQJPpeZaay">
-              <a href="#" class="HWbOKmIXaeFKsDX FeaDQhqkSPHXSeI"
+              <a href="index.html" class="HWbOKmIXaeFKsDX FeaDQhqkSPHXSeI"
                 ><img
-                  src="https://assets-global.website-files.com/65dd9f1fc1354b976d7c7cea/65ddc408916442c31d00cf14_logo.png"
+                  src="img/logo-footer.png"
+                  width="130px"
                   alt="image"
                   class="IyaLvpxpgQNwofU"
               /></a>
               <p class="fDQVmzNAxdlIEUw">
-                We’ve created the product that will help your startup and
-                business look even better.
+                "Desbloqueie sua força, inicie sua jornada, alcance o que você
+                tem de melhor."
               </p>
               <div class="ppyQfXnXSjPWxWJ">
                 Email:
-                <a
-                  href="mailto:taskbes@gmail.com?subject=Contact"
-                  class="yXiRcFfCEUEqRcj"
-                  >taskbes@gmail.com</a
+                <a href="mailto:dynamicfit@gmail.com" class="yXiRcFfCEUEqRcj"
+                  >dynamicfit@gmail.com</a
                 >
               </div>
             </div>
             <div class="SPTVpNdtdswehOw">
-              <h3 class="PBvYHcGgughurla">Main Pages</h3>
+              <h3 class="PBvYHcGgughurla">Páginas principais</h3>
               <div class="qOXeHEhGcyyMEuJ">
-                <a href="/home/home-one" class="yXiRcFfCEUEqRcj">Home</a
-                ><a
-                  href="/about-us"
-                  aria-current="page"
-                  class="yXiRcFfCEUEqRcj upsaXAzPVXVzCzw"
-                  >About</a
-                ><a href="/features" class="yXiRcFfCEUEqRcj">Features</a
-                ><a href="/pricing" class="yXiRcFfCEUEqRcj">Pricing</a>
+                <a href="index.html" class="yXiRcFfCEUEqRcj">Inicial</a>
+                <a href="index.html" class="yXiRcFfCEUEqRcj">Contatos</a>
+                <a href="index.html" class="yXiRcFfCEUEqRcj">Contatos</a>
+                <a href="index.html" class="yXiRcFfCEUEqRcj">Contatos</a>
               </div>
             </div>
 
             <div class="SPTVpNdtdswehOw">
-              <h3 class="PBvYHcGgughurla">Utility Pages</h3>
+              <h3 class="PBvYHcGgughurla">Páginas de utilitários</h3>
               <div class="qOXeHEhGcyyMEuJ">
-                <a href="https://taskbes.webflow.io/401" class="yXiRcFfCEUEqRcj"
+                <a href="index.html" class="yXiRcFfCEUEqRcj"
                   >Password Protected</a
-                ><a
-                  href="https://taskbes.webflow.io/404"
-                  class="yXiRcFfCEUEqRcj"
-                  >404 Not Found</a
-                ><a href="/template-info/style-guide" class="yXiRcFfCEUEqRcj"
-                  >Style Guide</a
-                ><a href="/user-authentication/sign-up" class="yXiRcFfCEUEqRcj"
-                  >Sign Up</a
-                >
+                ><a href="index.html" class="yXiRcFfCEUEqRcj">404 Not Found</a
+                ><a href="index.html" class="yXiRcFfCEUEqRcj">Style Guide</a
+                ><a href="index.html" class="yXiRcFfCEUEqRcj">Sign Up</a>
               </div>
             </div>
           </div>
         </div>
         <div class="ultaoCSPTxkDgQE">
           <div class="PUYFNjgmHPgwIMu">
-            Copyright ©
-            <a
-              href="https://brandbes.com/webflow-templates"
-              target="_blank"
-              class="QkWWpSMEPTvnNJH"
-              ><strong>Brandbes</strong></a
-            ><a
-              href="https://webflow.com/templates/designers/brandbes"
-              target="_blank"
-              class="QkWWpSMEPTvnNJH"
-              ><strong>Webflow</strong></a
+            © Dynamic Fit. Todos os direitos reservados.
+          </div>
+          <div class="PUYFNjgmHPgwIMu">
+            <a href="privacy-policy.html" class="QkWWpSMEPTvnNJH"
+              ><strong>política de Privacidade</strong></a
+            >
+            &nbsp;
+            <a href="terms-conditions.html" class="QkWWpSMEPTvnNJH"
+              ><strong>Termos e Condições</strong></a
             >
           </div>
         </div>
