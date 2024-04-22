@@ -3184,3 +3184,14 @@ body {
 .footer__item:hover {
   color: gold;
 }
+
+@media (max-width: 480px) {
+  .ultaoCSPTxkDgQE {
+    display: flex;
+    flex-direction: column;
+  }
+  .PUYFNjgmHPgwIMu {
+    display: flex;
+    flex-direction: column;
+  }
+}
