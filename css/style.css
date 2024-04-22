@@ -508,7 +508,7 @@ strong {
 
 blockquote {
   border-left: 10px solid var(--color--primary-color);
-  background-image: url("https://assets-global.website-files.com/65dd9f1fc1354b976d7c7cea/65ddc40efcd2ebcbf89cb4f6_blockquote-icon.svg"),
+  background-image: url("../img/icons/icon-16.svg"),
     linear-gradient(to right, rgba(113, 71, 233, 0.25) 50%, #fff);
   background-position: 98% 87%, 0 0;
   background-repeat: no-repeat, repeat;
@@ -766,7 +766,7 @@ figcaption {
 }
 
 .BCoFcgQBzVocYFg {
-  padding-top: var(--section-gap--large);
+  padding-top: 150px;
   padding-bottom: var(--section-gap--large);
 }
 
@@ -1688,7 +1688,7 @@ figcaption {
   }
 
   .BCoFcgQBzVocYFg {
-    padding-top: var(--section-gap--120px);
+    padding-top: 180px;
     padding-bottom: var(--section-gap--120px);
   }
 
@@ -2073,7 +2073,7 @@ figcaption {
   }
 
   .BCoFcgQBzVocYFg {
-    padding-top: var(--section-gap--medium);
+    padding-top: 150px;
     padding-bottom: var(--section-gap--medium);
   }
 
@@ -2293,7 +2293,7 @@ figcaption {
   }
 
   .BCoFcgQBzVocYFg {
-    padding-top: var(--section-gap--small);
+    padding-top: 150px;
     padding-bottom: var(--section-gap--small);
   }
 
