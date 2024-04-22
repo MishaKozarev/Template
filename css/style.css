@@ -4764,7 +4764,7 @@ body {
 }
 
 .section-text__container {
-  padding: 100px 20px;
+  padding: 100px 20px 0;
   max-width: 1280px;
   margin: 0 auto;
 }
