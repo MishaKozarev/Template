@@ -3598,7 +3598,6 @@ blockquote {
 
   .ZHijvdHmbzUBVHG {
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
   }
 
@@ -4038,6 +4037,8 @@ blockquote {
   .KWzjyLoSUrYkoaa {
     grid-row-gap: 5px;
     justify-content: center;
+    width: 100%;
+    text-align: center;
   }
 
   .GRaDXwTTHbdWjAT {
@@ -4280,63 +4281,72 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.thankfulness {
+.thanks {
   background-color: #e6e6e6;
+  height: 100vh;
 }
 
-.thankfulness__container {
+.thanks__container {
   max-width: 800px;
   gap: 20px;
   padding: 75px 30px 0;
 }
 
-.thankfulness__container p {
-  font-size: 1.3rem;
-  font-weight: 500;
-}
-
-.thankfulness__content {
+.thanks__content {
   gap: 20px;
   align-items: flex-start;
 }
 
-.thankfulness__section {
-  height: 100vh;
+.thanks h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.thanks p {
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 /**** DOCUMENT ****/
-.special__container {
+.info-page {
+  background-color: #eef4f8;
+}
+
+.info-page__container {
   padding: 190px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.special h1 {
+.info-page h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
-  border-bottom: 5px solid gold;
 }
 
-.special ol {
+.info-page ol {
   gap: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.special li {
+.info-page li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.special strong {
+.info-page strong {
   font-weight: 600;
   font-size: 1.3rem;
   color: #2f2f31;
 }
 
-.special a {
+.info-page a {
   color: #f73311e3;
   border-bottom: 1px solid #f73311e3;
 }
