@@ -289,6 +289,7 @@ img {
 
 .VcgJTAgqWMepCPs {
   width: 60%;
+  color: white;
 }
 
 .igqFBDGXbqLNZhk {
@@ -799,7 +800,7 @@ label {
 
 blockquote {
   text-align: center;
-  background-image: url("https://assets-global.website-files.com/65fab07abb0beb90e59749bd/65faeef81ae01f3a5866d280_Quotte.svg");
+  background-image: url("../img/icons/icon-19.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: 80px;
@@ -1084,6 +1085,7 @@ blockquote {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  backdrop-filter: blur(5px);
 }
 
 .tPMpQHKIVhvofAE {
@@ -1103,6 +1105,7 @@ blockquote {
 .qyxMkGyNvVTzmlT {
   color: var(--white);
   font-size: 32px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
 }
 
 .OredqJfLzAvmEeM {
@@ -1112,6 +1115,7 @@ blockquote {
 .vnUySmhFYTabvet {
   color: var(--white);
   margin-top: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
 }
 
 .wgSabpujnLaGIuC {
@@ -2234,7 +2238,7 @@ blockquote {
 
 .fJgckPchIFepzeU {
   text-align: left;
-  background-image: url("https://assets-global.website-files.com/65fab07abb0beb90e59749bd/65faeef81ae01f3a5866d280_Quotte.svg");
+  background-image: url("../img/icons/icon-19.svg");
   background-position: 0 0;
   font-size: 28px;
 }
@@ -2350,7 +2354,7 @@ blockquote {
   grid-column-gap: 60px;
   grid-row-gap: 60px;
   background-color: var(--beige);
-  background-image: url("https://assets-global.website-files.com/65fab07abb0beb90e59749bd/65fc00c31e5b18324e7d655e_Path%20.svg");
+  background-image: url("../img/icons/icon-20.svg");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: 500px;
@@ -2553,7 +2557,7 @@ blockquote {
 }
 
 .RCUKhRnZVoORIQB {
-  background-image: url("https://assets-global.website-files.com/65fab07abb0beb90e59749bd/65fc58eca61ca6c1d86c4b2e_Villa0017.webp");
+  background-image: url("../img/pictures/item-5.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2567,7 +2571,7 @@ blockquote {
 }
 
 .RCUKhRnZVoORIQB.GDmnUboqjFEfFvn {
-  background-image: url("https://assets-global.website-files.com/65fab07abb0beb90e59749bd/66068d6a72568d74a3f66906_young-traveller--.webp");
+  background-image: url("../img/pictures/item-5.jpeg");
 }
 
 .iJBCJxorNwSzBrh {
@@ -4743,12 +4747,12 @@ body {
 }
 
 .checkbox span {
-  color: #0e0339;
+  color: white;
 }
 
 .checkbox a {
-  color: #0e0339;
-  border-bottom: 1px solid #0e0339;
+  color: white;
+  border-bottom: 1px solid white;
 }
 
 .checkbox span {
