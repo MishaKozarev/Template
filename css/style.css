@@ -991,6 +991,7 @@ img {
 .lvIfGxkwHwhmPig {
   z-index: 20;
   background-color: rgba(0, 0, 0, 0);
+  color: white;
   border-radius: 100px;
   position: absolute;
   top: 0%;
@@ -4133,4 +4134,10 @@ body {
 
 .block-text {
   padding-top: 30px;
+}
+
+.form-btn {
+  background-color: #252525;
+  color: white;
+  align-self: center;
 }
