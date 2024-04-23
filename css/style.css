@@ -1250,10 +1250,6 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.thankfulness {
-  background-color: #e6e6e6;
-}
-
 .thankfulness__container {
   max-width: 800px;
   gap: 20px;
@@ -1286,7 +1282,6 @@ body {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
-  border-bottom: 5px solid gold;
 }
 
 .special ol {
@@ -1298,17 +1293,17 @@ body {
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
+  color: #888;
 }
 
 .special strong {
-  font-weight: 600;
   font-size: 1.3rem;
-  color: #2f2f31;
+  font-weight: 400;
+  color: rgb(230, 220, 220);
 }
 
 .special a {
-  color: #f73311e3;
-  border-bottom: 1px solid #f73311e3;
+  color: #f7e011e3;
 }
 
 /**** HEADER ****/
