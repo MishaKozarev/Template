@@ -3565,7 +3565,7 @@ body {
 
 /**** THANKS-PAGE ****/
 .thankfulness {
-  background-color: #e6e6e6;
+  background-color: #f2f0bf;
 }
 
 .thankfulness__container {
@@ -3589,41 +3589,43 @@ body {
 }
 
 /**** DOCUMENT ****/
-.special-pages__container {
+.document {
+  background-color: #f2f0bf;
+}
+
+.document__container {
   padding: 190px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.special-pages h1 {
+.document h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
-  color: #7147e9;
 }
 
-.special-pages ol {
+.document ol {
   gap: 25px;
 }
 
-.special-pages li {
+.document li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
-  border-bottom: 1px solid rgb(0, 0, 0, 0.4);
 }
 
-.special-pages strong {
+.document strong {
   font-weight: 600;
   font-size: 1.3rem;
   color: #2f2f31;
 }
 
-.special-pages a {
-  color: #f73311e3;
-  border-bottom: 1px solid #f73311e3;
+.document a {
+  color: #8200d8e3;
+  border-bottom: 1px solid #8200d8e3;
 }
 
 /**** HEADER ****/
@@ -4076,6 +4078,22 @@ body {
   }
   .WHlsZlZxUksfszG {
     padding: 0;
+  }
+}
+
+.block-text {
+  padding-top: 30px;
+}
+
+@media (max-width: 420px) {
+  .acLOxAiObYCuaBl {
+    grid-template-columns: 1fr;
+  }
+  .OrhfIniSeRCRaFl {
+    align-items: center;
+  }
+  .AUUYcnehcezIbYA {
+    align-items: center;
   }
 }
 
