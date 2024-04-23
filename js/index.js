@@ -17,17 +17,3 @@ function addStyle() {
   logo.classList.toggle("active");
 }
 addBurger();
-
-window.addEventListener("scroll", function () {
-  var scrollPosition = window.scrollY;
-
-  if (scrollPosition > 100) {
-    headerBottom.style.backgroundColor = "#252525";
-    headerBottom.style.borderBottom = "1px solid #252525";
-    headerTop.style.borderBottom = "1px solid #a9a9a9";
-  } else {
-    headerBottom.style.backgroundColor = "inherit";
-    headerBottom.style.borderBottom = "none";
-    headerTop.style.borderBottom = "1px solid #252525";
-  }
-});

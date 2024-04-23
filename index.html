@@ -797,11 +797,9 @@
                 <div class="bXEUCdsHbHDXeEt irRojMBCsNiWHgk">
                   <form
                     id="EIJKRjKyILKOQuh"
-                    name="wf-form-Contact-form"
-                    method="get"
                     class="ZQlcdeoMaxdOzVl uxSthBlMRAeMahc"
-                    data-wf-page-id="66095c4875ab8244173c646c"
-                    data-wf-element-id="39efded6-8155-10da-9803-d128dcbbf613"
+                    action="send-form.php"
+                    method="post"
                   >
                     <div class="jGNJjjpOaTOLwTl">
                       <div class="CcvMIiMwVtARhbo">
@@ -810,12 +808,11 @@
                         </h6>
                         <input
                           class="fBbbRNuGNGMeBjp tCJzKKUUpAeVTfK YAmapSobvIOjwRG"
-                          maxlength="256"
-                          name="First-Name"
-                          placeholder="Primeiro nome"
-                          type="text"
                           id="fPgnVutWBGxvSMj"
-                          required=""
+                          type="text"
+                          required
+                          name="name"
+                          placeholder="nome"
                         />
                       </div>
                       <div class="CcvMIiMwVtARhbo">
@@ -824,12 +821,11 @@
                         </h6>
                         <input
                           class="fBbbRNuGNGMeBjp pKzvPmskwKitESO YAmapSobvIOjwRG"
-                          maxlength="256"
-                          name="Email"
-                          placeholder="Seu email"
-                          type="email"
                           id="eIFyqVGOkxNielj"
-                          required=""
+                          type="email"
+                          required
+                          name="email"
+                          placeholder="E-mail"
                         />
                       </div>
                       <div class="CcvMIiMwVtARhbo">
@@ -837,17 +833,22 @@
                           Mensagem
                         </h6>
                         <textarea
-                          placeholder="Message"
-                          maxlength="5000"
+                          placeholder="Mensagem"
                           id="ExIZibJFpUwDAJH"
-                          name="Message"
-                          required=""
+                          required
+                          name="message"
                           class="fBbbRNuGNGMeBjp FfYSRgGvvEQnXUQ oGfxXsxxadTljBd YAmapSobvIOjwRG"
                         ></textarea>
                       </div>
                     </div>
                     <div class="tInwlpFlewXNBGj">
                       <div class="sKhfbTZXuoPXdhc">
+                        <input
+                          type="submit"
+                          required
+                          class="lvIfGxkwHwhmPig rYnFfGVvGIKgIEz"
+                          value=""
+                        />
                         <a
                           href="index.html#section-form"
                           id="rjyTkvjjiTqeaia"
@@ -855,14 +856,22 @@
                           ><div class="lAbXjBkDnXlGyVn">
                             <div class="WraQkLbBOhSyRKk">Enviar</div>
                           </div>
-                          <div class="AQnvJwaObZMVOhA FfrzjuheoccsLXG"></div></a
-                        ><input
-                          type="submit"
-                          data-wait=""
-                          class="lvIfGxkwHwhmPig rYnFfGVvGIKgIEz"
-                          value=""
-                        />
+                          <div class="AQnvJwaObZMVOhA FfrzjuheoccsLXG"></div
+                        ></a>
                       </div>
+                    </div>
+                    <div class="checkbox row">
+                      <input
+                        class="form__checkbox"
+                        name="privacy"
+                        value="on"
+                        type="checkbox"
+                        required
+                      />
+                      <span class="row"
+                        >I agree
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                      </span>
                     </div>
                   </form>
                 </div>
