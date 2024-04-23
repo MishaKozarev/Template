@@ -793,7 +793,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   margin-top: 0;
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: 500;
   line-height: 1;
 }
@@ -1234,6 +1234,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+textarea {
+  overflow: hidden;
 }
 
 .section-dark {
@@ -1695,12 +1699,12 @@ body {
 }
 
 .checkbox span {
-  color: #0e0339;
+  color: #888;
 }
 
 .checkbox a {
-  color: #0e0339;
-  border-bottom: 1px solid #0e0339;
+  color: #888;
+  border-bottom: 1px solid #888;
 }
 
 .checkbox span {
