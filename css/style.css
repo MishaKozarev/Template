@@ -1783,6 +1783,8 @@ img {
   left: 0%;
   right: 0%;
   background-image: url("../img/pictures/item-10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-pictures-2 {
@@ -1792,6 +1794,8 @@ img {
   left: 0%;
   right: 0%;
   background-image: url("../img/icons/item-11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .MIsvhVIZAVbsCeq {
