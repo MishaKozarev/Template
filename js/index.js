@@ -1,5 +1,6 @@
 const logo = document.querySelector(".header__logo");
-const header = document.querySelector(".header");
+const headerTop = document.querySelector(".header-top");
+const headerBottom = document.querySelector(".header-bottom");
 const links = document.querySelectorAll(".menu__link");
 const nav = document.querySelector(".nav");
 const btn = document.querySelector(".burger__btn");
@@ -21,8 +22,12 @@ window.addEventListener("scroll", function () {
   var scrollPosition = window.scrollY;
 
   if (scrollPosition > 100) {
-    header.style.borderBottom = "1px solid #7147e9";
+    headerBottom.style.backgroundColor = "#252525";
+    headerBottom.style.borderBottom = "1px solid #252525";
+    headerTop.style.borderBottom = "1px solid #a9a9a9";
   } else {
-    header.style.borderBottom = "1px solid #fff";
+    headerBottom.style.backgroundColor = "inherit";
+    headerBottom.style.borderBottom = "none";
+    headerTop.style.borderBottom = "1px solid #252525";
   }
 });
