@@ -286,7 +286,7 @@ a {
 .KazDxsFgUrtncAk:hover {
   color: #000;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 .KazDxsFgUrtncAk.ZyVvKSDpUYIMXsk {
@@ -1716,13 +1716,9 @@ body {
 }
 
 .section-text__container {
-  padding: 100px 20px;
+  padding: 100px 60px;
   max-width: 1280px;
   margin: 0 auto;
-}
-
-.section-text__container li {
-  list-style-type: none;
 }
 
 .form-btn {
@@ -1781,4 +1777,10 @@ body {
 
 .footer__link:hover {
   color: white;
+}
+
+.block-text p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
 }
