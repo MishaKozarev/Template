@@ -379,7 +379,6 @@ img {
 
 .ohJkjaQuAIvMYkP {
   background-color: var(--cod-gray);
-  background-image: url("https://assets-global.website-files.com/66169a745ee0f69fd7a50362/661a7f5e5bb7583ff11f16f1_45%20Line.svg");
   background-position: 100% 0;
   background-repeat: no-repeat;
   justify-content: space-between;
@@ -804,7 +803,6 @@ img {
 
 .qJewkUYabkNWFAL {
   background-color: var(--yellow);
-  background-image: url("https://assets-global.website-files.com/66169a745ee0f69fd7a50362/66200cf126ac5c3c20371c37_CTA%20Bars.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2535,4 +2533,8 @@ body {
     gap: 40px;
     align-items: center;
   }
+}
+
+.color-pixel {
+  color: #fcbf4d;
 }
