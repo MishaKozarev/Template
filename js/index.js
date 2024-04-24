@@ -1,3 +1,4 @@
+const header = document.querySelector(".header");
 const logo = document.querySelector(".header__logo");
 const links = document.querySelectorAll(".menu__link");
 const nav = document.querySelector(".nav");
