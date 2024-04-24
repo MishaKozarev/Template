@@ -686,7 +686,7 @@ ul {
 .rwoZjTBIzhvjgRs.LlKFcEYPueRXkAW {
   background-color: var(--dark--primary);
   color: var(--white--primary);
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .CuGhHPGxIJLPRof {
@@ -1065,7 +1065,7 @@ ul {
 }
 
 .MMpwWqhSdUlrDqq {
-  background-image: url("https://assets-global.website-files.com/660db526d74b77936984395a/660f17242035e0cd547b49c9_calendar-days.svg");
+  background-image: url("../img/icons/icon-4.svg");
   background-position: 0 1px;
   background-repeat: no-repeat;
   background-size: 12px;
@@ -1784,7 +1784,7 @@ ul {
   }
 
   .rwoZjTBIzhvjgRs.LlKFcEYPueRXkAW {
-    padding-top: 40px;
+    padding-top: 140px;
     padding-bottom: 40px;
   }
 
@@ -2406,7 +2406,7 @@ body {
 
 .section-text__container {
   padding: 80px 20px;
-  max-width: 940px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -2527,29 +2527,15 @@ body {
   display: block;
   padding: 0.4em 0.4em 0.4em 2em;
   margin: 0.5em 0;
-  background-color: #222;
+  background-color: #ebe7e6;
   border-radius: 0.3em;
-  color: white;
+  color: black;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.625rem;
 }
 
-.rounded li:before {
-  content: counter(li);
-  counter-increment: li;
-  position: absolute;
-  left: -1.3em;
-  top: 50%;
-  margin-top: -1.3em;
-  color: #222;
-  background: #fcbf4d;
-  height: 2em;
-  width: 2em;
-  line-height: 2em;
-  border: 0.3em solid white;
+.block-text__title {
   text-align: center;
-  font-weight: bold;
-  transition: all 0.3s ease-out;
 }
