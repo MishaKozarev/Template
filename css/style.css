@@ -1235,6 +1235,7 @@ img {
 
 .KvoZtdFKsnnBEFy {
   overflow: hidden;
+  max-height: 0;
 }
 
 .ItijKIsoQgTejka {
@@ -2506,6 +2507,10 @@ body {
   }
   .AUUYcnehcezIbYA {
     align-items: center;
+  }
+
+  .XBKkWplvYPZmEiK {
+    flex-direction: column;
   }
 }
 
