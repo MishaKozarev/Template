@@ -191,7 +191,6 @@ label {
 
 .lcqRKaQFLTmzCjs {
   color: #333;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
   width: 100%;
@@ -256,7 +255,6 @@ textarea.lcqRKaQFLTmzCjs {
   text-align: center;
   clear: both;
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
   background: #ddd;
   height: 300px;
   position: relative;
@@ -288,7 +286,6 @@ textarea.lcqRKaQFLTmzCjs {
   cursor: pointer;
   color: #fff;
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -404,7 +401,6 @@ textarea.lcqRKaQFLTmzCjs {
   float: right;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -4135,12 +4131,12 @@ body {
 }
 
 .checkbox span {
-  color: #0e0339;
+  color: #6e3606;
 }
 
 .checkbox a {
-  color: #0e0339;
-  border-bottom: 1px solid #0e0339;
+  color: #6e3606;
+  border-bottom: 1px solid #6e3606;
 }
 
 .checkbox span {
