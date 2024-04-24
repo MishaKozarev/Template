@@ -1106,6 +1106,7 @@ strong {
 .uBBKjGNWPrnSHVo {
   padding-left: 5rem;
   padding-right: 5rem;
+  padding-top: 5rem;
 }
 
 .crlcbhRzBjiKZrj {
@@ -1493,10 +1494,6 @@ strong {
 
   font-size: 1rem;
   line-height: 1.2;
-}
-
-.YfibaCFnoCTbCPl:hover {
-  text-decoration: underline;
 }
 
 .gTrKRSTACyoygXx {
@@ -3089,7 +3086,6 @@ strong {
     grid-row-gap: 2.1rem;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr;
-    max-width: 22rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4281,4 +4277,16 @@ body {
 
 .block-text__title {
   text-align: center;
+}
+
+@media (max-width: 960px) {
+  .DuMDcqARwLsKkmh {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .DuMDcqARwLsKkmh {
+    grid-template-columns: 1fr;
+  }
 }
