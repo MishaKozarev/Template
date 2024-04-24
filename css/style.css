@@ -1948,7 +1948,7 @@ body {
 
 /**** THANKS-PAGE ****/
 .gratitude {
-  background-color: #101010;
+  background-color: #f5f3f2;
 }
 
 .gratitude__section {
@@ -1975,52 +1975,43 @@ body {
   font-weight: 500;
 }
 
-.gratitude span {
-  color: #fcbf4d;
-}
-
 /**** DOCUMENT ****/
-.document {
-  background-color: #101010;
+.info-page {
+  background-color: #f5f3f2;
 }
 
-.document__container {
+.info-page__container {
   padding: 150px 40px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.document h1 {
+.info-page h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
 }
 
-.document h1 span {
-  color: #fcbf4d;
-}
-
-.document ol {
+.info-page ol {
   gap: 25px;
 }
 
-.document li {
+.info-page li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.document strong {
+.info-page strong {
   font-weight: 600;
   font-size: 1.3rem;
-  color: white;
 }
 
-.document a {
-  color: #fcbf4d;
-  border-bottom: 1px solid #fcbf4d;
+.info-page a {
+  color: #0139f1;
+  border-bottom: 1px solid #0139f1;
 }
 
 /**** HEADER ****/
