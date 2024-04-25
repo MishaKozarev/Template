@@ -2288,8 +2288,8 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
-  background-color: #f5faf6;
-  border-bottom: 1px solid #f5faf6;
+  background-color: #fff8f0;
+  border-bottom: 1px solid #fff8f0;
 }
 
 .header__container {
@@ -2312,7 +2312,7 @@ body {
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 20px 0;
+  padding: 0;
   background-color: inherit;
 }
 
@@ -2366,27 +2366,24 @@ body {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: black;
-  border-bottom: 2px solid #f6f6f6;
+  color: #00313e;
 }
 
 .menu__link:hover {
-  color: #384b38;
-  border-bottom: 2px solid #384b38;
+  color: #f8971f;
 }
 
 .header__btn {
   padding: 10px 16px;
-  border: 1px solid #384b38;
-  background-color: #384b38;
-  color: white;
+  border: 1px solid #00313e;
+  background-color: inherit;
+  color: #00313e;
   transition: 0.4s;
+  border-radius: 20px;
 }
 
 .header__btn:hover {
-  background-color: white;
-  color: #384b38;
-  border: 1px solid #384b38;
+  background-color: #fce9da;
 }
 
 @media (max-width: 930px) {
@@ -2412,10 +2409,10 @@ body {
 
 .burger__btn span {
   display: inline-block;
-  width: 22px;
-  height: 5px;
+  width: 34px;
+  height: 3px;
   border-radius: 4px;
-  background-color: #384b38;
+  background-color: #6e3606;
   transition: 0.4s ease;
 }
 
@@ -2425,9 +2422,9 @@ body {
   position: absolute;
   left: 0;
   width: 34px;
-  height: 5px;
+  height: 3px;
   border-radius: 4px;
-  background-color: #384b38;
+  background-color: #6e3606;
   transition: 0.3s ease;
 }
 
@@ -2445,14 +2442,14 @@ body {
 
 .active::before {
   transform: rotate(-45deg);
-  top: 12px;
-  background-color: white;
+  top: 14px;
+  background-color: #6e3606;
 }
 
 .active::after {
   transform: rotate(45deg);
   bottom: 10px;
-  background-color: white;
+  background-color: #6e3606;
 }
 
 @media (max-width: 740px) {
@@ -2468,7 +2465,6 @@ body {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-
     width: 100%;
     max-height: 600px;
     padding: 100px 70px;
@@ -2481,17 +2477,16 @@ body {
     font-weight: 700;
     border-bottom: none;
     text-decoration: none;
-    color: white;
+    color: #6e3606;
   }
 
   .menu__link:hover {
-    color: rgb(208, 236, 48);
-    border-bottom: none;
+    color: #f8971f;
   }
 
   .nav.active {
     position: absolute;
-    top: 15px;
+    top: 0;
     right: 0;
     transform: translate(-100%, 0);
     width: fit-content;
@@ -2501,12 +2496,14 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #384b38;
+    background-color: #ffdbb2;
     opacity: 0.2;
     transform: translateX(0);
     max-height: 750px;
     opacity: 1;
     font-size: 1.1rem;
+    margin-top: 20px;
+    margin-right: 10px;
     border-radius: 20px;
   }
 }

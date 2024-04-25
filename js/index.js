@@ -3,6 +3,7 @@ const header = document.querySelector(".header");
 const links = document.querySelectorAll(".menu__link");
 const nav = document.querySelector(".nav");
 const btn = document.querySelector(".burger__btn");
+const dropdown = document.querySelectorAll(".HdVXiBnxUBZpCqy");
 
 function addBurger() {
   btn.addEventListener("click", addStyle);
@@ -21,17 +22,23 @@ window.addEventListener("scroll", function () {
   var scrollPosition = window.scrollY;
 
   if (scrollPosition > 100) {
-    header.style.borderBottom = "1px solid #384b38";
+    header.style.borderBottom = "1px solid #00313e";
   } else {
-    header.style.borderBottom = "1px solid #f5faf6";
+    header.style.borderBottom = "1px solid #fff8f0";
   }
 });
 
-const elements = document.querySelectorAll(".yNYjtwRNeAOQLei");
-function handleClick(event) {
-  event.target.classList.toggle("active");
+const toggleDropdown = (element) => {
+  element.currentTarget.classList.toggle("faq__visible");
+  const item = element.currentTarget.nextElementSibling;
+  if (element.currentTarget.classList.contains("faq__visible")) {
+    item.style.maxHeight = "350px";
+  } else {
+    item.style.maxHeight = 0;
+  }
+};
+if (dropdown) {
+  dropdown.forEach((element) => {
+    element.addEventListener("click", toggleDropdown);
+  });
 }
-
-elements.forEach((element) => {
-  element.addEventListener("click", handleClick);
-});
