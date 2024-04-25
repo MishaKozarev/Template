@@ -176,7 +176,6 @@ p {
 
 .aGxCCdpIZJUFbsG {
   color: #333;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
   width: 100%;
@@ -243,7 +242,6 @@ textarea.aGxCCdpIZJUFbsG {
   text-align: center;
   clear: both;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
   background: #ddd;
   height: 300px;
   position: relative;
@@ -274,7 +272,6 @@ textarea.aGxCCdpIZJUFbsG {
   z-index: 2;
   text-align: center;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
   height: 40px;
   margin: auto;
   padding-top: 10px;
