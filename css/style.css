@@ -1561,6 +1561,7 @@ img {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   padding: 0 15px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .XbVTleHYLfsffDq {
@@ -3800,4 +3801,20 @@ body {
 
 .padding-bottom {
   padding-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .ngfranCMosRpAeJ {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .ngfranCMosRpAeJ {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.TeUJDNOXgmoOmWX {
+  max-height: 0;
 }
