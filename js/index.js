@@ -18,17 +18,8 @@ function addStyle() {
 }
 addBurger();
 
-window.addEventListener("scroll", function () {
-  var scrollPosition = window.scrollY;
+const dropdown = document.querySelectorAll(".eAehkFvXTllkYhF ");
 
-  if (scrollPosition > 100) {
-    header.style.borderBottom = "1px solid #6e3606";
-  } else {
-    header.style.borderBottom = "1px solid #f8f4ed";
-  }
-});
-
-const dropdown = document.querySelectorAll(".HdVXiBnxUBZpCqy");
 const toggleDropdown = (element) => {
   element.currentTarget.classList.toggle("faq__visible");
   const item = element.currentTarget.nextElementSibling;
@@ -43,3 +34,16 @@ if (dropdown) {
     element.addEventListener("click", toggleDropdown);
   });
 }
+
+const elements = document.querySelectorAll(".tGCBaiwMYwYxjlB ");
+function handleClick(event) {
+  // elements.forEach((element) => {
+  //   element.classList.remove("active");
+  // });
+
+  event.target.classList.toggle("active");
+}
+
+elements.forEach((element) => {
+  element.addEventListener("click", handleClick);
+});

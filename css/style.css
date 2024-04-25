@@ -984,7 +984,7 @@ ul {
 }
 
 .oBLRvgrSGiUlLqM {
-  grid-row-gap: 140px;
+  grid-row-gap: 40px;
   background-color: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom-right-radius: 20px;
@@ -1342,7 +1342,6 @@ ul {
 
 .eAehkFvXTllkYhF {
   grid-column-gap: 10px;
-  white-space: pre-wrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -1736,7 +1735,7 @@ ul {
   }
 
   .oBLRvgrSGiUlLqM {
-    grid-row-gap: 100px;
+    grid-row-gap: 40px;
     padding: 15px;
   }
 
@@ -2887,4 +2886,20 @@ body {
 
 .whvOFaNYmocHwJw {
   max-height: 0;
+}
+
+.JsoEPgCmchjOUOT {
+  max-height: 0;
+}
+
+.tGCBaiwMYwYxjlB {
+  transform: rotate(-90deg);
+}
+
+.tGCBaiwMYwYxjlB.active {
+  transform: rotate(90deg);
+}
+
+.about-start {
+  padding-top: 180px;
 }
