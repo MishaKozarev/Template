@@ -1,9 +1,9 @@
 const logo = document.querySelector(".header__logo");
-const header = document.querySelector(".header");
+const headerTop = document.querySelector(".header-top");
+const headerBottom = document.querySelector(".header-bottom");
 const links = document.querySelectorAll(".menu__link");
 const nav = document.querySelector(".nav");
 const btn = document.querySelector(".burger__btn");
-const dropdown = document.querySelectorAll(".HdVXiBnxUBZpCqy");
 
 function addBurger() {
   btn.addEventListener("click", addStyle);
@@ -28,6 +28,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
+const dropdown = document.querySelectorAll(".HdVXiBnxUBZpCqy");
 const toggleDropdown = (element) => {
   element.currentTarget.classList.toggle("faq__visible");
   const item = element.currentTarget.nextElementSibling;
