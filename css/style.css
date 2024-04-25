@@ -3169,40 +3169,39 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.special {
-  background-color: #f5f0eb;
+.thanks {
+  background-color: #f5faf6;
 }
 
-.special__section {
+.thanks__section {
   height: 100vh;
 }
 
-.special__container {
+.thanks__container {
   max-width: 800px;
   gap: 20px;
   padding: 75px 30px 0;
 }
 
-.special__title {
+.thanks__title {
   font-size: 4rem;
 }
 
-.special__content {
-  gap: 20px;
+.thanks__content {
   align-items: flex-start;
 }
 
-.special p {
+.thanks p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 /**** DOCUMENT ****/
-.document {
-  background-color: #f5f0eb;
+.info {
+  background-color: #f5faf6;
 }
 
-.document__container {
+.info__container {
   padding: 150px 40px 80px;
   max-width: 800px;
   margin: 0 auto;
@@ -3210,36 +3209,37 @@ body {
   align-items: flex-start;
 }
 
-.document h1 {
+.info h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
 }
 
-.document ol {
+.info ol {
   gap: 20px;
   padding-left: 20px;
 }
 
-.document li {
+.info li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
+  line-height: 20px;
 }
 
-.document strong {
+.info strong {
   font-weight: 600;
   font-size: 1.3rem;
 }
 
-.document a {
+.info a {
   color: #0139f1;
   border-bottom: 1px solid #0139f1;
 }
 
 @media (max-width: 480px) {
-  .document h1 {
+  .info h1 {
     font-size: 2.4rem;
   }
 }
