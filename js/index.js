@@ -27,7 +27,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-const elements = document.querySelectorAll(".tGCBaiwMYwYxjlB ");
+const elements = document.querySelectorAll(".yNYjtwRNeAOQLei");
 function handleClick(event) {
   event.target.classList.toggle("active");
 }
