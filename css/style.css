@@ -2902,7 +2902,13 @@ body {
 
 @media (max-width: 991px) {
   .bldrqtsjkkuCAgx {
-    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bldrqtsjkkuCAgx {
+    margin-top: 80px;
   }
 }
 
