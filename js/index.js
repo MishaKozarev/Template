@@ -1,6 +1,5 @@
 const logo = document.querySelector(".header__logo");
-const headerTop = document.querySelector(".header-top");
-const headerBottom = document.querySelector(".header-bottom");
+const header = document.querySelector(".header");
 const links = document.querySelectorAll(".menu__link");
 const nav = document.querySelector(".nav");
 const btn = document.querySelector(".burger__btn");
@@ -18,29 +17,18 @@ function addStyle() {
 }
 addBurger();
 
-const dropdown = document.querySelectorAll(".eAehkFvXTllkYhF ");
+window.addEventListener("scroll", function () {
+  var scrollPosition = window.scrollY;
 
-const toggleDropdown = (element) => {
-  element.currentTarget.classList.toggle("faq__visible");
-  const item = element.currentTarget.nextElementSibling;
-  if (element.currentTarget.classList.contains("faq__visible")) {
-    item.style.maxHeight = "350px";
+  if (scrollPosition > 100) {
+    header.style.borderBottom = "1px solid #384b38";
   } else {
-    item.style.maxHeight = 0;
+    header.style.borderBottom = "1px solid #f5faf6";
   }
-};
-if (dropdown) {
-  dropdown.forEach((element) => {
-    element.addEventListener("click", toggleDropdown);
-  });
-}
+});
 
 const elements = document.querySelectorAll(".tGCBaiwMYwYxjlB ");
 function handleClick(event) {
-  // elements.forEach((element) => {
-  //   element.classList.remove("active");
-  // });
-
   event.target.classList.toggle("active");
 }
 
