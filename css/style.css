@@ -3635,38 +3635,16 @@ body {
 }
 
 .checkbox span {
-  color: black;
+  color: white;
 }
 
 .checkbox a {
-  color: black;
-  border-bottom: 1px solid black;
+  color: white;
+  border-bottom: 1px solid white;
 }
 
 .checkbox span {
   gap: 5px;
-}
-
-.form-btn {
-  padding: 10px 46px;
-  border-radius: 40px;
-  background-color: #0e0339;
-  color: white;
-  border: 1px solid #0e0339;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-.form-btn:hover {
-  padding: 10px 46px;
-  border-radius: 40px;
-  background-color: white;
-  color: #0e0339;
-  border: 1px solid #0e0339;
-}
-.count {
-  font-size: 2.5rem;
-  color: #0e0339;
 }
 
 .footer__item {
