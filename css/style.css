@@ -2244,69 +2244,71 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.gratitude {
-  background-color: #fce9da;
+.special {
+  background-color: #f5f0eb;
 }
 
-.gratitude__section {
+.special__section {
   height: 100vh;
 }
 
-.gratitude__container {
+.special__container {
   max-width: 800px;
   gap: 20px;
   padding: 75px 30px 0;
 }
 
-.gratitude__title {
+.special__title {
   font-size: 4rem;
 }
 
-.gratitude__content {
+.special__content {
   gap: 20px;
   align-items: flex-start;
 }
 
-.gratitude p {
+.special p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 /**** DOCUMENT ****/
-.info-page {
-  background-color: #f8f4ed;
+.document {
+  background-color: #f5f0eb;
 }
 
-.info-page__container {
-  padding: 150px 40px 40px;
+.document__container {
+  padding: 150px 40px 80px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
+  align-items: flex-start;
 }
 
-.info-page h1 {
+.document h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
 }
 
-.info-page ol {
+.document ol {
   gap: 20px;
+  padding-left: 20px;
 }
 
-.info-page li {
+.document li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.info-page strong {
+.document strong {
   font-weight: 600;
   font-size: 1.3rem;
 }
 
-.info-page a {
+.document a {
   color: #0139f1;
   border-bottom: 1px solid #0139f1;
 }
