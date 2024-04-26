@@ -475,7 +475,7 @@ ul {
   border: 1px solid var(--text-color);
   color: rgba(255, 255, 255, 0);
   background-color: #fff;
-  background-image: url("https://assets-global.website-files.com/66210c462cd447663761beb5/66210c462cd447663761bf6d_Cart%20Icon.svg");
+  background-image: url("../img/icons/icon-5.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 20px;
@@ -1413,6 +1413,7 @@ ul {
 
 .XyNPmBcIYLLCYyk {
   position: relative;
+  padding-top: 50px;
 }
 
 .kTRUzuKKsMGYRqQ {
@@ -1449,7 +1450,7 @@ ul {
 
 .RQiNDKhhTbrFtwP {
   background-color: #131313;
-  background-image: url("https://assets-global.website-files.com/66210c462cd447663761beb5/662126b9c3539fafde6da4c8_Noise.svg");
+  background-image: url("../img/icons/icon-6.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2028,7 +2029,7 @@ ul {
 }
 
 .jCNUWyKwJZLONXe {
-  width: 50%;
+  width: 100%;
 }
 
 .IGDuynAWyTtlXvy {
@@ -3585,4 +3586,12 @@ body {
     flex-direction: column;
     gap: 40px;
   }
+}
+
+.section-top {
+  padding-top: 150px;
+}
+
+.JkWzFvItDjVrNnk {
+  max-height: 0;
 }
