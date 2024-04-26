@@ -297,7 +297,7 @@ h1 {
   margin-bottom: 20px;
 
   color: #0c2424;
-  font-size: 86px;
+  font-size: 60px;
   line-height: 100%;
   font-style: italic;
   font-weight: 500;
@@ -413,7 +413,7 @@ a {
   margin-top: 47px;
   padding: 22px 78px 22px 33px;
   background-color: #fff;
-  background-image: url("https://assets.website-files.com/5fc45de69b588b29e0f8336f/5fc47355e509f35ca7dc3999_Button%20Arrow.svg");
+  background-image: url("../img/icons/icon-7.svg");
   background-position: 83% 50%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -703,7 +703,7 @@ a {
 }
 
 .oHrvhMVzuWjvnEF.dqrGKrvwotfllBq {
-  margin-top: 0px;
+  margin-top: 60px;
   margin-bottom: 0px;
   padding-left: 0px;
 }
@@ -2766,8 +2766,8 @@ a {
   .camGMhLHLSYsngI {
     width: 100%;
     max-width: none;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -3641,6 +3641,7 @@ a {
 
   .oHrvhMVzuWjvnEF.dqrGKrvwotfllBq {
     padding-left: 0px;
+    font-size: 46px;
   }
 
   .RTfDnuaPyTsFPdA {
@@ -4443,7 +4444,7 @@ body {
 }
 
 .menu__link {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   border-bottom: none;
   text-decoration: none;
