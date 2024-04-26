@@ -1,8 +1,8 @@
 const logo = document.querySelector(".header__logo");
-const header = document.querySelector(".header");
 const links = document.querySelectorAll(".menu__link");
 const nav = document.querySelector(".nav");
 const btn = document.querySelector(".burger__btn");
+const dropdown = document.querySelectorAll(".QNOULduJaRLEuXU");
 
 function addBurger() {
   btn.addEventListener("click", addStyle);
@@ -17,17 +17,6 @@ function addStyle() {
 }
 addBurger();
 
-window.addEventListener("scroll", function () {
-  var scrollPosition = window.scrollY;
-
-  if (scrollPosition > 100) {
-    header.style.borderBottom = "1px solid #00313e";
-  } else {
-    header.style.borderBottom = "1px solid #fff8f0";
-  }
-});
-
-const dropdown = document.querySelectorAll(".ownyCoLMsyfTEcs");
 const toggleDropdown = (element) => {
   element.currentTarget.classList.toggle("faq__visible");
   const item = element.currentTarget.nextElementSibling;
