@@ -3056,39 +3056,41 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.gratitude {
-  background-color: #fff8f0;
+.thankfulness {
+  background-color: #000;
 }
 
-.gratitude__section {
+.thankfulness__section {
   height: 100vh;
 }
 
-.gratitude__container {
+.thankfulness__container {
   max-width: 800px;
   gap: 20px;
   padding: 75px 30px 0;
 }
 
-.gratitude__title {
+.thankfulness__title {
   font-size: 4rem;
+  color: white;
 }
 
-.gratitude__content {
+.thankfulness__content {
   align-items: flex-start;
 }
 
-.gratitude p {
+.thankfulness p {
   font-size: 1.3rem;
   font-weight: 500;
+  color: #ccc;
 }
 
 /**** DOCUMENT ****/
-.info {
-  background-color: #fff8f0;
+.special {
+  background-color: #000;
 }
 
-.info__container {
+.special__container {
   padding: 150px 40px 80px;
   max-width: 800px;
   margin: 0 auto;
@@ -3096,36 +3098,41 @@ body {
   align-items: flex-start;
 }
 
-.info h1 {
+.special h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
+  color: #58ce76;
 }
 
-.info ol {
+.special ol {
   gap: 20px;
   padding-left: 20px;
 }
 
-.info li {
+.special li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 20px;
+  color: #ccc;
+  border-bottom: 1px solid rgba(195, 195, 196, 0.3);
+  line-height: 25px;
 }
 
-.info strong {
-  font-weight: 600;
+.special strong {
+  font-weight: 400;
   font-size: 1.3rem;
+  color: white;
 }
 
-.info a {
-  color: #f11d01;
+.special a {
+  color: #58ce76;
 }
 
 @media (max-width: 480px) {
-  .info h1 {
+  .special h1 {
     font-size: 2.4rem;
   }
 }
