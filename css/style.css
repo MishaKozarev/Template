@@ -394,15 +394,9 @@ ul {
 }
 
 .DwSknjxgvyOKqkM {
-  grid-column-gap: 2em;
-  grid-row-gap: 2em;
-  text-align: left;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
+  display: flex;
   justify-content: space-between;
-  margin-bottom: 3em;
-  display: grid;
+  gap: 20px;
 }
 
 .ZXvReKLjbRIdWVp {
@@ -2262,10 +2256,6 @@ ul {
     font-size: 22px;
   }
 
-  .DwSknjxgvyOKqkM {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .gHrCPWTBorqQWYC {
     margin-top: 0;
     margin-bottom: 2em;
@@ -2553,12 +2543,6 @@ ul {
 
   .uRICyLOGEEPfEgC {
     text-align: left;
-  }
-
-  .DwSknjxgvyOKqkM {
-    flex-direction: column;
-    grid-template-columns: 1fr;
-    width: 100%;
   }
 
   .NarSWzFgpWNElKq {
@@ -3726,4 +3710,24 @@ body {
 
 .uoOjOvLHLyqPFfV {
   max-height: 0;
+}
+
+.cOGGDCTBfxpdToD {
+  max-width: 400px;
+}
+
+.footer__link {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.footer__link:hover {
+  color: #58ce76;
+}
+
+@media (max-width: 540px) {
+  .DwSknjxgvyOKqkM {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
