@@ -2203,36 +2203,36 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.thanks {
-  background-color: #f5faf6;
+.gratitude {
+  background-color: #fff8f0;
 }
 
-.thanks__section {
+.gratitude__section {
   height: 100vh;
 }
 
-.thanks__container {
+.gratitude__container {
   max-width: 800px;
   gap: 20px;
   padding: 75px 30px 0;
 }
 
-.thanks__title {
+.gratitude__title {
   font-size: 4rem;
 }
 
-.thanks__content {
+.gratitude__content {
   align-items: flex-start;
 }
 
-.thanks p {
+.gratitude p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 /**** DOCUMENT ****/
 .info {
-  background-color: #f5faf6;
+  background-color: #fff8f0;
 }
 
 .info__container {
@@ -2412,7 +2412,7 @@ body {
   width: 34px;
   height: 3px;
   border-radius: 4px;
-  background-color: #6e3606;
+  background-color: #00313e;
   transition: 0.4s ease;
 }
 
@@ -2424,7 +2424,7 @@ body {
   width: 34px;
   height: 3px;
   border-radius: 4px;
-  background-color: #6e3606;
+  background-color: #00313e;
   transition: 0.3s ease;
 }
 
@@ -2443,13 +2443,13 @@ body {
 .active::before {
   transform: rotate(-45deg);
   top: 14px;
-  background-color: #6e3606;
+  background-color: #fff8f0;
 }
 
 .active::after {
   transform: rotate(45deg);
   bottom: 10px;
-  background-color: #6e3606;
+  background-color: #fff8f0;
 }
 
 @media (max-width: 740px) {
@@ -2477,7 +2477,7 @@ body {
     font-weight: 700;
     border-bottom: none;
     text-decoration: none;
-    color: #6e3606;
+    color: #fff8f0;
   }
 
   .menu__link:hover {
@@ -2489,22 +2489,19 @@ body {
     top: 0;
     right: 0;
     transform: translate(-100%, 0);
-    width: fit-content;
     min-width: 280px;
+    width: fit-content;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #ffdbb2;
+    background-color: #00313e;
     opacity: 0.2;
     transform: translateX(0);
-    max-height: 750px;
     opacity: 1;
     font-size: 1.1rem;
-    margin-top: 20px;
-    margin-right: 10px;
-    border-radius: 20px;
   }
 }
 
@@ -2666,12 +2663,12 @@ body {
 }
 
 .checkbox span {
-  color: white;
+  color: #00313e;
 }
 
 .checkbox a {
-  color: white;
-  border-bottom: 1px solid white;
+  color: #00313e;
+  border-bottom: 1px solid #00313e;
 }
 
 .checkbox span {
@@ -2855,4 +2852,12 @@ body {
 
 .margin-top {
   margin-top: 80px;
+}
+
+.btn-thanks {
+  width: 250px;
+}
+
+.uoOjOvLHLyqPFfV {
+  max-height: 0;
 }
