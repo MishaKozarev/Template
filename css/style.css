@@ -4647,12 +4647,11 @@ body {
 /*TEXT*/
 
 .section-text {
-  background-color: black;
 }
 
 .section-text__container {
-  padding: 80px 20px;
-  max-width: 940px;
+  padding: 80px 40px;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
@@ -4672,34 +4671,14 @@ body {
   display: block;
   padding: 15px 40px;
   margin: 0.5em 0;
-  background-color: black;
   border-radius: 0.3em;
-  color: white;
+  background-color: #ad5555;
   margin-bottom: 0;
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.625rem;
-  border: 1px solid #58ce76;
-  background-color: #161b22;
-}
-
-.rounded li:before {
-  content: counter(li);
-  counter-increment: li;
-  position: absolute;
-  left: -1.3em;
-  top: 50%;
-  margin-top: -1.3em;
-  color: #222;
-  background: #58ce76;
-  height: 2em;
-  width: 2em;
-  line-height: 2em;
-  border: 0.3em solid white;
-  text-align: center;
-  font-weight: bold;
-  transition: all 0.3s ease-out;
-  border-radius: 50%;
+  border: 1px solid black;
+  color: white;
 }
 
 /*CPECIAL*/
