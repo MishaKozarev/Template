@@ -4297,7 +4297,7 @@ body {
 
 .header__info {
   gap: 20px;
-  padding: 20px 30px;
+  padding: 15px 30px;
   border: 1px solid #ad5555;
   background-color: white;
   color: #ad5555;
@@ -4350,7 +4350,7 @@ body {
   cursor: pointer;
   position: relative;
   align-items: center;
-  height: 28px;
+  height: 48px;
 }
 
 .burger__btn:hover {
@@ -4359,8 +4359,8 @@ body {
 
 .burger__btn span {
   display: inline-block;
-  width: 22px;
-  height: 3px;
+  width: 52px;
+  height: 6px;
   border-radius: 4px;
   background-color: white;
   transition: 0.4s ease;
@@ -4371,8 +4371,8 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  width: 34px;
-  height: 3px;
+  width: 52px;
+  height: 6px;
   border-radius: 4px;
   background-color: white;
   transition: 0.3s ease;
@@ -4392,13 +4392,13 @@ body {
 
 .active::before {
   transform: rotate(-45deg);
-  top: 14px;
+  top: 23px;
   background-color: white;
 }
 
 .active::after {
   transform: rotate(45deg);
-  bottom: 11px;
+  bottom: 18px;
   background-color: white;
 }
 
