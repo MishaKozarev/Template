@@ -1586,7 +1586,7 @@
           </div>
         </div>
       </section>
-      <section class="UtdjrSyZQKMOmDb">
+      <section class="UtdjrSyZQKMOmDb" id="section=form">
         <div class="MpnLTomqDvNUmcD">
           <div class="HxKsBbdDWTqKLix">
             <div class="WeobXfVnYqXurfi">
@@ -1609,59 +1609,53 @@
                 <div class="jCNUWyKwJZLONXe gGAzGylWoPQGNEj">
                   <form
                     id="KmtPuCBQdCAFOMn"
-                    name="wf-form-ContactForm"
-                    method="get"
+                    action="send-form.php"
+                    method="post"
                     class="NiGetzqzIpoFgtS"
-                    data-wf-page-id="66210c462cd447663761bf47"
-                    data-wf-element-id="dc32b79b-ac93-bd1a-04a1-d872ee679a1e"
                   >
                     <input
                       class="mTTMZXITetTsMmR RUKRIfLAgGWxcQj"
-                      maxlength="256"
-                      name="FullName"
                       placeholder="Full Name"
                       type="text"
                       id="ZDpnVNOKBPXNbAX"
-                      required=""
+                      required
+                      name="name"
                     /><input
                       class="mTTMZXITetTsMmR RUKRIfLAgGWxcQj"
                       maxlength="256"
-                      name="email"
                       placeholder="biz@email.com"
-                      type="email"
                       id="jBQlOXLhIJdyhvW"
-                      required=""
-                    /><input
-                      class="mTTMZXITetTsMmR RUKRIfLAgGWxcQj"
-                      maxlength="256"
-                      name="Phone"
-                      placeholder="+1 000111222"
-                      type="tel"
-                      id="SNUBercdHgcKhMW"
-                      required=""
-                    /><textarea
+                      type="email"
+                      required
+                      name="email"
+                    />
+                    <textarea
                       id="xNvjbhJLVQytYjH"
-                      name="Message"
-                      maxlength="5000"
+                      name="message"
                       placeholder="Message"
-                      required=""
+                      required
                       class="mTTMZXITetTsMmR ZlKtGfNhFcOSljA RUKRIfLAgGWxcQj"
                     ></textarea
                     ><input
                       type="submit"
-                      data-wait="Please wait..."
                       class="TroGKRutQGejZFu gCpzugcQxajDtjq"
                       value="Submit"
+                      required
                     />
-                  </form>
-                  <div class="VLrDvEyiGzGVCJW zDVCdYgJDGNRVSy" tabindex="-1">
-                    <div>Thank you! Your submission has been received!</div>
-                  </div>
-                  <div class="VRunILMGaBPmRFa YqAuXwAqURprBUj" tabindex="-1">
-                    <div>
-                      Oops! Something went wrong while submitting the form.
+                    <div class="checkbox row">
+                      <input
+                        class="form__checkbox"
+                        name="privacy"
+                        value="on"
+                        type="checkbox"
+                        required
+                      />
+                      <span class="row"
+                        >I agree
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                      </span>
                     </div>
-                  </div>
+                  </form>
                 </div>
               </div>
             </div>
