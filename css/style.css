@@ -539,7 +539,6 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 10px;
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1318,7 +1317,7 @@ figcaption {
   border-radius: 10px;
   background-color: #fff;
   color: #6937ff;
-  font-size: 10px;
+  font-size: 24px;
   line-height: 22px;
   font-weight: 800;
   letter-spacing: 4px;
@@ -1329,7 +1328,7 @@ figcaption {
   margin-bottom: 0px;
   padding: 14px 36px 14px 60px;
   border-bottom: 2px solid #fff;
-  background-image: url("https://assets.website-files.com/5e1409032c28770d78bb9446/5e208b6d29083a04327d2b91_check.svg");
+  background-image: url("../img/icons/icon-ok.svg");
   background-position: 36px 50%;
   background-size: 10px;
   background-repeat: no-repeat;
@@ -1598,7 +1597,6 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 10px;
-  background-color: rgba(19, 11, 44, 0.6);
 }
 
 .hqvDSkhcDzAFFEA {
@@ -2191,4 +2189,41 @@ figcaption {
 
 .textarea-block {
   padding: 20px 0 30px;
+}
+
+.margin-start {
+  margin-top: 200px;
+}
+
+@media (max-width: 991px) {
+  .margin-start {
+    margin-top: 170px;
+  }
+  .block-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 767px) {
+  .margin-start {
+    margin-top: 140px;
+  }
+}
+
+.gjSoFOqBxpHakkr {
+  max-height: 0;
+}
+
+.plus {
+  color: #130b2c;
+  font-size: 3rem;
+}
+
+.anAszuSdzbRgAbS {
+  margin: 0;
+}
+
+.text-width {
+  grid-template-columns: 1fr;
 }
