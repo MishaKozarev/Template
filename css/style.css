@@ -1137,7 +1137,7 @@ strong {
   margin-left: auto;
   margin-right: auto;
   padding-top: 70px;
-  padding-bottom: 180px;
+  padding-bottom: 10px;
   display: flex;
 }
 
@@ -1431,7 +1431,7 @@ strong {
 }
 
 .QjtZwtmEFcnzniS {
-  margin-bottom: 16px;
+  margin-bottom: 5px;
 }
 
 .rtpopzjjsDibdsW {
@@ -3522,4 +3522,20 @@ body {
 /* SECTION_CPECIAL*/
 .tNvxogQmheRoLmT {
   max-height: 0;
+}
+
+.dRTcskDysTPgLoq {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dRTcskDysTPgLoq p {
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .dRTcskDysTPgLoq {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
