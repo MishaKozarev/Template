@@ -1794,14 +1794,15 @@ figcaption {
   .RORZtUPXXBxiEgb {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    gap: 10px;
   }
 
   .CKdDLqPFqoICwbS {
@@ -2171,5 +2172,19 @@ figcaption {
     margin-top: 20px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+}
+
+.eAsuHQjJnjpFWUS {
+  display: flex;
+}
+
+@media (max-width: 380px) {
+  .eAsuHQjJnjpFWUS {
+    flex-direction: column;
+  }
+
+  .eAsuHQjJnjpFWUS span {
+    display: none;
   }
 }
