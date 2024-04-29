@@ -2188,3 +2188,7 @@ figcaption {
     display: none;
   }
 }
+
+.textarea-block {
+  padding: 20px 0 30px;
+}
