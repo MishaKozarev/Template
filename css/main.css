@@ -57,44 +57,32 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.gratitude {
-  background-color: #fff8f0;
-}
-
-.gratitude__section {
-  height: 100vh;
-}
-
-.gratitude__container {
+.thankfulness__container {
   max-width: 800px;
   gap: 20px;
-  padding: 75px 30px 0;
+  padding: 130px 30px 0;
 }
 
-.gratitude__title {
-  font-size: 4rem;
+.thankfulness__title {
+  font-size: 2.6rem;
 }
 
-.gratitude__content {
+.thankfulness__content {
   align-items: flex-start;
 }
 
-.gratitude p {
+.thankfulness p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 /**** DOCUMENT ****/
-.info {
-  background-color: #fff8f0;
-}
-
 .info__container {
-  padding: 150px 40px 80px;
+  padding: 200px 40px 80px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .info h1 {
@@ -104,7 +92,7 @@ body {
 }
 
 .info ol {
-  gap: 20px;
+  gap: 10px;
   padding-left: 20px;
 }
 
@@ -114,11 +102,13 @@ body {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 20px;
+  border-bottom: 1px solid #ceced3;
 }
 
 .info strong {
   font-weight: 600;
   font-size: 1.3rem;
+  color: #221b3b;
 }
 
 .info a {
