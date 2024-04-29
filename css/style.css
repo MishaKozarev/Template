@@ -1560,6 +1560,8 @@ strong {
 .UxVQfzUWJcFnGUS {
   margin-top: 32px;
   display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .WlNgWNVctxxJtdu {
@@ -3507,16 +3509,16 @@ body {
 .checkbox {
   padding: 20px 0;
   gap: 10px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .checkbox span {
-  color: #0e0339;
+  color: #0b252e;
 }
 
 .checkbox a {
-  color: #0e0339;
-  border-bottom: 1px solid #0e0339;
+  color: #0b252e;
+  border-bottom: 1px solid #0b252e;
 }
 
 .checkbox span {
