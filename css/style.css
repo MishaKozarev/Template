@@ -3144,12 +3144,12 @@ body {
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 160px;
+  width: 100px;
   display: flex;
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 20px 0;
+  padding: 15px 0;
   background-color: inherit;
 }
 
@@ -3319,11 +3319,12 @@ body {
     border-bottom: none;
     text-decoration: none;
     color: white;
+    border-bottom: 2px solid #384b38;
   }
 
   .menu__link:hover {
-    color: rgb(208, 236, 48);
-    border-bottom: none;
+    color: white;
+    border-bottom: 2px solid white;
   }
 
   .nav.active {
