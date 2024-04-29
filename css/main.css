@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "Arial";
+  font-family: "Clashdisplay", sans-serif;
   font-weight: 400;
   font-style: normal;
   src: url("../fonts/ClashDisplayRegular.woff") format("woff"),
@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1200px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -58,7 +58,7 @@ body {
 
 /**** THANKS-PAGE ****/
 .gratitude {
-  background-color: #101010;
+  background-color: #fff8f0;
 }
 
 .gratitude__section {
@@ -76,7 +76,6 @@ body {
 }
 
 .gratitude__content {
-  gap: 20px;
   align-items: flex-start;
 }
 
@@ -85,52 +84,51 @@ body {
   font-weight: 500;
 }
 
-.gratitude span {
-  color: #fcbf4d;
-}
-
 /**** DOCUMENT ****/
-.document {
-  background-color: #101010;
+.info {
+  background-color: #fff8f0;
 }
 
-.document__container {
-  padding: 150px 40px 40px;
+.info__container {
+  padding: 150px 40px 80px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
+  align-items: flex-start;
 }
 
-.document h1 {
+.info h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
 }
 
-.document h1 span {
-  color: #fcbf4d;
+.info ol {
+  gap: 20px;
+  padding-left: 20px;
 }
 
-.document ol {
-  gap: 25px;
-}
-
-.document li {
+.info li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
+  line-height: 20px;
 }
 
-.document strong {
+.info strong {
   font-weight: 600;
   font-size: 1.3rem;
-  color: white;
 }
 
-.document a {
-  color: #fcbf4d;
-  border-bottom: 1px solid #fcbf4d;
+.info a {
+  color: #f11d01;
+}
+
+@media (max-width: 480px) {
+  .info h1 {
+    font-size: 2.4rem;
+  }
 }
 
 /**** HEADER ****/
@@ -143,7 +141,7 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
-  background-color: #101010;
+  background-color: #130b2c;
 }
 
 .header__container {
@@ -166,7 +164,7 @@ body {
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 10px 0;
+  padding: 15px 0;
   background-color: inherit;
 }
 
@@ -220,27 +218,24 @@ body {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: white;
-  border-bottom: 2px solid #f6f6f6;
+  color: #666a70;
 }
 
 .menu__link:hover {
-  color: #fcbf4d;
-  border-bottom: 2px solid #fcbf4d;
+  color: #f8971f;
 }
 
 .header__btn {
   padding: 10px 16px;
-  border: 1px solid #fcbf4d;
+  border: 1px solid #00313e;
   background-color: inherit;
-  color: #fcbf4d;
+  color: #00313e;
   transition: 0.4s;
+  border-radius: 20px;
 }
 
 .header__btn:hover {
-  background-color: #fcbf4d;
-  color: black;
-  border: 1px solid #fcbf4d;
+  background-color: #fce9da;
 }
 
 @media (max-width: 930px) {
@@ -266,10 +261,10 @@ body {
 
 .burger__btn span {
   display: inline-block;
-  width: 22px;
-  height: 5px;
+  width: 34px;
+  height: 3px;
   border-radius: 4px;
-  background-color: #fcbf4d;
+  background-color: #00313e;
   transition: 0.4s ease;
 }
 
@@ -279,9 +274,9 @@ body {
   position: absolute;
   left: 0;
   width: 34px;
-  height: 5px;
+  height: 3px;
   border-radius: 4px;
-  background-color: #fcbf4d;
+  background-color: #00313e;
   transition: 0.3s ease;
 }
 
@@ -299,23 +294,20 @@ body {
 
 .active::before {
   transform: rotate(-45deg);
-  top: 12px;
-  background-color: white;
+  top: 14px;
+  background-color: #fff8f0;
 }
 
 .active::after {
   transform: rotate(45deg);
   bottom: 10px;
-  background-color: white;
+  background-color: #fff8f0;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 740px) {
   .header__info {
     display: none;
   }
-}
-
-@media (max-width: 600px) {
   .burger__btn {
     display: flex;
   }
@@ -325,7 +317,6 @@ body {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-
     width: 100%;
     max-height: 600px;
     padding: 100px 70px;
@@ -338,11 +329,11 @@ body {
     font-weight: 700;
     border-bottom: none;
     text-decoration: none;
+    color: #fff8f0;
   }
 
   .menu__link:hover {
-    color: #fcbf4d;
-    border-bottom: none;
+    color: #f8971f;
   }
 
   .nav.active {
@@ -350,20 +341,19 @@ body {
     top: 0;
     right: 0;
     transform: translate(-100%, 0);
+    min-width: 280px;
     width: fit-content;
-    min-width: 320px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #101010;
+    background-color: #00313e;
     opacity: 0.2;
     transform: translateX(0);
-    max-height: 750px;
     opacity: 1;
     font-size: 1.1rem;
-    border: 1px solid #fcbf4d;
   }
 }
 
