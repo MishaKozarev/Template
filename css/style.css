@@ -437,7 +437,7 @@ blockquote {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .abFHoJXjalEsEpc {
@@ -445,9 +445,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
+  padding: 30px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -716,7 +714,7 @@ blockquote {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  background-image: url("https://assets.website-files.com/62fc518634dda79617c4a5a6/62fdf5015a962601f949e8c4_Group%20172.jpg");
+  background-image: url("../img/icons/bg.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1668,4 +1666,39 @@ blockquote {
     padding-right: 15px;
     padding-left: 15px;
   }
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+.info-link {
+  color: #ca2b20;
+  border-bottom: 2px solid white;
+  transition: 0.5s;
+}
+
+.info-link:hover {
+  color: #ca2b20;
+  border-bottom: 2px solid #ca2b20;
+}
+
+@media (max-width: 720px) {
+  .WjAJuZbgnHYFhwU {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 430px) {
+  .info-block-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pxZYoMXXXRNINar span {
+    display: none;
+  }
+}
+
+.tWRsctmHiEHVBwK {
+  max-height: 0;
 }
