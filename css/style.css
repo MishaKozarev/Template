@@ -3040,7 +3040,7 @@ body {
 
 /**** THANKS-PAGE ****/
 .gratitude {
-  background-color: #101010;
+  background-color: #f9fafb;
 }
 
 .gratitude__section {
@@ -3055,6 +3055,7 @@ body {
 
 .gratitude__title {
   font-size: 4rem;
+  color: #0b252e;
 }
 
 .gratitude__content {
@@ -3065,15 +3066,16 @@ body {
 .gratitude p {
   font-size: 1.3rem;
   font-weight: 500;
+  color: #0b252e;
 }
 
 .gratitude span {
-  color: #fcbf4d;
+  color: #47cd70;
 }
 
 /**** DOCUMENT ****/
 .document {
-  background-color: #101010;
+  background-color: #f9fafb;
 }
 
 .document__container {
@@ -3087,10 +3089,11 @@ body {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
+  color: #0b252e;
 }
 
 .document h1 span {
-  color: #fcbf4d;
+  color: #47cd70;
 }
 
 .document ol {
@@ -3102,17 +3105,18 @@ body {
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
+  color: #0b252e;
 }
 
 .document strong {
   font-weight: 600;
   font-size: 1.3rem;
-  color: white;
+  color: #0b252e;
 }
 
 .document a {
-  color: #fcbf4d;
-  border-bottom: 1px solid #fcbf4d;
+  color: #47cd70;
+  border-bottom: 1px solid #47cd70;
 }
 
 /**** HEADER ****/
