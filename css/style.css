@@ -528,7 +528,7 @@ figure {
 .riXOuPEShAIGxwA {
   margin-top: 0;
   margin-bottom: 0;
-
+  text-align: center;
   font-size: 60px;
   font-weight: 400;
   line-height: 1.2em;
@@ -619,7 +619,7 @@ figure {
   flex-direction: column;
   flex: none;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   display: flex;
 }
 
@@ -3174,5 +3174,15 @@ figure {
     grid-column-gap: 60px;
     grid-row-gap: 40px;
     flex-wrap: wrap;
+  }
+}
+
+.margin-top {
+  margin-top: 40px;
+}
+
+@media (max-width: 991px) {
+  .margin-top {
+    margin-top: 0;
   }
 }
