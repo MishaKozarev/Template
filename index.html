@@ -16,12 +16,47 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body class="cnDVQJdXZeMnHla">
+    <header class="header">
+      <div class="header__container column">
+        <div class="header-bottom">
+          <div class="header-bottom__container container row">
+            <div class="header__info row">
+              <a
+                class="footer__link"
+                target="_blank"
+                href="https://maps.app.goo.gl/rV42TsFoR2GkWhGn6"
+              >
+                <img src="img/icons/icon-address.png" alt="icon"
+              /></a>
+              <a class="footer__link" href="mailto:tranquilhaven@gmail.com"
+                ><p>tranquilhaven@gmail.com</p>
+                <img src="img/icons/icon-email.png" alt="icon"
+              /></a>
+              <a class="footer__link" href="915467890035"
+                ><img src="img/icons/icon-phone.png" alt="icon"
+              /></a>
+            </div>
+            <a class="header__logo" href="index.html">
+              <img src="img/logo.png" alt="logo" />
+            </a>
+            <nav class="nav">
+              <a class="menu__link" href="index.html">Home </a>
+              <a class="menu__link" href="about.html">About us </a>
+              <a class="menu__link" href="index.html#section-form">Contacts</a>
+            </nav>
+            <div class="burger__btn">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <main>
       <div class="kVSHuqghkBkQDvO">
         <div
           class="QXAeZmpXNJqrXUi KBinpOCTshXYprY CTCxrbqSeQGAxpu fbFrwsVPOjfXYuU IwMBGLsFCbZjdhs"
         >
-          <div class="WeGOprXFLZVOrxL"></div>
           <div class="ynyFXIIlhtXSZyv WsWEiSbEITzAEYT">
             <div class="rFUkUpXIShiGuBd">
               <h1 class="PFQYIIJurxecPvl">So close,<br />so peaceful</h1>
@@ -976,56 +1011,53 @@
             </div>
             <div class="KptCIZglctsjrnS">
               <div class="NJiOLUOfsQIZlfi">
-                <form id="fqulsshwaBeoFbK" name="email-form" method="get">
+                <form id="fqulsshwaBeoFbK" action="send-form.php" method="post">
                   <label for="name">Name</label
                   ><input
                     type="text"
                     class="nIEJrQyzPVhONej ZuuvAoYxzRzXAOi"
-                    maxlength="256"
                     name="name"
-                    placeholder="Jon Doe"
+                    placeholder="Your name*"
+                    required
                     id="MJVTJPWQwotqOIt"
                   /><label for="email">Email Address</label
                   ><input
                     type="email"
                     class="nIEJrQyzPVhONej ZuuvAoYxzRzXAOi"
-                    maxlength="256"
                     name="email"
-                    placeholder="contact@hotely.webflow.io"
+                    placeholder="example@gmail.com*"
                     id="IqLxeqgXTpBwFrv"
-                    required=""
-                  /><label for="Phone">Phone</label
-                  ><input
-                    type="tel"
-                    class="nIEJrQyzPVhONej ZuuvAoYxzRzXAOi"
-                    maxlength="256"
-                    name="Phone"
-                    placeholder="800 435 7463"
-                    id="YDqHllMrYfFJTuQ"
-                    required=""
-                  /><label for="Phone-2">Message</label
+                    required
+                  />
+
+                  <label for="Phone-2">Message</label
                   ><textarea
-                    placeholder="Example Message"
-                    maxlength="5000"
+                    placeholder="Example Message*"
                     id="HOxNMPvdMKXbmlL"
-                    name="field"
+                    name="message"
+                    required
                     class="nIEJrQyzPVhONej yFhkMKWIDieKZPM ZuuvAoYxzRzXAOi"
                   ></textarea
                   ><input
                     type="submit"
                     value="Book"
-                    data-wait="Please wait..."
+                    required
                     class="woKgSQLMudHDkNq TBPTVcTqBZBhqFf aIfIgCzrGDJbBpA"
                   />
-                </form>
-                <div class="PNIRcZRxJkSRqFu tFSuTKpoQQdyVtm" tabindex="-1">
-                  <div>Thank you! Your submission has been received!</div>
-                </div>
-                <div class="jAQKuFgryeMMzpa mSupffiGIrJevdc" tabindex="-1">
-                  <div>
-                    Oops! Something went wrong while submitting the form.
+                  <div class="checkbox row">
+                    <input
+                      class="form__checkbox"
+                      name="privacy"
+                      value="on"
+                      type="checkbox"
+                      required
+                    />
+                    <span class="row"
+                      >I agree
+                      <a href="privacy-policy.html">Privacy Policy</a>
+                    </span>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
           </div>
@@ -1045,14 +1077,16 @@
                   </div>
                   <div class="KptCIZglctsjrnS">
                     <h3>Hotely</h3>
-                    <p>548 Market St, San Francisco, <br />CA 94104-5401</p>
+                    <p>Mumbai, Maharashtra<br />400070, India</p>
                     <h3>For Reservations please call</h3>
-                    <a href="#" class="pxbVFTGAMVEVHvQ">800 435 7463</a>
+                    <a href="tel:+915467890035" class="pxbVFTGAMVEVHvQ"
+                      >+91 (546) 7890035</a
+                    >
                   </div>
                 </div>
                 <div class="rFUkUpXIShiGuBd">
                   <a
-                    href="/book"
+                    href="index.html#section-form"
                     class="woKgSQLMudHDkNq heIamTzRgYhdPji aIfIgCzrGDJbBpA"
                     >RESERVATIONS</a
                   >
@@ -1075,37 +1109,50 @@
       <div class="ynyFXIIlhtXSZyv">
         <div class="kJpjzegZHnOnGvo">
           <div class="VfBmKFtSYnygWls">
-            <a href="#" class="FsXsRfFjQHHcwqz ZmMYRMMLYIDkPJX"
+            <a href="index.html" class="FsXsRfFjQHHcwqz ZmMYRMMLYIDkPJX"
               ><img
-                src="https://assets.website-files.com/5e6fa3fee53be89cfb4fb9b1/5e74de3e9194e2bfde9fc080_Hotely%20(1).png"
-                alt=""
+                src="img/logo.png"
+                width="200px"
+                height="65px"
+                alt="img"
                 class="hNdAhPLBflfufAI"
             /></a>
           </div>
-          <div class="pLxwBvqwbGHKaKM">
-            <div class="KqtJMOyJOqVhYKL">
-              <div class="kaaBPmwJqGWqgsP">
-                <p>
-                  Hotely Resort &amp; Spa<br />548 Market St, <br />San
-                  Francisco, <br />CA 94104-5401
-                </p>
-              </div>
+          <div class="rFwwnLqDrGCCAza">
+            <div class="KptCIZglctsjrnS">
+              <ul class="LIspdEUlsyhTOZj">
+                <li>
+                  <a href="mailto:tranquilhaven@gmail.com" class="footer__link"
+                    >tranquilhaven@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://maps.app.goo.gl/rV42TsFoR2GkWhGn6"
+                    class="footer__link"
+                    >Mumbai, Maharashtra 400070, India</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+915467890035" class="footer__link"
+                    >+91 (546) 7890035</a
+                  >
+                </li>
+              </ul>
             </div>
-            <div class="rFwwnLqDrGCCAza">
-              <div class="KptCIZglctsjrnS">
-                <ul class="LIspdEUlsyhTOZj">
-                  <li>
-                    <a href="/contact" class="wNSpAdDVEAVOarW">Contact us</a>
-                  </li>
-                  <li>
-                    <a href="/restaurant" class="wNSpAdDVEAVOarW">Restaurant</a
-                    ><a href="/weddings" class="wNSpAdDVEAVOarW">Weddings</a
-                    ><a href="/spa-wellness" class="wNSpAdDVEAVOarW"
-                      >Spa &amp; Wellness</a
-                    >
-                  </li>
-                </ul>
-              </div>
+          </div>
+          <div class="rFwwnLqDrGCCAza">
+            <div class="KptCIZglctsjrnS">
+              <ul class="LIspdEUlsyhTOZj">
+                <li>
+                  <a href="/contact" class="wNSpAdDVEAVOarW">Contact us</a>
+                </li>
+                <li>
+                  <a href="/restaurant" class="wNSpAdDVEAVOarW">Restaurant</a
+                  ><a href="/weddings" class="wNSpAdDVEAVOarW">Weddings</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
