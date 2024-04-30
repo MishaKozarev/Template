@@ -3186,3 +3186,31 @@ figure {
     margin-top: 0;
   }
 }
+
+.section-text__container {
+  padding: 80px 40px;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.section-text__container li {
+  list-style-type: none;
+}
+
+.rounded {
+  counter-reset: li;
+  list-style: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.rounded li {
+  position: relative;
+  display: block;
+  margin: 0.5em 0;
+  border-radius: 0.3em;
+  color: #383838;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.9em;
+}
