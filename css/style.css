@@ -56,9 +56,6 @@ table {
   border-spacing: 0;
 }
 
-/* ==========================================================================
-   Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
-   ========================================================================== */
 .efxFpzfnqcYsVUb:before {
   content: "\e600";
 }
@@ -1566,5 +1563,17 @@ label {
 
   .benkrWckGpxfbKB {
     min-height: 200px;
+  }
+}
+
+.info-footer-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 640px) {
+  .info-footer-block {
+    flex-direction: column;
+    gap: 10px;
   }
 }
