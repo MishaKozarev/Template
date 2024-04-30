@@ -167,12 +167,12 @@ body {
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 160px;
+  width: 120px;
   display: flex;
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 0;
+  padding: 15px 0;
   background-color: inherit;
 }
 
@@ -230,7 +230,7 @@ body {
 }
 
 .menu__link:hover {
-  color: #f8971f;
+  color: #c9a969;
 }
 
 .header__btn {
@@ -239,11 +239,12 @@ body {
   background-color: inherit;
   color: #6e3606;
   transition: 0.4s;
-  border-radius: 20px;
 }
 
 .header__btn:hover {
-  background-color: #fce9da;
+  background-color: #c9a969;
+  color: white;
+  border: 1px solid #c9a969;
 }
 
 @media (max-width: 930px) {
@@ -337,11 +338,11 @@ body {
     font-weight: 700;
     border-bottom: none;
     text-decoration: none;
-    color: #6e3606;
+    color: white;
   }
 
   .menu__link:hover {
-    color: #f8971f;
+    color: #6e3606;
   }
 
   .nav.active {
@@ -356,15 +357,14 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #ffdbb2;
+    background-color: #c9a969;
     opacity: 0.2;
     transform: translateX(0);
     max-height: 750px;
     opacity: 1;
     font-size: 1.1rem;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 10px;
-    border-radius: 20px;
   }
 }
 
