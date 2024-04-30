@@ -1067,7 +1067,7 @@ li {
 .kqGcXqtYmRNSjHo {
   width: 100%;
   max-width: 742px;
-  justify-content: space-between;
+  justify-content: flex-end;
   display: flex;
 }
 
@@ -2326,4 +2326,8 @@ li {
 }
 a {
   text-decoration: none;
+}
+
+.margin-top {
+  margin-top: 100px;
 }
