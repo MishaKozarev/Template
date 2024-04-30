@@ -148,8 +148,8 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
-  background-color: #455d58;
-  border-bottom: 1px solid #455d58;
+  background-color: #f8f4ed;
+  border-bottom: 1px solid #f8f4ed;
 }
 
 .header__container {
@@ -172,7 +172,7 @@ body {
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 10px 0;
+  padding: 0;
   background-color: inherit;
 }
 
@@ -226,14 +226,24 @@ body {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: #faf7f2;
-  border-bottom: 2px solid #455d58;
-  text-decoration: none;
+  color: #6e3606;
 }
 
 .menu__link:hover {
-  color: #faf7f2;
-  border-bottom: 2px solid #faf7f2;
+  color: #f8971f;
+}
+
+.header__btn {
+  padding: 10px 16px;
+  border: 1px solid #6e3606;
+  background-color: inherit;
+  color: #6e3606;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.header__btn:hover {
+  background-color: #fce9da;
 }
 
 @media (max-width: 930px) {
@@ -259,10 +269,10 @@ body {
 
 .burger__btn span {
   display: inline-block;
-  width: 22px;
+  width: 34px;
   height: 3px;
   border-radius: 4px;
-  background-color: #faf7f2;
+  background-color: #6e3606;
   transition: 0.4s ease;
 }
 
@@ -274,7 +284,7 @@ body {
   width: 34px;
   height: 3px;
   border-radius: 4px;
-  background-color: #faf7f2;
+  background-color: #6e3606;
   transition: 0.3s ease;
 }
 
@@ -293,13 +303,13 @@ body {
 .active::before {
   transform: rotate(-45deg);
   top: 14px;
-  background-color: #455d58;
+  background-color: #6e3606;
 }
 
 .active::after {
   transform: rotate(45deg);
-  bottom: 11px;
-  background-color: #455d58;
+  bottom: 10px;
+  background-color: #6e3606;
 }
 
 @media (max-width: 740px) {
@@ -327,13 +337,11 @@ body {
     font-weight: 700;
     border-bottom: none;
     text-decoration: none;
-    border-bottom: 2px solid #f1f6f4;
-    color: #455d58;
+    color: #6e3606;
   }
 
   .menu__link:hover {
-    color: #455d58;
-    border-bottom: 2px solid #455d58;
+    color: #f8971f;
   }
 
   .nav.active {
@@ -341,19 +349,22 @@ body {
     top: 0;
     right: 0;
     transform: translate(-100%, 0);
-    min-width: 320px;
+    width: fit-content;
+    min-width: 280px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #f1f6f4;
-    border: 1px solid #455d58;
+    background-color: #ffdbb2;
     opacity: 0.2;
     transform: translateX(0);
     max-height: 750px;
     opacity: 1;
     font-size: 1.1rem;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
   }
 }
 
