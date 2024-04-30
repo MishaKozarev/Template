@@ -1,9 +1,4 @@
 @import "../css/main.css";
-/* Generated on: Mon Oct 17 2022 14:51:19 GMT+0000 (Coordinated Universal Time) */
-/* ==========================================================================
-   normalize.SOJjtZGLUuDtHJk v3.bXFaUkPnctLSBSU.FUsdATZpGnVLuyJ | MIT License | github.TLlBSvpfeBGSEuH/necolas/normalize.SOJjtZGLUuDtHJk 
-   ========================================================================== */
-/*! normalize.SOJjtZGLUuDtHJk v3.bXFaUkPnctLSBSU.FUsdATZpGnVLuyJ | MIT License | github.TLlBSvpfeBGSEuH/necolas/normalize.SOJjtZGLUuDtHJk */
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -185,7 +180,6 @@ label {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  vertical-align: middle;
   background-color: #ffffff;
   border: 1px solid #cccccc;
 }
@@ -216,7 +210,6 @@ textarea.ZuuvAoYxzRzXAOi {
   background: #dddddd;
   clear: both;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .OEpMgXzovtPVhRk {
   position: relative;
@@ -249,7 +242,6 @@ textarea.ZuuvAoYxzRzXAOi {
   height: 40px;
   text-align: center;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .zXDkuutBYUpwKAc.qgBqpfgSOGcoubq > div {
   border-radius: 100%;
@@ -288,7 +280,6 @@ textarea.ZuuvAoYxzRzXAOi {
   color: white;
   font-size: 40px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1178,9 +1169,6 @@ label {
   -ms-flex: 1;
   flex: 1;
   line-height: 19px;
-}
-
-.cnDVQJdXZeMnHla {
 }
 
 .iBNXoRpDhZcyHfl {
