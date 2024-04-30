@@ -2957,12 +2957,6 @@ figure {
     min-width: 220px;
   }
 
-  .vTkrMfMzXhCBBQF {
-    grid-column-gap: 60px;
-    grid-row-gap: 40px;
-    flex-wrap: wrap;
-  }
-
   .MGPompcGTdoBZKt {
     height: 400px;
   }
@@ -3173,4 +3167,12 @@ figure {
 
 .gratitude-btn {
   width: 200px;
+}
+
+@media (max-width: 991px) {
+  .vTkrMfMzXhCBBQF {
+    grid-column-gap: 60px;
+    grid-row-gap: 40px;
+    flex-wrap: wrap;
+  }
 }

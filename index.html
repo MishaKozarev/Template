@@ -18,6 +18,56 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body class="JDrMDwISHyRsblx">
+    <header class="header">
+      <div class="header__container column">
+        <div class="header-top row">
+          <div class="header-top__container container row">
+            <div class="header__block-menu row">
+              <div class="header__block-item row">
+                <img src="img/icons/icon-email.png" alt="icon" />
+                <a class="footer__link" href="mailto:insightanalytica@gmail.com"
+                  >insightanalytica@gmail.com</a
+                >
+              </div>
+
+              <div class="header__block-item row">
+                <img src="img/icons/icon-phone.png" alt="icon" />
+                <a class="footer__link" href="tel:+915467065554"
+                  >+ 91 (546) 7065554</a
+                >
+              </div>
+
+              <div class="header__block-item row">
+                <img src="img/icons/icon-address.png" alt="icon" />
+                <a
+                  class="footer__link"
+                  target="_blank"
+                  href="https://maps.app.goo.gl/Vjh8fUwBbebxMzkY8"
+                >
+                  Bhadra, Ahmedabad, Gujarat 380001, India</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="header-bottom__container container row">
+            <a class="header__logo" href="index.html">
+              <img src="img/logo.png" alt="logo" />
+            </a>
+            <nav class="nav">
+              <a class="menu__link" href="index.html">Home</a>
+              <a class="menu__link" href="about.html">About us</a>
+              <a class="menu__link" href="index.html#section-form">Contacts</a>
+            </nav>
+
+            <div class="burger__btn">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <main>
       <section id="zWaRshiaXCzUwNJ" class="PaCpMlAagBWLmvY">
         <div class="ucjzWemESLfUEPL tLdShklFBOUVral">
@@ -2265,8 +2315,8 @@
               <div class="khwmEwrJXmkwuFF">
                 <p class="UYdnXckcOSqyjOA idCcYdlWRxjpyRu">
                   Dont like Filling up forms ? Mail us then
-                  <a href="mailto:example@mail.com" class="dZIfGJIsjUxFgwG"
-                    >Example@mail.com</a
+                  <a href="mailto:insightanalytica" class="dZIfGJIsjUxFgwG"
+                    >insightanalytica</a
                   >
                 </p>
               </div>
@@ -2274,79 +2324,80 @@
                 <form
                   id="yjVUXNiFoWqhoPW"
                   name="wf-form-Home-Page-Contact-Form"
-                  method="get"
                   class="DPvIopHVMekkQIx"
-                  data-wf-page-id="62d564959d641a74cf38ccca"
-                  data-wf-element-id="cee92b15-2722-34aa-b6fe-f7b6d531f3f3"
+                  action="send-form.php"
+                  method="post"
                 >
                   <div class="YMNWDmoPYbyBEtU TTxarjMKttjVmZX">
                     <input
                       class="rQNIxkCCizgfgio lJTKVWhCjFdpEdO jMsrdQAnUKIoZhf AIgLqNuLgNkXaKW"
-                      maxlength="256"
-                      name="Name-2"
+                      name="name"
                       placeholder="Name"
                       type="text"
                       id="MRCaFtOhcnffhuW"
-                      required=""
+                      required
                     /><input
                       class="rQNIxkCCizgfgio lJTKVWhCjFdpEdO rNNufHmyOeVtVPN AIgLqNuLgNkXaKW"
-                      maxlength="256"
-                      name="Phone-Number-2"
-                      placeholder="Phone Number"
-                      type="tel"
-                      id="mMtbVjiZrAnpKeM"
-                      required=""
-                    />
-                  </div>
-                  <div class="YMNWDmoPYbyBEtU">
-                    <input
-                      class="rQNIxkCCizgfgio jMsrdQAnUKIoZhf AIgLqNuLgNkXaKW"
-                      maxlength="256"
-                      name="Email-2"
+                      name="email"
                       placeholder="Email"
                       type="email"
-                      id="gMgkmltCbaYrHyB"
+                      id="mMtbVjiZrAnpKeM"
+                      required
                     />
                   </div>
-                  <select
-                    id="MtZDkxFXbdmPSOD"
-                    name="field-2"
-                    class="rQNIxkCCizgfgio zqIjfRQDcNnBNql"
-                  >
-                    <option value="">Service Looking For?</option>
-                    <option value="First">First choice</option>
-                    <option value="Second">Second choice</option>
-                    <option value="Third">Third choice</option>
-                  </select>
                   <div class="YMNWDmoPYbyBEtU">
                     <textarea
                       placeholder="Message"
-                      maxlength="5000"
+                      required
                       id="pnXyBXUMemYCtRc"
-                      name="Message-2"
+                      name="message"
                       class="vaJzXdwMZvehsOa AIgLqNuLgNkXaKW"
                     ></textarea>
                   </div>
                   <div class="SwYLfUrNAMWuvVt">
                     <input
                       type="submit"
-                      data-wait="Please wait..."
+                      required
                       class="KfMTVlulaPdsCfn QBljxMXUTGUYRtX"
-                      value="Get a Call Back"
+                      value="Submit"
                     />
                   </div>
-                </form>
-                <div class="nFAYqToIpHCBFRy" tabindex="-1">
-                  <div>Thank you! Your submission has been received!</div>
-                </div>
-                <div class="veeMQCKSNUTlwwi" tabindex="-1">
-                  <div>
-                    Oops! Something went wrong while submitting the form.
+                  <div class="checkbox row">
+                    <input
+                      class="form__checkbox"
+                      name="privacy"
+                      value="on"
+                      type="checkbox"
+                      required
+                    />
+                    <span class="row"
+                      >I agree
+                      <a href="privacy-policy.html">Privacy Policy</a>
+                    </span>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
             <div class="vTkrMfMzXhCBBQF">
+              <div class="QPZLQZEmBpLubkb">
+                <img
+                  src="https://assets.website-files.com/62d564959d641af74838ccc9/62dd452df9ac897952e1e592_Message.svg"
+                  alt=""
+                  class="zAaHLmeajaoriVK"
+                />
+                <div class="oomPQNVzYPOxMao">
+                  <div class="gjKZblbvKhcnGmh">
+                    <h4 class="EQMOdVyOKwezUhS olbBfKkqEZvJDGM">Email</h4>
+                  </div>
+                  <a
+                    href="mailto:insightanalytica@gmail.com"
+                    class="zxxbvYymQVaCzbZ moIjAgnRkuyJZRN"
+                    ><div class="QenkfCaEWDslTQf idCcYdlWRxjpyRu">
+                      insightanalytica@gmail.com
+                    </div></a
+                  >
+                </div>
+              </div>
               <div class="QPZLQZEmBpLubkb">
                 <img
                   src="https://assets.website-files.com/62d564959d641af74838ccc9/62dd44d9a3dc2c6e578e1c25_Phone%20Ringing%2002.svg"
@@ -2360,16 +2411,10 @@
                     </h4>
                   </div>
                   <a
-                    href="tel:1800-123-1234"
+                    href="tel:915467065554"
                     class="zxxbvYymQVaCzbZ moIjAgnRkuyJZRN"
                     ><div class="QenkfCaEWDslTQf idCcYdlWRxjpyRu">
-                      Enquiry: &nbsp;1800-123-1234
-                    </div></a
-                  ><a
-                    href="tel:+16221233000"
-                    class="zxxbvYymQVaCzbZ moIjAgnRkuyJZRN"
-                    ><div class="QenkfCaEWDslTQf idCcYdlWRxjpyRu">
-                      Appointment: &nbsp;+1 622 123 3000
+                      Office: &nbsp;+ 91 (546) 7065554
                     </div></a
                   >
                 </div>
@@ -2382,21 +2427,14 @@
                 />
                 <div class="oomPQNVzYPOxMao">
                   <div class="gjKZblbvKhcnGmh">
-                    <h4 class="EQMOdVyOKwezUhS olbBfKkqEZvJDGM">
-                      Email address
-                    </h4>
+                    <h4 class="EQMOdVyOKwezUhS olbBfKkqEZvJDGM">Address</h4>
                   </div>
                   <a
-                    href="mailto:example@mail.com"
+                    target="_blank"
+                    href="https://maps.app.goo.gl/Vjh8fUwBbebxMzkY8"
                     class="zxxbvYymQVaCzbZ moIjAgnRkuyJZRN"
                     ><div class="QenkfCaEWDslTQf idCcYdlWRxjpyRu">
-                      example@mail.com
-                    </div></a
-                  ><a
-                    href="mailto:information@mail.com"
-                    class="zxxbvYymQVaCzbZ moIjAgnRkuyJZRN"
-                    ><div class="QenkfCaEWDslTQf idCcYdlWRxjpyRu">
-                      information@mail.com
+                      Bhadra, Ahmedabad, Gujarat 380001, India
                     </div></a
                   >
                 </div>
@@ -2430,7 +2468,8 @@
                     ><div class="QenkfCaEWDslTQf idCcYdlWRxjpyRu">
                       Why SEO?
                     </div></a
-                  ><a
+                  >
+                  <a
                     href="https://seofy-template.webflow.io/#Sevices"
                     class="FiNdAKpVtvqBQcO moIjAgnRkuyJZRN"
                     ><div class="QenkfCaEWDslTQf idCcYdlWRxjpyRu">
@@ -2488,26 +2527,7 @@
                   </div>
                 </div>
               </div>
-              <div class="VotwQoNwUGMSoOt">
-                <div class="EEdrvlgcrKkwtVN">
-                  <div class="EQMOdVyOKwezUhS ZNQhPKUUFrLMmFg">Expertise</div>
-                </div>
-                <div class="ArtQbaFTRVBioSP">
-                  <a href="/service" class="FiNdAKpVtvqBQcO moIjAgnRkuyJZRN"
-                    ><div class="QenkfCaEWDslTQf idCcYdlWRxjpyRu">
-                      SEO Consulting
-                    </div></a
-                  ><a href="/service" class="FiNdAKpVtvqBQcO moIjAgnRkuyJZRN"
-                    ><div class="QenkfCaEWDslTQf idCcYdlWRxjpyRu">
-                      Paid Marketing
-                    </div></a
-                  ><a href="/service" class="FiNdAKpVtvqBQcO moIjAgnRkuyJZRN"
-                    ><div class="QenkfCaEWDslTQf idCcYdlWRxjpyRu">
-                      Keyword &nbsp;Ranking
-                    </div></a
-                  >
-                </div>
-              </div>
+
               <div class="VotwQoNwUGMSoOt">
                 <div class="EEdrvlgcrKkwtVN">
                   <div class="EQMOdVyOKwezUhS ZNQhPKUUFrLMmFg">Contact</div>
@@ -2515,19 +2535,19 @@
                 <div class="ArtQbaFTRVBioSP">
                   <div class="fIwKgQrjNyGpBje">
                     <a
-                      href="tel:(229)555-0109"
+                      href="tel:915467065554"
                       class="BWykWbNLFDIGTEC moIjAgnRkuyJZRN"
                       ><img
                         src="https://assets.website-files.com/62d564959d641af74838ccc9/62dd484f920df34fa7f166ef_filled%20phone.svg"
                         alt=""
                         class="bqtzWecHmmrsJAE"
                       />
-                      <div>(229) 555-0109</div></a
+                      <div>+ 91 (546) 7065554</div></a
                     >
                   </div>
                   <div class="fIwKgQrjNyGpBje">
                     <a
-                      href="https://seofy-template.webflow.io/#Contact"
+                      href="index.html#section-form"
                       class="WsOMLnrcJPnVOpN EfFEVhQnSBjMZTc QBljxMXUTGUYRtX"
                       >Enquire Now</a
                     >
@@ -2560,5 +2580,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>
