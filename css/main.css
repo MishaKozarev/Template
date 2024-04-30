@@ -57,7 +57,15 @@ body {
 }
 
 /**** THANKS-PAGE ****/
+<<<<<<< HEAD
+.gratitude {
+  background-color: #f7fdff;
+}
+
+.gratitude__section {
+=======
 .thanks__section {
+>>>>>>> main
   height: 100vh;
 }
 
@@ -81,40 +89,66 @@ body {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
+.gratitude span {
+  color: #16a571;
+}
+
+/**** DOCUMENT ****/
+.information {
+  background-color: #f7fdff;
+}
+
+.information__container {
+=======
 /**** DOCUMENT ****/
 .document__container {
+>>>>>>> main
   padding: 150px 40px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.document h1 {
+.information h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
+<<<<<<< HEAD
+  color: #101010;
+}
+
+.information ol {
+=======
   border-bottom: 5px solid #e3655b;
 }
 
 .document ol {
+>>>>>>> main
   gap: 25px;
 }
 
-.document li {
+.information li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.document strong {
+.information strong {
   font-weight: 600;
   font-size: 1.3rem;
 }
 
+<<<<<<< HEAD
+.information a {
+  color: #16a571;
+  border-bottom: 1px solid #16a571;
+=======
 .document a {
   color: #e3655b;
   border-bottom: 1px solid #e3655b;
+>>>>>>> main
 }
 
 /**** HEADER ****/
@@ -127,20 +161,60 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
+<<<<<<< HEAD
+=======
   background-color: white;
   border-bottom: 1px solid white;
+>>>>>>> main
 }
 
 .header__container {
   height: 100%;
 }
 
+.header-top {
+  width: 100%;
+  height: fit-content;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #164343;
+  border-bottom: 1px solid #a9a9a9;
+}
+
 .header-bottom {
   width: 100%;
+  height: 60%;
+  background-color: #164343;
 }
 
 .header-bottom__container {
   justify-content: space-between;
+}
+
+.header-top__container {
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.header__block-menu {
+  gap: 20px;
+}
+
+.header__block-item {
+  gap: 6px;
+}
+
+.header__block-item a {
+  color: rgb(222, 222, 222);
+}
+
+.header__block-item a:hover {
+  color: white;
+}
+
+.header__block-item img {
+  width: 20px;
+  height: 20px;
 }
 
 /*HEADER_MAIN*/
@@ -151,7 +225,7 @@ body {
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 10px 0;
+  padding: 15px 0;
   background-color: inherit;
 }
 
@@ -176,6 +250,8 @@ body {
   width: 40px;
 }
 
+<<<<<<< HEAD
+=======
 .header__info {
   gap: 20px;
 }
@@ -193,6 +269,7 @@ body {
   transform: scale(1.2);
 }
 
+>>>>>>> main
 .nav {
   display: flex;
   align-items: center;
@@ -209,6 +286,13 @@ body {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
+<<<<<<< HEAD
+  color: rgb(222, 222, 222);
+}
+
+.menu__link:hover {
+  color: white;
+=======
   color: black;
 }
 
@@ -235,6 +319,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
   }
+>>>>>>> main
 }
 
 /**** BURGER ****/
@@ -253,10 +338,17 @@ body {
 
 .burger__btn span {
   display: inline-block;
+<<<<<<< HEAD
+  width: 28px;
+  height: 3px;
+  border-radius: 4px;
+  background-color: rgb(222, 222, 222);
+=======
   width: 34px;
   height: 3px;
   border-radius: 4px;
   background-color: #e3655b;
+>>>>>>> main
   transition: 0.4s ease;
 }
 
@@ -268,7 +360,11 @@ body {
   width: 34px;
   height: 3px;
   border-radius: 4px;
+<<<<<<< HEAD
+  background-color: rgb(222, 222, 222);
+=======
   background-color: #e3655b;
+>>>>>>> main
   transition: 0.3s ease;
 }
 
@@ -296,10 +392,18 @@ body {
   background-color: white;
 }
 
+<<<<<<< HEAD
+@media (max-width: 760px) {
+  .header-top {
+    display: none;
+  }
+
+=======
 @media (max-width: 740px) {
   .header__info {
     display: none;
   }
+>>>>>>> main
   .burger__btn {
     display: flex;
   }
@@ -309,36 +413,67 @@ body {
     justify-content: center;
     flex-direction: column;
     position: absolute;
+<<<<<<< HEAD
+    top: 0;
+    right: -100px;
+=======
     width: 100%;
+>>>>>>> main
     padding: 100px 70px;
-    transform: translateY(-100%);
+    transition: right 0.3s ease;
     opacity: 0;
+    display: none;
+    transition: 0.5s;
   }
 
   .menu__link {
+    color: rgb(222, 222, 222);
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 600;
     border-bottom: none;
     text-decoration: none;
     color: white;
   }
 
   .menu__link:hover {
+<<<<<<< HEAD
+    color: white;
+    border-bottom: none;
+=======
     color: yellow;
+>>>>>>> main
   }
 
   .nav.active {
     position: absolute;
     top: 0;
     right: 0;
+<<<<<<< HEAD
+    width: 320px;
+    height: 100vh;
+=======
     transform: translate(-100%, 0);
     width: fit-content;
     min-width: 280px;
+>>>>>>> main
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+<<<<<<< HEAD
+    background-color: #164343;
+    opacity: 1;
+    animation: slideIn 0.5s ease-in-out;
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+=======
     background-color: #e3655b;
     opacity: 0.2;
     transform: translateX(0);
@@ -346,6 +481,7 @@ body {
     font-size: 1.1rem;
     border-radius: 4px;
     height: 100vh;
+>>>>>>> main
   }
 }
 
@@ -355,6 +491,13 @@ body {
   }
 }
 
+<<<<<<< HEAD
+.header__block-item p {
+  display: none;
+}
+
+=======
+>>>>>>> main
 /* SECTION_FORM*/
 
 .checkbox {
@@ -364,12 +507,21 @@ body {
 }
 
 .checkbox span {
+<<<<<<< HEAD
+  color: #383838;
+}
+
+.checkbox a {
+  color: #383838;
+  border-bottom: 1px solid #383838;
+=======
   color: black;
 }
 
 .checkbox a {
   color: black;
   border-bottom: 1px solid black;
+>>>>>>> main
 }
 
 .checkbox span {
