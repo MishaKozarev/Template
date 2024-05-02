@@ -3480,3 +3480,36 @@ a {
 .ssvePIwoDaivLxb {
   max-height: 0;
 }
+
+.section-text__container {
+  padding: 0 20px 40px;
+  max-width: 1209px;
+  margin: 0 auto;
+}
+
+.block-text h2 {
+  padding-left: 30px;
+}
+
+.section-text__container li {
+  list-style-type: none;
+}
+
+.rounded {
+  counter-reset: li;
+  list-style: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  padding: 0;
+}
+
+.rounded li {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.4em 0.4em 2em;
+  margin: 0.5em 0;
+  border-radius: 0.3em;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.625rem;
+}
