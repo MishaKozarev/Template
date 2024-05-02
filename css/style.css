@@ -1065,7 +1065,6 @@ blockquote {
 
   .bAhTPYLnmcDgvfN.SnHGegjusNqSzLG {
     font-size: 88px;
-    left: -10%;
   }
 
   .wvlWIwEbXlPiCRS {
@@ -1190,12 +1189,6 @@ blockquote {
 
   .KMbdzDiAKMYkYdM {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .SfoypjeLSDEXGFr {
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    grid-template-columns: 2fr;
   }
 
   .EBzkaTaGgTtHtBZ {
@@ -1367,7 +1360,7 @@ blockquote {
 
 @media screen and (max-width: 479px) {
   h1 {
-    font-size: 60px;
+    font-size: 58px;
   }
 
   h2 {
@@ -1546,4 +1539,68 @@ a {
 
 .ijpVhsOGXbnjIty {
   max-height: 0;
+}
+
+/*TEXT*/
+
+.section-text {
+  background-color: yellow;
+}
+
+.section-text__container {
+  padding: 80px 20px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.section-text__container li {
+  list-style-type: none;
+}
+
+.rounded {
+  counter-reset: li;
+  list-style: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  padding: 20px 30px 0;
+}
+
+.rounded li {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.4em 0.4em 2em;
+  margin: 0.5em 0;
+  border-radius: 0.3em;
+  color: black;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.625rem;
+  border: 2px solid black;
+}
+
+.rounded li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  color: #222;
+  background: yellow;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: 0.3em solid black;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+  border-radius: 50%;
+}
+
+@media (max-width: 1060px) {
+  .SfoypjeLSDEXGFr {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 2fr;
+  }
 }
