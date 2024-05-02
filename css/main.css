@@ -55,7 +55,7 @@ body {
 /**** THANKS-PAGE ****/
 .thanks__section {
   height: 100vh;
-  background-color: #fffda9;
+  background-color: #f1f6f6;
 }
 
 .thanks__container {
@@ -77,44 +77,51 @@ body {
   font-size: 1.3rem;
   font-weight: 500;
   color: black;
+  margin: 0;
 }
 
 /**** DOCUMENT ****/
-.info__container {
-  padding: 200px 40px 140px;
+.document {
+  background-color: #f1f6f6;
+}
+
+.document__container {
+  padding: 100px 40px 140px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
-.info h1 {
+.document h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
   position: relative;
+  margin: 0;
 }
 
-.info ol {
+.document ol {
   gap: 10px;
 }
 
-.info li {
+.document li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
   color: black;
+  border-bottom: 1px solid rgb(168, 166, 166);
 }
 
-.info strong {
+.document strong {
   font-weight: 600;
   font-size: 1.3rem;
   color: black;
 }
 
-.info a {
-  color: red;
-  border-bottom: 1px solid red;
+.document a {
+  color: #f4253e;
+  border-bottom: 1px solid #f4253e;
   text-decoration: none;
 }
 
