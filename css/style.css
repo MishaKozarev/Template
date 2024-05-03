@@ -512,7 +512,8 @@ blockquote {
 
 .pdEjuibQRqbTMOM {
   height: 100vh;
-  background-image: url("../img/pictures/home-0.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/pictures/home-0.jpeg");
   background-position: 50%;
   background-size: cover;
   align-items: flex-end;
