@@ -1201,6 +1201,7 @@ strong {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  gap: 20px;
 }
 
 .KxyIuAMMUEuYqJI {
@@ -1778,4 +1779,8 @@ strong {
     -ms-flex-align: start;
     align-items: flex-start;
   }
+}
+
+.nGMGgZIJqpGYhmP {
+  max-height: 0;
 }

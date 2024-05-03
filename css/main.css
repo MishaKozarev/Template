@@ -22,7 +22,7 @@ body {
 
 .container {
   max-width: 1240px;
-  padding: 0 20px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 
@@ -150,8 +150,7 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
-  background-color: yellow;
-  border-bottom: 3px solid black;
+  background-color: #0c2445;
 }
 
 .header__container {
@@ -169,12 +168,12 @@ body {
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 100px;
+  width: 140px;
   display: flex;
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 10px 0;
+  padding: 15px 0;
   background-color: inherit;
 }
 
@@ -212,10 +211,6 @@ body {
   height: 30px;
 }
 
-.header__info img:hover {
-  transform: scale(1.2);
-}
-
 .nav {
   display: flex;
   align-items: center;
@@ -229,32 +224,13 @@ body {
   display: block;
   position: relative;
   transition: 0.2s ease;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  text-transform: uppercase;
-  color: black;
-  border-bottom: 2px solid yellow;
-  transition: 0.5s;
+  color: #f2f7fc;
 }
 
 .menu__link:hover {
-  color: black;
-  border-bottom: 2px solid black;
-}
-
-.header__btn {
-  padding: 10px 16px;
-  border: 3px solid black;
-  background-color: white;
-  color: black;
-  transition: 0.4s;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.header__btn:hover {
-  background-color: yellow;
-  color: black;
+  color: #ffc2c0;
 }
 
 @media (max-width: 930px) {
@@ -272,6 +248,7 @@ body {
   position: relative;
   align-items: center;
   height: 28px;
+  width: 40px;
 }
 
 .burger__btn:hover {
@@ -281,9 +258,9 @@ body {
 .burger__btn span {
   display: inline-block;
   width: 34px;
-  height: 3px;
+  height: 5px;
   border-radius: 4px;
-  background-color: black;
+  background-color: #ffc2c0;
   transition: 0.4s ease;
 }
 
@@ -293,9 +270,9 @@ body {
   position: absolute;
   left: 0;
   width: 34px;
-  height: 3px;
+  height: 5px;
   border-radius: 4px;
-  background-color: black;
+  background-color: #ffc2c0;
   transition: 0.3s ease;
 }
 
@@ -313,14 +290,14 @@ body {
 
 .active::before {
   transform: rotate(-45deg);
-  top: 14px;
-  background-color: black;
+  top: 12px;
+  background-color: #0c2445;
 }
 
 .active::after {
   transform: rotate(45deg);
   bottom: 10px;
-  background-color: black;
+  background-color: #0c2445;
 }
 
 @media (max-width: 740px) {
@@ -337,6 +314,7 @@ body {
     flex-direction: column;
     position: absolute;
     width: 100%;
+    max-height: 600px;
     padding: 100px 70px;
     transform: translateY(-100%);
     opacity: 0;
@@ -347,20 +325,20 @@ body {
     font-weight: 700;
     border-bottom: none;
     text-decoration: none;
-    color: black;
-    border-bottom: 2px solid yellow;
-    transition: 0.4s;
+    color: #0c2445;
+    border-bottom: 3px solid #ffc2c0;
+    transition: 0.5s;
   }
 
   .menu__link:hover {
-    color: black;
-    border-bottom: 2px solid black;
+    color: #0c2445;
+    border-bottom: 3px solid #0c2445;
   }
 
   .nav.active {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 15px;
+    right: 10px;
     transform: translate(-100%, 0);
     width: fit-content;
     min-width: 280px;
@@ -369,14 +347,13 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: yellow;
+    background-color: #ffc2c0;
     opacity: 0.2;
     transform: translateX(0);
+    max-height: 750px;
     opacity: 1;
     font-size: 1.1rem;
-    border-radius: 4px;
-    height: 100vh;
-    border: 3px solid black;
+    border-radius: 20px;
   }
 }
 
