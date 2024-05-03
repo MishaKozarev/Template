@@ -1813,3 +1813,9 @@ strong {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 991px) {
+  .YTHPlefITLzSyOs {
+    display: none;
+  }
+}
