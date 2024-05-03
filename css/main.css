@@ -129,14 +129,9 @@ body {
   justify-content: flex-start;
 }
 
-.checkbox span {
-  color: #455d58;
-}
-
 .checkbox a {
-  color: #455d58;
-  border-bottom: 1px solid #455d58;
   text-decoration: none;
+  color: #ffc2c0;
 }
 
 .checkbox span {

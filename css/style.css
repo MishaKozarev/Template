@@ -59,9 +59,6 @@ textarea {
   overflow: auto;
 }
 
-/* ==========================================================================
-   Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
-   ========================================================================== */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -188,7 +185,6 @@ label {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  vertical-align: middle;
   background-color: #ffffff;
   border: 1px solid #cccccc;
 }
@@ -567,6 +563,7 @@ strong {
 
 .FUQpuxIcKExDnSn {
   max-width: 800px;
+  margin: 0 auto;
 }
 
 .oSuAEsESoyemRFw {
@@ -758,20 +755,15 @@ strong {
 }
 
 .JdseknrETShJMOs {
-  display: -ms-grid;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
+  display: flex;
+  gap: 20px;
 }
 
 .JdseknrETShJMOs.frlTKAlSsliVRYF {
   padding-top: 40px;
   padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .hUFuAukhkicZQja {
@@ -1781,6 +1773,43 @@ strong {
   }
 }
 
+/*ADDED*/
+
 .nGMGgZIJqpGYhmP {
   max-height: 0;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.form__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .qaMMAkBoBTEmRmE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .JdseknrETShJMOs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .JdseknrETShJMOs.frlTKAlSsliVRYF {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.dhQlhOpklWuqUAf {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
