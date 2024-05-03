@@ -258,6 +258,7 @@ body {
   position: relative;
   align-items: center;
   height: 28px;
+  width: 40px;
 }
 
 .burger__btn:hover {
@@ -309,7 +310,7 @@ body {
   background-color: white;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 800px) {
   .header__info {
     display: none;
   }
