@@ -53,28 +53,28 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.thankfulness__section {
+.thanks__section {
   height: 100vh;
   background-color: #ecf0ef;
 }
 
-.thankfulness__container {
+.thanks__container {
   max-width: 800px;
   padding: 75px 30px 0;
   gap: 20px;
 }
 
-.thankfulness__title {
+.thanks__title {
   font-size: 4rem;
   line-height: 50px;
 }
 
-.thankfulness__content {
+.thanks__content {
   gap: 20px;
   align-items: flex-start;
 }
 
-.thankfulness p {
+.thanks p {
   font-size: 1.3rem;
   font-weight: 500;
 }
