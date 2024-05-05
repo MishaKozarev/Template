@@ -1273,10 +1273,6 @@ ol {
   background-color: #fff;
 }
 
-.mFAyzjJUSBeAXFu h5 {
-  margin-bottom: 24px;
-}
-
 .mFAyzjJUSBeAXFu ul {
   margin-bottom: 60px;
   color: #4a4a4a;
@@ -1303,7 +1299,7 @@ ol {
 .mFAyzjJUSBeAXFu h6 {
   margin-bottom: 16px;
   padding-left: 40px;
-  background-image: url("https://assets.website-files.com/63244178103d395f30581e5a/63383ccc1badd96536ccbdc1_Black%20Check%20Arrow.svg");
+  background-image: url("../img/icons/icon-17.svg");
   background-position: 0% 50%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -2371,4 +2367,12 @@ ol {
 
 .bYURqBrfphXhRqK {
   max-height: 0;
+}
+
+.vFDydxBjYNwZHSS p {
+  padding-bottom: 20px;
+}
+
+.section-top {
+  margin-bottom: 70px;
 }
