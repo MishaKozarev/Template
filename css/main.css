@@ -144,30 +144,66 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
-  background-color: #0c2445;
 }
 
 .header__container {
   height: 100%;
 }
 
+.header-top {
+  width: 100%;
+  height: fit-content;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #072622;
+  border-bottom: 1px solid #a9a9a9;
+}
+
 .header-bottom {
   width: 100%;
+  height: 60%;
+  background-color: #072622;
 }
 
 .header-bottom__container {
   justify-content: space-between;
 }
 
+.header-top__container {
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.header__block-menu {
+  gap: 20px;
+}
+
+.header__block-item {
+  gap: 6px;
+}
+
+.header__block-item a {
+  color: rgb(222, 222, 222);
+}
+
+.header__block-item a:hover {
+  color: white;
+}
+
+.header__block-item img {
+  width: 20px;
+  height: 20px;
+}
+
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 140px;
+  width: 100px;
   display: flex;
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 15px 0;
+  padding: 10px 0;
   background-color: inherit;
 }
 
@@ -192,19 +228,6 @@ body {
   width: 40px;
 }
 
-.header__info {
-  gap: 20px;
-}
-
-.header__info p {
-  display: none;
-}
-
-.header__info img {
-  width: 30px;
-  height: 30px;
-}
-
 .nav {
   display: flex;
   align-items: center;
@@ -218,20 +241,14 @@ body {
   display: block;
   position: relative;
   transition: 0.2s ease;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
-  color: #f2f7fc;
+  text-transform: uppercase;
+  color: rgb(222, 222, 222);
 }
 
 .menu__link:hover {
-  color: #ffc2c0;
-}
-
-@media (max-width: 930px) {
-  .header__block-menu {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  color: white;
 }
 
 /**** BURGER ****/
@@ -242,7 +259,6 @@ body {
   position: relative;
   align-items: center;
   height: 28px;
-  width: 40px;
 }
 
 .burger__btn:hover {
@@ -251,10 +267,10 @@ body {
 
 .burger__btn span {
   display: inline-block;
-  width: 34px;
-  height: 5px;
+  width: 28px;
+  height: 3px;
   border-radius: 4px;
-  background-color: #ffc2c0;
+  background-color: rgb(222, 222, 222);
   transition: 0.4s ease;
 }
 
@@ -264,9 +280,9 @@ body {
   position: absolute;
   left: 0;
   width: 34px;
-  height: 5px;
+  height: 3px;
   border-radius: 4px;
-  background-color: #ffc2c0;
+  background-color: rgb(222, 222, 222);
   transition: 0.3s ease;
 }
 
@@ -284,20 +300,21 @@ body {
 
 .active::before {
   transform: rotate(-45deg);
-  top: 12px;
-  background-color: #0c2445;
+  top: 14px;
+  background-color: white;
 }
 
 .active::after {
   transform: rotate(45deg);
   bottom: 10px;
-  background-color: #0c2445;
+  background-color: white;
 }
 
-@media (max-width: 740px) {
-  .header__info {
+@media (max-width: 720px) {
+  .header-top {
     display: none;
   }
+
   .burger__btn {
     display: flex;
   }
@@ -307,47 +324,50 @@ body {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    width: 100%;
-    max-height: 600px;
+    top: 0;
+    right: -100px;
     padding: 100px 70px;
-    transform: translateY(-100%);
+    transition: right 0.3s ease;
     opacity: 0;
-  }
-
-  .menu__link {
-    font-size: 1.2rem;
-    font-weight: 700;
-    border-bottom: none;
-    text-decoration: none;
-    color: #0c2445;
-    border-bottom: 3px solid #ffc2c0;
+    display: none;
     transition: 0.5s;
   }
 
+  .menu__link {
+    color: rgb(222, 222, 222);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-bottom: none;
+    text-decoration: none;
+  }
+
   .menu__link:hover {
-    color: #0c2445;
-    border-bottom: 3px solid #0c2445;
+    color: white;
+    border-bottom: none;
   }
 
   .nav.active {
     position: absolute;
-    top: 15px;
-    right: 10px;
-    transform: translate(-100%, 0);
-    width: fit-content;
-    min-width: 280px;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #ffc2c0;
-    opacity: 0.2;
-    transform: translateX(0);
-    max-height: 750px;
+    background-color: #2c3a3a;
     opacity: 1;
-    font-size: 1.1rem;
-    border-radius: 20px;
+    animation: slideIn 0.5s ease-in-out;
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
@@ -355,4 +375,8 @@ body {
   .header__phone {
     display: none;
   }
+}
+
+.header__block-item p {
+  display: none;
 }
