@@ -2361,10 +2361,6 @@ ol {
   }
 }
 
-.margin-top {
-  margin-top: 50px;
-}
-
 .bYURqBrfphXhRqK {
   max-height: 0;
 }
@@ -2375,4 +2371,20 @@ ol {
 
 .section-top {
   margin-bottom: 70px;
+}
+
+.margin-top {
+  padding-top: 50px;
+}
+
+@media (max-width: 991px) {
+  .margin-top {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 720px) {
+  .margin-top {
+    padding-top: 50px;
+  }
 }
