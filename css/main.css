@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "Arial";
+  font-family: "Clashdisplay", sans-serif;
   font-weight: 400;
   font-style: normal;
   src: url("../fonts/Arial.woff") format("woff"),
@@ -21,8 +21,13 @@ body {
 }
 
 .container {
+<<<<<<< HEAD
+  max-width: 1200px;
+  padding: 0 20px;
+=======
   max-width: 1240px;
   padding: 0 30px;
+>>>>>>> main
   margin: 0 auto;
 }
 
@@ -53,13 +58,26 @@ body {
 }
 
 /**** THANKS-PAGE ****/
+<<<<<<< HEAD
+.thankfulness {
+  background-color: #f3b77b;
+=======
 .gratitude__section {
+>>>>>>> main
   height: 100vh;
   background-color: #f4f4f4;
 }
 
-.gratitude__container {
+.thankfulness__container {
   max-width: 800px;
+<<<<<<< HEAD
+  gap: 20px;
+  padding: 130px 30px 0;
+}
+
+.thankfulness__title {
+  font-size: 2.6rem;
+=======
   padding: 75px 30px 0;
   gap: 20px;
 }
@@ -67,18 +85,45 @@ body {
 .gratitude__title {
   font-size: 4rem;
   line-height: 50px;
+>>>>>>> main
 }
 
-.gratitude__content {
-  gap: 20px;
+.thankfulness__content {
   align-items: flex-start;
 }
 
-.gratitude p {
+.thankfulness p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
+<<<<<<< HEAD
+.thankfulness__btn {
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-color: #f3b77b;
+  color: black;
+  border: 1px solid #f3b77b;
+  transition: 0.5s;
+}
+
+.thankfulness__btn:hover {
+  background-color: inherit;
+  color: black;
+  border: 1px solid black;
+}
+
+/**** DOCUMENT ****/
+.info__container {
+  padding: 150px 40px 80px;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 20px;
+  align-items: center;
+}
+
+.info h1 {
+=======
 /**** DOCUMENT ****/
 .special {
   background-color: #f4f4f4;
@@ -91,12 +136,43 @@ body {
 }
 
 .special h1 {
+>>>>>>> main
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
   position: relative;
 }
 
+<<<<<<< HEAD
+.info ol {
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.info li {
+  padding: 0 0 5px 0;
+  align-self: flex-start;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 25px;
+  border-bottom: 1px solid #ceced3;
+}
+
+.info strong {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #393939;
+}
+
+.info a {
+  color: #f11d01;
+}
+
+@media (max-width: 480px) {
+  .info h1 {
+    font-size: 2.4rem;
+  }
+=======
 .special ol {
   gap: 10px;
 }
@@ -135,6 +211,7 @@ body {
 
 .checkbox span {
   gap: 5px;
+>>>>>>> main
 }
 
 /**** HEADER ****/
@@ -147,7 +224,11 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
+<<<<<<< HEAD
+  background-color: #ff7948;
+=======
   background-color: black;
+>>>>>>> main
 }
 
 .header__container {
@@ -165,7 +246,7 @@ body {
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 160px;
+  width: 100px;
   display: flex;
   gap: 15px;
   align-items: center;
@@ -224,12 +305,20 @@ body {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
+<<<<<<< HEAD
+  color: #eef1f7;
+=======
   color: #faf7f2;
+>>>>>>> main
   text-decoration: none;
 }
 
 .menu__link:hover {
+<<<<<<< HEAD
+  color: white;
+=======
   color: #e84945;
+>>>>>>> main
 }
 
 @media (max-width: 930px) {
@@ -256,10 +345,17 @@ body {
 
 .burger__btn span {
   display: inline-block;
+<<<<<<< HEAD
+  width: 34px;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #eef1f7;
+=======
   width: 22px;
   height: 3px;
   border-radius: 4px;
   background-color: white;
+>>>>>>> main
   transition: 0.4s ease;
 }
 
@@ -271,7 +367,11 @@ body {
   width: 34px;
   height: 3px;
   border-radius: 4px;
+<<<<<<< HEAD
+  background-color: #eef1f7;
+=======
   background-color: white;
+>>>>>>> main
   transition: 0.3s ease;
 }
 
@@ -283,10 +383,13 @@ body {
   bottom: 0;
 }
 
-.active span {
-  transform: scale(0);
+.active.burger__btn {
+  transform: rotate(90deg);
 }
 
+<<<<<<< HEAD
+@media (max-width: 740px) {
+=======
 .active::before {
   transform: rotate(-45deg);
   top: 14px;
@@ -300,6 +403,7 @@ body {
 }
 
 @media (max-width: 800px) {
+>>>>>>> main
   .header__info {
     display: none;
   }
@@ -323,11 +427,19 @@ body {
     font-weight: 700;
     border-bottom: none;
     text-decoration: none;
+<<<<<<< HEAD
+    color: #eef1f7;
+  }
+
+  .menu__link:hover {
+    color: white;
+=======
     color: white;
   }
 
   .menu__link:hover {
     color: #e84945;
+>>>>>>> main
   }
 
   .nav.active {
@@ -335,22 +447,35 @@ body {
     top: 0;
     right: 0;
     transform: translate(-100%, 0);
+<<<<<<< HEAD
+    min-width: 280px;
+    width: 100%;
+    height: 100vh;
+=======
     width: fit-content;
     height: 100vh;
     min-width: 320px;
+>>>>>>> main
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+<<<<<<< HEAD
+    background-color: #ff7948;
+=======
     background-color: black;
+>>>>>>> main
     opacity: 0.2;
     transform: translateX(0);
     opacity: 1;
     font-size: 1.1rem;
+<<<<<<< HEAD
+=======
     border: 1px solid #e84945;
     border-radius: 15px;
     margin: 10px 10px 0 0;
+>>>>>>> main
   }
 }
 
@@ -359,3 +484,23 @@ body {
     display: none;
   }
 }
+<<<<<<< HEAD
+
+/* SECTION_FORM*/
+
+.checkbox {
+  padding: 20px 0;
+  gap: 10px;
+  justify-content: flex-start;
+  font-size: 1rem;
+}
+
+.checkbox a {
+  text-decoration: none;
+}
+
+.checkbox span {
+  gap: 5px;
+}
+=======
+>>>>>>> main
