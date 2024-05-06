@@ -1,5 +1,10 @@
 const logo = document.querySelector(".header__logo");
+<<<<<<< HEAD
 const header = document.querySelector(".header");
+=======
+const headerTop = document.querySelector(".header-top");
+const headerBottom = document.querySelector(".header-bottom");
+>>>>>>> main
 const links = document.querySelectorAll(".menu__link");
 const nav = document.querySelector(".nav");
 const btn = document.querySelector(".burger__btn");
@@ -16,6 +21,7 @@ function addStyle() {
   logo.classList.toggle("active");
 }
 addBurger();
+<<<<<<< HEAD
 
 const dropdown = document.querySelectorAll(".IAmyHfufeRhLISD");
 const toggleDropdown = (element) => {
@@ -33,3 +39,5 @@ if (dropdown) {
   });
   console.log("Hello");
 }
+=======
+>>>>>>> main
