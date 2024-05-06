@@ -17,7 +17,7 @@ function addStyle() {
 }
 addBurger();
 
-const dropdown = document.querySelectorAll(".IAmyHfufeRhLISD");
+const dropdown = document.querySelectorAll(".lAtlOQPLXRdMTUm");
 const toggleDropdown = (element) => {
   element.currentTarget.classList.toggle("faq__visible");
   const item = element.currentTarget.nextElementSibling;
