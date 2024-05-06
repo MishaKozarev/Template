@@ -2573,6 +2573,10 @@ a {
   background-size: 643px;
 }
 
+.iAYqRSqtkyzzHkt-2.HaoejkZCmgzjCqK {
+  background-size: 643px;
+}
+
 .YsmRMNnMElgOODy {
   position: relative;
   z-index: 1;
@@ -3125,7 +3129,20 @@ a {
     background-size: contain;
   }
 
+  .iAYqRSqtkyzzHkt-2 {
+    right: -13%;
+    width: 90%;
+    min-height: 590px;
+    background-position: 64% 100%;
+    background-size: contain;
+  }
+
   .iAYqRSqtkyzzHkt.HaoejkZCmgzjCqK {
+    background-position: 100% 50%;
+    background-size: contain;
+  }
+
+  .iAYqRSqtkyzzHkt-2.HaoejkZCmgzjCqK {
     background-position: 100% 50%;
     background-size: contain;
   }
@@ -3446,7 +3463,19 @@ a {
     background-position: 50% 50%;
   }
 
+  .iAYqRSqtkyzzHkt-2 {
+    position: relative;
+    right: auto;
+    width: 100%;
+    min-height: 510px;
+    background-position: 50% 50%;
+  }
+
   .iAYqRSqtkyzzHkt.HaoejkZCmgzjCqK {
+    background-position: 50% 100%;
+  }
+
+  .iAYqRSqtkyzzHkt-2.HaoejkZCmgzjCqK {
     background-position: 50% 100%;
   }
 
@@ -3811,6 +3840,10 @@ a {
   }
 
   .iAYqRSqtkyzzHkt {
+    min-height: 300px;
+  }
+
+  .iAYqRSqtkyzzHkt-2 {
     min-height: 300px;
   }
 
