@@ -17,7 +17,11 @@ function addStyle() {
 }
 addBurger();
 
+<<<<<<< HEAD
 const dropdown = document.querySelectorAll(".BXsqhyMXcvGMNwZ");
+=======
+const dropdown = document.querySelectorAll(".lAtlOQPLXRdMTUm");
+>>>>>>> main
 const toggleDropdown = (element) => {
   element.currentTarget.classList.toggle("faq__visible");
   const item = element.currentTarget.nextElementSibling;
