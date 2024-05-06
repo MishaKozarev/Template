@@ -22,7 +22,7 @@ body {
 
 .container {
   max-width: 1240px;
-  padding: 0 20px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 
@@ -43,10 +43,6 @@ a {
   text-decoration: none;
 }
 
-.section-dark {
-  background-color: #cceee9;
-}
-
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -58,6 +54,9 @@ body {
 
 /**** THANKS-PAGE ****/
 <<<<<<< HEAD
+.thanks__section {
+=======
+<<<<<<< HEAD
 .gratitude {
   background-color: #f7fdff;
 }
@@ -66,17 +65,20 @@ body {
 =======
 .thanks__section {
 >>>>>>> main
+>>>>>>> main
   height: 100vh;
+  background-color: #ecf0ef;
 }
 
 .thanks__container {
   max-width: 800px;
-  gap: 20px;
   padding: 75px 30px 0;
+  gap: 20px;
 }
 
 .thanks__title {
   font-size: 4rem;
+  line-height: 50px;
 }
 
 .thanks__content {
@@ -89,6 +91,11 @@ body {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
+/**** DOCUMENT ****/
+.info__container {
+  padding: 130px 40px 140px;
+=======
 <<<<<<< HEAD
 .gratitude span {
   color: #16a571;
@@ -105,11 +112,26 @@ body {
 .document__container {
 >>>>>>> main
   padding: 150px 40px 40px;
+>>>>>>> main
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
 }
 
+<<<<<<< HEAD
+.info h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.info ol {
+  gap: 10px;
+}
+
+.info li {
+=======
 .information h1 {
   font-weight: 600;
   font-size: 3rem;
@@ -129,17 +151,45 @@ body {
 }
 
 .information li {
+>>>>>>> main
   padding: 0 0 5px 0;
   align-self: flex-start;
-  font-size: 1.2rem;
-  font-weight: 400;
+  color: #333;
+  font-size: 20px;
+  line-height: 160%;
 }
 
+<<<<<<< HEAD
+.info strong {
+=======
 .information strong {
+>>>>>>> main
   font-weight: 600;
   font-size: 1.3rem;
 }
 
+<<<<<<< HEAD
+.info a {
+  color: blue;
+  border-bottom: 1px solid blue;
+  text-decoration: none;
+}
+
+/* SECTION_FORM*/
+
+.checkbox {
+  padding: 20px 0 0 0;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.checkbox a {
+  text-decoration: none;
+}
+
+.checkbox span {
+  gap: 5px;
+=======
 <<<<<<< HEAD
 .information a {
   color: #16a571;
@@ -148,6 +198,7 @@ body {
 .document a {
   color: #e3655b;
   border-bottom: 1px solid #e3655b;
+>>>>>>> main
 >>>>>>> main
 }
 
@@ -163,8 +214,11 @@ body {
   width: 100%;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
   background-color: white;
   border-bottom: 1px solid white;
+>>>>>>> main
 >>>>>>> main
 }
 
@@ -177,14 +231,22 @@ body {
   height: fit-content;
   justify-content: flex-start;
   padding: 10px;
+<<<<<<< HEAD
+  background-color: #072622;
+=======
   background-color: #164343;
+>>>>>>> main
   border-bottom: 1px solid #a9a9a9;
 }
 
 .header-bottom {
   width: 100%;
   height: 60%;
+<<<<<<< HEAD
+  background-color: #072622;
+=======
   background-color: #164343;
+>>>>>>> main
 }
 
 .header-bottom__container {
@@ -252,6 +314,8 @@ body {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 .header__info {
   gap: 20px;
 }
@@ -270,6 +334,7 @@ body {
 }
 
 >>>>>>> main
+>>>>>>> main
 .nav {
   display: flex;
   align-items: center;
@@ -287,11 +352,16 @@ body {
   font-weight: 600;
   text-transform: uppercase;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
   color: rgb(222, 222, 222);
 }
 
 .menu__link:hover {
   color: white;
+<<<<<<< HEAD
+=======
 =======
   color: black;
 }
@@ -320,6 +390,7 @@ body {
     align-items: flex-start;
   }
 >>>>>>> main
+>>>>>>> main
 }
 
 /**** BURGER ****/
@@ -339,15 +410,21 @@ body {
 .burger__btn span {
   display: inline-block;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
   width: 28px;
   height: 3px;
   border-radius: 4px;
   background-color: rgb(222, 222, 222);
+<<<<<<< HEAD
+=======
 =======
   width: 34px;
   height: 3px;
   border-radius: 4px;
   background-color: #e3655b;
+>>>>>>> main
 >>>>>>> main
   transition: 0.4s ease;
 }
@@ -363,7 +440,11 @@ body {
 <<<<<<< HEAD
   background-color: rgb(222, 222, 222);
 =======
+<<<<<<< HEAD
+  background-color: rgb(222, 222, 222);
+=======
   background-color: #e3655b;
+>>>>>>> main
 >>>>>>> main
   transition: 0.3s ease;
 }
@@ -393,6 +474,13 @@ body {
 }
 
 <<<<<<< HEAD
+@media (max-width: 720px) {
+  .header-top {
+    display: none;
+  }
+
+=======
+<<<<<<< HEAD
 @media (max-width: 760px) {
   .header-top {
     display: none;
@@ -403,6 +491,7 @@ body {
   .header__info {
     display: none;
   }
+>>>>>>> main
 >>>>>>> main
   .burger__btn {
     display: flex;
@@ -417,7 +506,12 @@ body {
     top: 0;
     right: -100px;
 =======
+<<<<<<< HEAD
+    top: 0;
+    right: -100px;
+=======
     width: 100%;
+>>>>>>> main
 >>>>>>> main
     padding: 100px 70px;
     transition: right 0.3s ease;
@@ -437,6 +531,9 @@ body {
 
   .menu__link:hover {
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
     color: white;
     border-bottom: none;
 =======
@@ -452,15 +549,33 @@ body {
     width: 320px;
     height: 100vh;
 =======
+<<<<<<< HEAD
+    width: 320px;
+    height: 100vh;
+=======
     transform: translate(-100%, 0);
     width: fit-content;
     min-width: 280px;
+>>>>>>> main
 >>>>>>> main
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+<<<<<<< HEAD
+    background-color: #072622;
+    opacity: 1;
+    animation: slideIn 0.5s ease-in-out;
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+=======
 <<<<<<< HEAD
     background-color: #164343;
     opacity: 1;
@@ -482,6 +597,7 @@ body {
     border-radius: 4px;
     height: 100vh;
 >>>>>>> main
+>>>>>>> main
   }
 }
 
@@ -491,6 +607,11 @@ body {
   }
 }
 
+<<<<<<< HEAD
+.header__block-item p {
+  display: none;
+}
+=======
 <<<<<<< HEAD
 .header__block-item p {
   display: none;
@@ -527,3 +648,4 @@ body {
 .checkbox span {
   gap: 5px;
 }
+>>>>>>> main
