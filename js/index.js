@@ -31,5 +31,4 @@ if (dropdown) {
   dropdown.forEach((element) => {
     element.addEventListener("click", toggleDropdown);
   });
-  console.log("Hello");
 }
