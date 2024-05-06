@@ -1,9 +1,5 @@
 @import "../css/main.css";
-/* Generated on: Wed Feb 09 2022 16:02:50 GMT+0000 (Coordinated Universal Time) */
-/* ==========================================================================
-   normalize.yciZiTJdsuyfFZT v3.ukKQJTVKwnxNRgf.BBZwRNfAZCzKEBS | MIT License | github.kNYrjYVgVtdbMLL/necolas/normalize.yciZiTJdsuyfFZT 
-   ========================================================================== */
-/*! normalize.yciZiTJdsuyfFZT v3.ukKQJTVKwnxNRgf.BBZwRNfAZCzKEBS | MIT License | github.kNYrjYVgVtdbMLL/necolas/normalize.yciZiTJdsuyfFZT */
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -60,9 +56,6 @@ textarea {
   overflow: auto;
 }
 
-/* ==========================================================================
-   Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
-   ========================================================================== */
 .uhQgqLfGuYcMwwK:before {
   content: "\e601";
 }
@@ -156,7 +149,6 @@ p {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  vertical-align: middle;
   background-color: #ffffff;
   border: 1px solid #cccccc;
 }
@@ -223,7 +215,6 @@ textarea.qXbotXUlGDydvTP {
   background: #dddddd;
   clear: both;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .jiciTiEsdaUyZBe {
   position: relative;
@@ -256,7 +247,6 @@ textarea.qXbotXUlGDydvTP {
   height: 40px;
   text-align: center;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .MsztjqbTOqvfdYm.DzxFlDMQcdQrTtK > div {
   border-radius: 100%;
@@ -295,7 +285,6 @@ textarea.qXbotXUlGDydvTP {
   color: white;
   font-size: 40px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1028,6 +1017,7 @@ a {
   position: relative;
   display: inline-block;
   overflow: hidden;
+  width: 100%;
 }
 
 .ydMccuAZUvfJVOJ.QDTPkPEigRtGfmz {
@@ -1779,6 +1769,7 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  gap: 5px;
 }
 
 .vgeiAPMcicJofuz {
@@ -2568,6 +2559,7 @@ a {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .ITnqrskmfeGFqmj {
@@ -2886,11 +2878,11 @@ a {
 }
 
 .JJMqOQwBuTjVptF {
-  width: 57%;
+  width: 100%;
 }
 
 .JJMqOQwBuTjVptF.BxlJBbERgljAHZB {
-  width: 57%;
+  width: 100%;
 }
 
 .czNWqpOTuxsJlUe {
@@ -4035,4 +4027,16 @@ a {
     padding-top: 40px;
     padding-bottom: 40px;
   }
+}
+
+a {
+  text-decoration: none;
+}
+
+.BDRIdbawlwnYtuY {
+  max-height: 0;
+}
+
+.BXsqhyMXcvGMNwZ {
+  cursor: pointer;
 }
