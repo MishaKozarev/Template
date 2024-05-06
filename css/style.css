@@ -3135,11 +3135,6 @@ label {
     overflow: hidden;
   }
 
-  .XuGBsvbYwkwsbtw {
-    grid-row-gap: 50px;
-    grid-template-columns: auto;
-  }
-
   .CPGRvuhBKSvzPgw {
     bottom: 20px;
     left: 20px;
@@ -3200,5 +3195,12 @@ label {
 
   .mCurnBskEoOYvSQ h1 {
     font-size: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .XuGBsvbYwkwsbtw {
+    grid-row-gap: 50px;
+    grid-template-columns: auto;
   }
 }

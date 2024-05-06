@@ -7,15 +7,15 @@
 }
 
 @font-face {
-  font-family: "Clashdisplay", sans-serif;
+  font-family: "Arial";
   font-weight: 400;
   font-style: normal;
-  src: url("../fonts/ClashDisplayRegular.woff") format("woff"),
-    url("../fonts/ClashDisplayRegular.woff2") format("woff2");
+  src: url("../fonts/Arial.woff") format("woff"),
+    url("../fonts/Arial.woff2") format("woff2");
 }
 
 body {
-  font-family: "Clashdisplay", sans-serif;
+  font-family: "Arial";
   font-weight: 400;
   font-style: normal;
 }
@@ -57,47 +57,36 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.thankfulness {
-  background-color: #f3b77b;
+.thanks {
+  background-color: #fffbf3;
   height: 100vh;
 }
 
-.thankfulness__container {
+.thanks__container {
   max-width: 800px;
   gap: 20px;
   padding: 130px 30px 0;
 }
 
-.thankfulness__title {
-  font-size: 2.6rem;
+.thanks__title {
+  font-size: 5rem;
 }
 
-.thankfulness__content {
+.thanks__content {
   align-items: flex-start;
 }
 
-.thankfulness p {
+.thanks p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
-.thankfulness__btn {
-  padding: 10px 25px;
-  border-radius: 20px;
-  background-color: #f3b77b;
-  color: black;
-  border: 1px solid #f3b77b;
-  transition: 0.5s;
-}
-
-.thankfulness__btn:hover {
-  background-color: inherit;
-  color: black;
-  border: 1px solid black;
-}
-
 /**** DOCUMENT ****/
-.info__container {
+.document {
+  background-color: #fffbf3;
+}
+
+.document__container {
   padding: 150px 40px 80px;
   max-width: 800px;
   margin: 0 auto;
@@ -105,38 +94,37 @@ body {
   align-items: center;
 }
 
-.info h1 {
+.document h1 {
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 5rem;
   padding-bottom: 5px;
 }
 
-.info ol {
+.document ol {
   gap: 10px;
   padding-left: 20px;
 }
 
-.info li {
+.document li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 25px;
-  border-bottom: 1px solid #ceced3;
 }
 
-.info strong {
+.document strong {
   font-weight: 600;
   font-size: 1.3rem;
-  color: #393939;
+  color: #0f220c;
 }
 
-.info a {
-  color: #f11d01;
+.document a {
+  color: #0169f1;
 }
 
 @media (max-width: 480px) {
-  .info h1 {
+  .document h1 {
     font-size: 2.4rem;
   }
 }
