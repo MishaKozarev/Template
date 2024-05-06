@@ -19,37 +19,52 @@
   <body>
     <header class="header">
       <div class="header__container column">
+        <div class="header-top row">
+          <div class="header-top__container container row">
+            <div class="header__block-menu row">
+              <div class="header__block-item row">
+                <img src="img/icons/icon-email.png" alt="icon" />
+                <a class="footer__link" href="mailto:veggiedelight@gmail.com"
+                  >veggiedelight@gmail.com</a
+                >
+              </div>
+
+              <div class="header__block-item row">
+                <img src="img/icons/icon-phone.png" alt="icon" />
+                <a class="footer__link" href="tel:+912565869945"
+                  >+91-256-5869945</a
+                >
+              </div>
+
+              <div class="header__block-item row">
+                <img src="img/icons/icon-address.png" alt="icon" />
+                <a
+                  class="footer__link"
+                  target="_blank"
+                  href="https://maps.app.goo.gl/XZcmZGBfQbN8dFof6"
+                >
+                  Ahmedabad, Gujarat 380001, India</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="header-bottom">
           <div class="header-bottom__container container row">
             <a class="header__logo" href="index.html">
               <img src="img/logo.png" alt="logo" />
             </a>
             <nav class="nav">
-              <a class="menu__link" href="index.html">Home </a>
-              <a class="menu__link" href="about.html">About us </a>
-              <a class="menu__link" href="index.html#section-team">Our Team</a>
-              <a class="menu__link" href="index.html#section-pricing"
+              <a class="menu__link" href="index.html">Home</a>
+              <a class="menu__link" href="about.html">About us</a>
+              <a class="menu__link" href="index.html#section-services"
+                >Services</a
+              >
+              <a class="menu__link" href="about.html#section-pricing"
                 >Pricing</a
               >
               <a class="menu__link" href="index.html#section-form">Contacts</a>
             </nav>
-
-            <div class="header__info row">
-              <a
-                class="footer__link"
-                target="_blank"
-                href="https://maps.app.goo.gl/9QXGe28mcM3pgAG96"
-              >
-                <img src="img/icons/icon-address.png" alt="icon"
-              /></a>
-              <a class="footer__link" href="mailto:olissfuloasis@gmail.com"
-                ><p>olissfuloasis@gmail.com</p>
-                <img src="img/icons/icon-email.png" alt="icon"
-              /></a>
-              <a class="footer__link" href="tel:+919468562231"
-                ><img src="img/icons/icon-phone.png" alt="icon"
-              /></a>
-            </div>
 
             <div class="burger__btn">
               <span></span>
@@ -58,8 +73,11 @@
         </div>
       </div>
     </header>
+
     <main>
-      <section class="vVXzhKzLbvrISrH vruxPwKfuNNJAIp SugPGJaUPWvDwpI">
+      <section
+        class="vVXzhKzLbvrISrH vruxPwKfuNNJAIp SugPGJaUPWvDwpI margin-top"
+      >
         <div class="EBcVqkKanbcuuhZ lDtqgASAjKqDEEJ">
           <div class="ZqlgWUojCYhnizy SUacJDmnKNEKWXh EUgLvAqNsoUeEWm">
             <div class="KqvJBdvwzPcsYlf pimAmeDFUcPVdMy">
@@ -405,23 +423,24 @@
                 class="ZqlgWUojCYhnizy BBoxfwuJIKZvzVI MNwQgtkCYIctPyl tzikBaTQkORqzNd"
               >
                 <a
-                  href="https://www.google.com/maps/"
                   target="_blank"
+                  href="https://maps.app.goo.gl/XZcmZGBfQbN8dFof6"
                   class="otTRyGhwVGgImpo MJERGQRiWDeSAaW JPuWeDrHmASgIMI"
                   ><div>
                     <div class="zRBRVFznUleksjK vYWPsJHgKWSRUwE">
                       Our location
                     </div>
                     <div class="NnEUGmjrERvujtt">
-                      58 Middle Point Rd, Los Angeles, 94124
+                      Ahmedabad, Gujarat 380001, India
                     </div>
                   </div></a
-                ><a
-                  href="tel:(123)456-789"
+                >
+                <a
+                  href="tel:+912565869945"
                   class="otTRyGhwVGgImpo MJERGQRiWDeSAaW JPuWeDrHmASgIMI"
                   ><div>
                     <div class="zRBRVFznUleksjK vYWPsJHgKWSRUwE">Call us</div>
-                    <div class="NnEUGmjrERvujtt">(123) 456 - 789</div>
+                    <div class="NnEUGmjrERvujtt">+91-256-5869945</div>
                   </div></a
                 >
               </div>
@@ -431,10 +450,8 @@
                 <div class="WQIVBZUQbewvinD pNZiMYbXqXnTiFn">
                   <form
                     id="UvyOsORBjRwnUOg"
-                    name="wf-form-Contact"
-                    method="get"
-                    data-wf-page-id="64a82787dfc33bab698b18f0"
-                    data-wf-element-id="b9f6d2b7-55b3-906a-2988-c9b7aa3c3268"
+                    action="send-form.php"
+                    method="post"
                   >
                     <div
                       class="ZqlgWUojCYhnizy SUacJDmnKNEKWXh pGkAfGGXUcEeWTg"
@@ -443,24 +460,22 @@
                         <label for="name" class="mIpDQuEnotfZgYY">Name</label
                         ><input
                           class="UZPyOeGoHasbzkH FrninCdbHjIViBC tmRdXnrdrbAdfTy"
-                          maxlength="256"
-                          name="Name"
-                          placeholder="John Carter"
+                          name="name"
+                          placeholder="Name*"
                           type="text"
                           id="EikRqCUVVnKDNqG"
-                          required=""
+                          required
                         />
                       </div>
                       <div>
                         <label for="email" class="mIpDQuEnotfZgYY">Email</label
                         ><input
                           class="UZPyOeGoHasbzkH FrninCdbHjIViBC tmRdXnrdrbAdfTy"
-                          maxlength="256"
-                          name="Email"
-                          placeholder="contact@vegan.com"
+                          name="email"
+                          placeholder="Email*"
                           type="email"
                           id="faJbVIYAAZlFdtp"
-                          required=""
+                          required
                         />
                       </div>
 
@@ -468,21 +483,32 @@
                         <label for="message" class="mIpDQuEnotfZgYY"
                           >Message</label
                         ><textarea
-                          required=""
+                          required
                           placeholder="Send us a message"
-                          maxlength="5000"
                           id="edZKOgeztLXOVHN"
-                          name="Message"
+                          name="message"
                           class="XZUqtNZFKhSyaom FrninCdbHjIViBC YvEaftMOAlUmHQn tmRdXnrdrbAdfTy"
                         ></textarea>
                       </div>
                       <input
                         type="submit"
-                        data-wait="Please wait..."
                         id="dYFNiULNIYNhYbg"
                         class="RPQDqYjmtfpPYDL FrninCdbHjIViBC NcRIHOEtTtVyCbx"
                         value="Send Message"
                       />
+                    </div>
+                    <div class="checkbox row">
+                      <input
+                        class="form__checkbox"
+                        name="privacy"
+                        value="on"
+                        type="checkbox"
+                        required
+                      />
+                      <span class="row"
+                        >I agree
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                      </span>
                     </div>
                   </form>
                 </div>
@@ -1156,13 +1182,13 @@
                 </div>
                 <div class="ZqlgWUojCYhnizy BBoxfwuJIKZvzVI">
                   <a
-                    href="mailto:business@vegan.com"
+                    href="mailto:veggiedelight@gmail.com"
                     class="otTRyGhwVGgImpo JPuWeDrHmASgIMI"
                     ><div class="zEzJmsxguphqXbr VZMPmKUpfLfnzkM">
                       <div class="puQiqqoxwKSdWDA">
                         <div class="CbSAOFuSbQLSToW">
                           <img
-                            src="https://assets-global.website-files.com/64a82787dfc33bab698b1929/64a8baf381e87e14cccb2772_email-vegan-x-webflow-template.svg"
+                            src="img/icons/icon-1.svg"
                             alt="image"
                             class="wscwOhSjgDbcUkD PipZhSgdAKdBkPv"
                           />
@@ -1172,19 +1198,20 @@
                         <div
                           class="zRBRVFznUleksjK vYWPsJHgKWSRUwE mIpDQuEnotfZgYY"
                         >
-                          business@vegan.com
+                          veggiedelight@gmail.com
                         </div>
                       </div>
                     </div></a
-                  ><a
-                    href="https://www.google.com/maps/"
+                  >
+                  <a
+                    href="https://maps.app.goo.gl/XZcmZGBfQbN8dFof6"
                     target="_blank"
                     class="otTRyGhwVGgImpo JPuWeDrHmASgIMI"
                     ><div class="zEzJmsxguphqXbr VZMPmKUpfLfnzkM">
                       <div class="puQiqqoxwKSdWDA">
                         <div class="CbSAOFuSbQLSToW">
                           <img
-                            src="https://assets-global.website-files.com/64a82787dfc33bab698b1929/64a8baf4944d79396c270230_location-vegan-x-webflow-template.svg"
+                            src="img/icons/icon-2.svg"
                             alt="image"
                             class="wscwOhSjgDbcUkD PipZhSgdAKdBkPv"
                           />
@@ -1194,18 +1221,19 @@
                         <div
                           class="zRBRVFznUleksjK vYWPsJHgKWSRUwE mIpDQuEnotfZgYY"
                         >
-                          58 Middle Point Rd, Los Angeles, 94124
+                          Ahmedabad, Gujarat 380001, India
                         </div>
                       </div>
                     </div></a
-                  ><a
-                    href="tel:(123)456-789"
+                  >
+                  <a
+                    href="tel:+912565869945"
                     class="otTRyGhwVGgImpo JPuWeDrHmASgIMI"
                     ><div class="zEzJmsxguphqXbr VZMPmKUpfLfnzkM">
                       <div class="puQiqqoxwKSdWDA">
                         <div class="CbSAOFuSbQLSToW">
                           <img
-                            src="https://assets-global.website-files.com/64a82787dfc33bab698b1929/64a8baf58fea82aa6a878c82_phone-vegan-x-webflow-template.svg"
+                            src="img/icons/icon-3.svg"
                             alt="image"
                             class="wscwOhSjgDbcUkD PipZhSgdAKdBkPv"
                           />
@@ -1214,7 +1242,7 @@
                       <div
                         class="zRBRVFznUleksjK vYWPsJHgKWSRUwE mIpDQuEnotfZgYY"
                       >
-                        (123) 456 - 789
+                        +91-256-5869945
                       </div>
                     </div></a
                   >
@@ -1222,7 +1250,7 @@
               </div>
               <div class="uSNbSMitsKFsFfx">
                 <a
-                  href="/menu"
+                  href="index.html#section-rorm"
                   class="RPQDqYjmtfpPYDL FrninCdbHjIViBC JdlNmFLOxrBfJXn NcRIHOEtTtVyCbx"
                   >Order now</a
                 >
@@ -1234,10 +1262,11 @@
           <div class="ZqlgWUojCYhnizy QrZrAalyplNvaou">
             <a
               id="nqwQicMYgblJELI"
-              href="/"
+              href="index.html"
               class="muRCmKSrtgRvBUg JPuWeDrHmASgIMI"
               ><img
-                src="https://assets-global.website-files.com/64a82787dfc33bab698b1929/64a8b724e6d7f48c1f49dc3c_logo-white-vegan-x-webflow-template.svg"
+                src="img/logo.png"
+                width="80px"
                 alt="image"
                 class="mBwzTGbJYshPHZs"
             /></a>

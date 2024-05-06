@@ -1309,8 +1309,6 @@ label {
 
 .mBwzTGbJYshPHZs {
   transform-style: preserve-3d;
-  width: 100%;
-  max-width: 100%;
   transition: transform 0.3s;
 }
 
@@ -1359,8 +1357,8 @@ label {
 .AllJflKZMDtmwSo {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 38px;
-  padding-bottom: 38px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .AxzZbIIRJmoiGMX {
@@ -3203,4 +3201,12 @@ label {
     grid-row-gap: 50px;
     grid-template-columns: auto;
   }
+}
+
+a {
+  text-decoration: none;
+}
+
+.margin-top {
+  margin-top: 100px;
 }
