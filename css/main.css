@@ -53,52 +53,55 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.thanks__section {
+.gratitude__section {
   height: 100vh;
-  background-color: #ecf0ef;
+  background-color: #f4f4f4;
 }
 
-.thanks__container {
+.gratitude__container {
   max-width: 800px;
   padding: 75px 30px 0;
   gap: 20px;
 }
 
-.thanks__title {
+.gratitude__title {
   font-size: 4rem;
   line-height: 50px;
 }
 
-.thanks__content {
+.gratitude__content {
   gap: 20px;
   align-items: flex-start;
 }
 
-.thanks p {
+.gratitude p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 /**** DOCUMENT ****/
-.info__container {
+.special {
+  background-color: #f4f4f4;
+}
+
+.special__container {
   padding: 130px 40px 140px;
   max-width: 800px;
   margin: 0 auto;
-  gap: 20px;
 }
 
-.info h1 {
+.special h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
   position: relative;
 }
 
-.info ol {
+.special ol {
   gap: 10px;
 }
 
-.info li {
+.special li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   color: #333;
@@ -106,15 +109,15 @@ body {
   line-height: 160%;
 }
 
-.info strong {
+.special strong {
   font-weight: 600;
   font-size: 1.3rem;
 }
 
-.info a {
-  color: blue;
-  border-bottom: 1px solid blue;
+.special__link {
+  color: rgb(245, 85, 11);
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 /* SECTION_FORM*/
