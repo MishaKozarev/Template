@@ -1,10 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-<<<<<<< HEAD
   $toEmail = "olissfuloasis@gmail.com";
-=======
-  $toEmail = "eleganceevolved@gmail.com";
->>>>>>> main
   $subject = "Новое сообщение";
 
   $name = $_POST["name"];
