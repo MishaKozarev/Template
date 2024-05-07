@@ -150,6 +150,10 @@ body {
   color: #222424;
 }
 
+.checkbox a:hover {
+  color: rgb(243, 145, 18);
+}
+
 .checkbox span {
   gap: 5px;
   color: #222424;
