@@ -20,6 +20,7 @@ video {
 
 a {
   background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
 }
 
 a:active,
@@ -377,7 +378,6 @@ p {
 
 a {
   color: var(--color--black);
-  text-decoration: underline;
 }
 
 img {
@@ -1033,6 +1033,7 @@ img {
 .GEvmWUIuRVQOPrr {
   flex-direction: column;
   display: flex;
+  justify-content: space-between;
 }
 
 .cIvldJxEHjbFdgj {
@@ -2009,4 +2010,16 @@ img {
   #Your-Message.vmlCnCGxRdOwmvg {
     grid-column: span 1 / span 1;
   }
+}
+
+.margin-top {
+  margin-top: 100px;
+}
+
+.gnYGwDDcdjmtGhl {
+  max-height: 0;
+}
+
+.nfpIoIHHAnKqDkL:hover {
+  color: #ffbcbc;
 }
