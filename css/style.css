@@ -827,8 +827,8 @@ li {
 
 .AJPIPIHUlkEgatq.clvtzCHsMglHTQf {
   border-bottom: 1px solid var(--neutral-700);
-  margin-bottom: 144px;
-  padding-bottom: 73px;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .AJPIPIHUlkEgatq.SMbrESJqabgbgtl {
@@ -977,7 +977,7 @@ li {
   border-top: 1px solid var(--neutral-700);
   justify-content: space-between;
   align-items: center;
-  margin-top: 123px;
+  margin-top: 30px;
   padding-top: 48px;
   display: flex;
 }
@@ -2050,6 +2050,7 @@ li {
 
   .clvtzCHsMglHTQf {
     flex-direction: column;
+    gap: 30px;
   }
 
   .UCavhtgXvpDDUeC {
