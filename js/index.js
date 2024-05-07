@@ -17,7 +17,17 @@ function addStyle() {
 }
 addBurger();
 
-const dropdown = document.querySelectorAll(".GtIrJVeXmhwUwgx");
+window.addEventListener("scroll", function () {
+  var scrollPosition = window.scrollY;
+
+  if (scrollPosition > 100) {
+    header.style.borderBottom = "1px solid #222424";
+  } else {
+    header.style.borderBottom = "1px solid whitesmoke";
+  }
+});
+
+const dropdown = document.querySelectorAll(".qyYWghfmQTQKjww");
 const toggleDropdown = (element) => {
   element.currentTarget.classList.toggle("faq__visible");
   const item = element.currentTarget.nextElementSibling;
