@@ -297,7 +297,7 @@ p {
 
 a {
   color: var(--neutral-800);
-  text-decoration: underline;
+  text-decoration: none;
   transition: color 0.25s;
 }
 
