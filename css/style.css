@@ -1150,7 +1150,7 @@ img {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
   grid-template-rows: auto;
-  grid-template-columns: 0.25fr 1fr;
+  grid-template-columns: 1fr;
   width: 90%;
   position: relative;
 }
