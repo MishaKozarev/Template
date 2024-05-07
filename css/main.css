@@ -57,33 +57,33 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.thankfulness {
+.thanks {
   height: 100vh;
-  background-color: #f9f9f9;
+  background-color: #fff8f0;
 }
 
-.thankfulness__container {
+.thanks__container {
   max-width: 700px;
   gap: 20px;
   padding: 130px 30px 0;
 }
 
-.thankfulness__title {
+.thanks__title {
   font-size: 3rem;
 }
 
-.thankfulness__content {
+.thanks__content {
   align-items: flex-start;
 }
 
-.thankfulness p {
+.thanks p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 /**** DOCUMENT ****/
 .information {
-  background-color: #f9f9f9;
+  background-color: #fff8f0;
 }
 
 .information__container {
@@ -91,6 +91,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   align-items: center;
+  gap: 20px;
 }
 
 .information h1 {
@@ -102,12 +103,13 @@ body {
 
 .information ol {
   padding-left: 20px;
+  gap: 10px;
 }
 
 .information li {
   padding: 0 0 5px 0;
   align-self: flex-start;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: 25px;
 }
@@ -119,7 +121,7 @@ body {
 }
 
 .information a {
-  color: #ff3f56;
+  color: #f1540b;
 }
 
 @media (max-width: 760px) {

@@ -169,7 +169,6 @@ p {
 
 .AWqvnzKvDmHIBVa {
   color: #333;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
   width: 100%;
@@ -236,7 +235,6 @@ textarea.AWqvnzKvDmHIBVa {
   text-align: center;
   clear: both;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
   background: #ddd;
   height: 300px;
   position: relative;
@@ -1012,7 +1010,6 @@ img {
 .LwxacYtFXcEXpen {
   background-color: var(--color--secondary-4);
   margin-top: 90px;
-  padding-top: 150px;
 }
 
 .xKxsNVDVKSDEhlG {
