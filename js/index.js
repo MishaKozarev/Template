@@ -21,9 +21,9 @@ window.addEventListener("scroll", function () {
   var scrollPosition = window.scrollY;
 
   if (scrollPosition > 100) {
-    header.style.borderBottom = "1px solid #6e3606";
+    header.style.borderBottom = "1px solid #222424";
   } else {
-    header.style.borderBottom = "1px solid #f8f4ed";
+    header.style.borderBottom = "1px solid whitesmoke";
   }
 });
 
