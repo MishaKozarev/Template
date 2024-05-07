@@ -1089,11 +1089,11 @@ label {
 
 .vVXzhKzLbvrISrH.vruxPwKfuNNJAIp.SugPGJaUPWvDwpI {
   padding-top: 134px;
-  padding-bottom: 0;
+  padding-bottom: 85px;
 }
 
 .vVXzhKzLbvrISrH.vruxPwKfuNNJAIp.GInBFtmukIsPYSu {
-  padding-top: 82px;
+  padding-top: 130px;
   padding-bottom: 97px;
 }
 
@@ -1112,7 +1112,7 @@ label {
 }
 
 .vVXzhKzLbvrISrH.QasTJsDdDUEGeSF.pDfWwiRsWbfJlzO {
-  padding-top: 0;
+  padding-top: 85px;
 }
 
 .vVXzhKzLbvrISrH.YzJpSpanxsmeabA {
@@ -1676,7 +1676,7 @@ label {
 }
 
 .tkkBtUTiKvbhkjV.NAtnTHBSBWjZnqq.TrwnqsWcFiDTyUg {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .tkkBtUTiKvbhkjV.NAtnTHBSBWjZnqq.BRpFOjdfDIRNkQO {
@@ -1747,7 +1747,7 @@ label {
 
 .mzQaPcqbUFLQnVR.qhHYokpGqsbIxsK {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://assets-global.website-files.com/64a82787dfc33bab698b1929/65bbe7825b8223b0e9c6cd3a_contact-form-image-vegan-x-webflow-template.jpeg");
+    url("../img/pictures/item-11.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1814,8 +1814,8 @@ label {
 
 .BQkYYrTjWXIsHRA {
   max-width: 527px;
-  padding-top: 238px;
-  padding-bottom: 238px;
+  padding-top: 38px;
+  padding-bottom: 38px;
 }
 
 .ggtdaxebeosLwdD {
@@ -2168,7 +2168,7 @@ label {
   }
 
   .vVXzhKzLbvrISrH.vruxPwKfuNNJAIp.GInBFtmukIsPYSu {
-    padding-top: 80px;
+    padding-top: 130px;
     padding-bottom: 90px;
   }
 
@@ -3201,6 +3201,19 @@ label {
   .XuGBsvbYwkwsbtw {
     grid-row-gap: 50px;
     grid-template-columns: auto;
+  }
+
+  .ULvbgmtNzshXdMO {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 830px) {
+  .vVXzhKzLbvrISrH.vruxPwKfuNNJAIp.GInBFtmukIsPYSu {
+    padding-top: 80px;
+    padding-bottom: 90px;
   }
 }
 
