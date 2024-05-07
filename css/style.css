@@ -2085,3 +2085,19 @@ ul {
 .ONWBCpdPtfljPWx {
   max-height: 0;
 }
+
+h1 {
+  font-size: 4rem;
+  line-height: 60px;
+}
+
+h1 span {
+  color: #ef732d;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 50px;
+  }
+}
