@@ -1063,7 +1063,7 @@ li {
 }
 
 .OKQuismLUlRTFFU {
-  max-width: 594px;
+  max-width: 40%;
   position: absolute;
   right: 0;
 }
@@ -1103,7 +1103,7 @@ li {
 .fIFzvvdqToMAUfM {
   grid-column-gap: 40px;
   grid-row-gap: 60px;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   justify-content: space-between;
 }
 
@@ -1185,7 +1185,7 @@ li {
 }
 
 .TcATDnPSJGKwXxN.OseXqBAiyyaEGFT {
-  height: 10px;
+  height: 40px;
 }
 
 .oHtcamnKzYaaEal {
@@ -2591,4 +2591,22 @@ li {
   #Message.NxmTlkyhyGtHIqn {
     grid-column: span 1 / span 1;
   }
+}
+
+@media screen and (max-width: 991px) {
+  .OKQuismLUlRTFFU {
+    max-width: 100%;
+  }
+}
+
+.IPtbUpxZAYGsQNi {
+  max-height: 0;
+}
+
+.dark {
+  background-color: #f9f9f9;
+}
+
+.margin-top {
+  margin-top: 70px;
 }
