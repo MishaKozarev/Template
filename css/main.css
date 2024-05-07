@@ -152,12 +152,13 @@ body {
 
 .checkbox a {
   text-decoration: none;
-  color: #58b749;
+  color: #222424;
+  border-bottom: 1px solid #222424;
 }
 
 .checkbox span {
   gap: 5px;
-  color: white;
+  color: #222424;
 }
 
 /**** HEADER ****/
