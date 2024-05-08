@@ -27,7 +27,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-const dropdown = document.querySelectorAll(".faq-q");
+const dropdown = document.querySelectorAll(".OiWyhbnIkVqwXyx");
 const toggleDropdown = (element) => {
   element.currentTarget.classList.toggle("faq__visible");
   const item = element.currentTarget.nextElementSibling;
