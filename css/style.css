@@ -1782,7 +1782,7 @@ label {
 .NRKHJexHjyhwuDR {
   grid-column-gap: 74px;
   grid-template-rows: auto;
-  grid-template-columns: minmax(332px, 0.8fr) auto auto;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-between;
 }
 
@@ -1795,8 +1795,8 @@ label {
 }
 
 .IaVToFJInaWeSCI {
-  padding-top: 90px;
-  padding-bottom: 97px;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .ardcQWkOBOEgALm {
@@ -2313,7 +2313,7 @@ label {
   .NRKHJexHjyhwuDR {
     grid-column-gap: 60px;
     grid-row-gap: 70px;
-    grid-template-columns: 1fr 0.6fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .IaVToFJInaWeSCI {
@@ -3414,4 +3414,8 @@ label {
 
 .UQlNcIYiwufmksv {
   max-height: 0;
+}
+
+a {
+  text-decoration: none;
 }
