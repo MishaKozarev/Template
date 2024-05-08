@@ -775,8 +775,7 @@ img {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 20px;
-
-  font-size: 17px;
+  font-size: 50px;
   line-height: 24px;
 }
 
@@ -969,7 +968,7 @@ img {
 }
 
 .wlBrABSAbCcNVVU {
-  background-image: url("https://assets-global.website-files.com/65d4a2759de7de7f08b3425b/65e06c045330e0f7d66800e1_chef-working-together-professional-kitchen%20(1)%20(1).webp");
+  background-image: url("../img/pictures/about-0.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1123,7 +1122,6 @@ img {
 .JliNlKytBArSAGm {
   z-index: 999;
   color: var(--background);
-  background-image: url("https://assets-global.website-files.com/65d4a2759de7de7f08b3425b/65d71fcf3a76d206d8ab9cec_Star%201.svg");
   background-position: 0 0;
   background-size: cover;
   border-radius: 4px;
@@ -1465,7 +1463,6 @@ img {
 
 .edrRltCyMyTvGTf {
   color: var(--background);
-  background-image: url("https://assets-global.website-files.com/65d4a2759de7de7f08b3425b/65d71fcf3a76d206d8ab9cec_Star%201.svg");
   background-position: 0 0;
   background-size: cover;
   justify-content: center;
@@ -1588,6 +1585,7 @@ img {
   bottom: 0;
   left: auto;
   right: 0;
+  gap: 30px;
 }
 
 .kiWyPKuMKdhFNiW {
@@ -2313,4 +2311,8 @@ img {
 
 .thankfulness__btn:hover {
   background-color: inherit;
+}
+
+.faq-a {
+  max-height: 0;
 }
