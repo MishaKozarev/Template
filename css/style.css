@@ -166,7 +166,6 @@ label {
   width: 100%;
   height: 38px;
   color: #333;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
   margin-bottom: 10px;
@@ -715,7 +714,7 @@ label {
 
 .VUbhlSvKgEGiUVy.vVzpawSRUWzfDat {
   cursor: pointer;
-  padding: 42px 34px 45px;
+  padding: 20px 34px;
 }
 
 .VUbhlSvKgEGiUVy.NoNEaSlcPszMGnw {
@@ -2963,4 +2962,8 @@ label {
 
 a {
   text-decoration: none;
+}
+
+.vQMTqGYzMdCThqT {
+  max-height: 0;
 }
