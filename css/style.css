@@ -208,7 +208,6 @@ button,
 
 .EByZEjtuhLdvlfP {
   color: #333;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
   width: 100%;
@@ -2311,4 +2310,8 @@ img {
   .COiQDebYAAiuFiK {
     max-width: 100%;
   }
+}
+
+.thankfulness__btn:hover {
+  background-color: inherit;
 }
