@@ -81,58 +81,6 @@ body {
   font-weight: 500;
 }
 
-/**** DOCUMENT ****/
-
-.info__container {
-  padding: 200px 40px 80px;
-  max-width: 800px;
-  margin: 0 auto;
-  align-items: center;
-  gap: 20px;
-}
-
-.info h1 {
-  font-weight: 600;
-  font-size: 3rem;
-  padding-bottom: 5px;
-  line-height: 50px;
-}
-
-.info ol {
-  padding-left: 20px;
-  gap: 10px;
-}
-
-.info li {
-  padding: 0 0 5px 0;
-  align-self: flex-start;
-  font-size: 1.3rem;
-  font-weight: 400;
-  line-height: 25px;
-}
-
-.info strong {
-  font-weight: 600;
-  font-size: 1.3rem;
-  color: #222424;
-}
-
-.info a {
-  color: #f15f0b;
-}
-
-@media (max-width: 760px) {
-  .info__container {
-    padding: 150px 40px 80px;
-  }
-}
-
-@media (max-width: 480px) {
-  .info h1 {
-    font-size: 2.4rem;
-  }
-}
-
 /* SECTION_FORM*/
 
 .checkbox {
@@ -238,14 +186,12 @@ body {
 }
 
 /**** DOCUMENT ****/
-.info {
-  background-color: #0c2445;
-}
 
 .info__container {
-  padding: 130px 40px 140px;
+  padding: 150px 40px 80px;
   max-width: 800px;
   margin: 0 auto;
+  align-items: center;
   gap: 20px;
 }
 
@@ -253,30 +199,42 @@ body {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
-  position: relative;
+  line-height: 50px;
 }
 
 .info ol {
+  padding-left: 20px;
   gap: 10px;
 }
 
 .info li {
   padding: 0 0 5px 0;
   align-self: flex-start;
-  font-size: 1.2rem;
-  font-weight: 300;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 .info strong {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.3rem;
-  color: #ffc2c0;
+  color: #222424;
 }
 
 .info a {
-  color: #ffc2c0;
-  border-bottom: 1px solid #ffc2c0;
-  text-decoration: none;
+  color: #f15f0b;
+}
+
+@media (max-width: 760px) {
+  .info__container {
+    padding: 150px 40px 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .info h1 {
+    font-size: 2.4rem;
+  }
 }
 
 /**** HEADER ****/
