@@ -170,7 +170,8 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
-  background-color: #3022cd;
+  background-color: #fffae6;
+  border-bottom: 1px solid #e94431;
 }
 
 .header__container {
@@ -188,12 +189,12 @@ body {
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 140px;
+  width: 120px;
   display: flex;
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 15px 0;
+  padding: 20px 0;
   background-color: inherit;
 }
 
@@ -244,28 +245,28 @@ body {
   display: block;
   position: relative;
   transition: 0.2s ease;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
-  color: #f2f7fc;
-  transition: 0.5s;
+  text-transform: uppercase;
+  color: #e94431;
 }
 
 .menu__link:hover {
-  color: #ff6262;
+  color: #30533f;
 }
 
 .header__btn {
   padding: 10px 16px;
-  background: inherit;
-  color: white;
-  border: 1px solid white;
-  border-radius: 10px;
-  transition: 0.5s;
+  border: 1px solid #e94431;
+  background-color: inherit;
+  color: #e94431;
+  transition: 0.4s;
 }
 
 .header__btn:hover {
-  color: #ff6262;
-  border: 1px solid #ff6262;
+  background-color: #e94431;
+  color: white;
+  border: 1px solid #e94431;
 }
 
 @media (max-width: 930px) {
@@ -283,7 +284,6 @@ body {
   position: relative;
   align-items: center;
   height: 28px;
-  width: 40px;
 }
 
 .burger__btn:hover {
@@ -293,9 +293,9 @@ body {
 .burger__btn span {
   display: inline-block;
   width: 34px;
-  height: 5px;
+  height: 3px;
   border-radius: 4px;
-  background-color: white;
+  background-color: #e94431;
   transition: 0.4s ease;
 }
 
@@ -305,9 +305,9 @@ body {
   position: absolute;
   left: 0;
   width: 34px;
-  height: 5px;
+  height: 3px;
   border-radius: 4px;
-  background-color: white;
+  background-color: #e94431;
   transition: 0.3s ease;
 }
 
@@ -325,17 +325,17 @@ body {
 
 .active::before {
   transform: rotate(-45deg);
-  top: 12px;
-  background-color: white;
+  top: 14px;
+  background-color: #e94431;
 }
 
 .active::after {
   transform: rotate(45deg);
   bottom: 10px;
-  background-color: white;
+  background-color: #e94431;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 740px) {
   .header__info {
     display: none;
   }
@@ -360,18 +360,17 @@ body {
     font-weight: 700;
     border-bottom: none;
     text-decoration: none;
-    color: white;
-    transition: 0.5s;
+    color: #e94431;
   }
 
   .menu__link:hover {
-    color: #ff6262;
+    color: #30533f;
   }
 
   .nav.active {
     position: absolute;
-    top: 15px;
-    right: 10px;
+    top: 0;
+    right: 0;
     transform: translate(-100%, 0);
     width: fit-content;
     min-width: 280px;
@@ -380,14 +379,15 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #3022cd;
+    background-color: #e0e1cd;
     opacity: 0.2;
     transform: translateX(0);
     max-height: 750px;
     opacity: 1;
     font-size: 1.1rem;
-    border-radius: 20px;
-    border: 1px solid white;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid #e94431;
   }
 }
 

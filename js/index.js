@@ -17,7 +17,17 @@ function addStyle() {
 }
 addBurger();
 
-const dropdown = document.querySelectorAll(".faq");
+window.addEventListener("scroll", function () {
+  var scrollPosition = window.scrollY;
+
+  if (scrollPosition > 100) {
+    header.style.borderBottom = "1px solid #e94431";
+  } else {
+    header.style.borderBottom = "1px solid #fffae6";
+  }
+});
+
+const dropdown = document.querySelectorAll(".GUYaxDVEoSQjUme");
 const toggleDropdown = (element) => {
   element.currentTarget.classList.toggle("faq__visible");
   const item = element.currentTarget.nextElementSibling;
@@ -31,5 +41,4 @@ if (dropdown) {
   dropdown.forEach((element) => {
     element.addEventListener("click", toggleDropdown);
   });
-  console.log("Hello");
 }
