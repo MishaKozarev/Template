@@ -414,7 +414,7 @@ body {
   width: 34px;
   height: 5px;
   border-radius: 4px;
-  background-color: #ff6262;
+  background-color: white;
   transition: 0.4s ease;
 }
 
@@ -426,7 +426,7 @@ body {
   width: 34px;
   height: 5px;
   border-radius: 4px;
-  background-color: #ff6262;
+  background-color: white;
   transition: 0.3s ease;
 }
 
@@ -454,7 +454,7 @@ body {
   background-color: white;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 960px) {
   .header__info {
     display: none;
   }
