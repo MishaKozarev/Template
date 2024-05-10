@@ -188,7 +188,6 @@ ul {
 
 .ctLnsgOsCFxdOWn {
   color: #333;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
   width: 100%;
@@ -669,8 +668,7 @@ img {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 20px;
-
-  font-size: 17px;
+  font-size: 36px;
   line-height: 24px;
 }
 
@@ -1524,7 +1522,7 @@ img {
   .dIzPzbfYjqXxDBE {
     grid-column-gap: 50px;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 0.5fr 1fr 1.1fr;
+    grid-template-columns: 1fr 0.5fr 1fr;
   }
 
   .zpDaqiODHVTJNYS {
@@ -2164,4 +2162,8 @@ img {
     flex-direction: column;
     display: flex;
   }
+}
+
+.faq-q {
+  max-height: 0;
 }
