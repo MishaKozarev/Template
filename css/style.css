@@ -477,7 +477,8 @@ img {
 }
 
 .wLlCppeQBIiVAAe.xAASQFcCGKjfLYo {
-  background-image: url("https://assets-global.website-files.com/63f8946a2ea727a9cb0bb50e/63ff61b0627f653152f5a87e_About%20Us%20Banner%20(3).webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/pictures/about-1.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -488,7 +489,7 @@ img {
 }
 
 .wLlCppeQBIiVAAe.NokqYvyVovQQGbm {
-  background-image: url("https://assets-global.website-files.com/63f8946a2ea727a9cb0bb50e/63fcd30ef8d667ebf050a0ec_Home%201%20Img%20Golf%20(1).webp");
+  background-image: url("../img/pictures/about-2.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -499,7 +500,7 @@ img {
 
 .wLlCppeQBIiVAAe.ZJjHlcaSvEclZbv {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://assets-global.website-files.com/63f8946a2ea727a9cb0bb50e/63fcb4b63233935e67132aa6_Banner%20Home%201%20(3).webp");
+    url("../img/pictures/home-0.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -614,7 +615,7 @@ img {
 }
 
 .rQzvfXLGkrlMgrq {
-  background-image: url("https://assets-global.website-files.com/63f8946a2ea727a9cb0bb50e/6405b9ec63397a33e8fc4c8a_About%20Us%20Img%20(1).jpg");
+  background-image: url("../img/pictures/about-3.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1091,7 +1092,8 @@ img {
 }
 
 .GLqjvMWHhDLEFsq {
-  background-image: url("https://assets-global.website-files.com/63f8946a2ea727a9cb0bb50e/63fcd30ef8d667ebf050a0ec_Home%201%20Img%20Golf%20(1).webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/pictures/home-1.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1435,7 +1437,7 @@ img {
 }
 
 .UaLWBwtfhuZLgtE {
-  background-image: url("https://assets-global.website-files.com/63f8946a2ea727a9cb0bb50e/64075176f033491d46f71522_Team%208%20(1).webp");
+  background-image: url("../img/pictures/item-c.jpeg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
