@@ -1077,9 +1077,6 @@ label {
   max-height: 48px;
 }
 
-.WBLPZQWnwBPqwEP {
-}
-
 .WBLPZQWnwBPqwEP.FnzQwjIIxLTzptj {
   color: var(--accent--primary-1);
   margin-bottom: 6px;
@@ -1124,8 +1121,6 @@ label {
 }
 
 .qwpTpABawUcflMy.CjQssQXnqMMeZnt {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1138,7 +1133,7 @@ label {
       rgba(0, 13, 31, 0.55),
       rgba(0, 13, 31, 0.55)
     ),
-    url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/64f8b13e0f329972ac590208_exclusive-yacht-rentals-boat-x-webflow-template.jpg");
+    url("../img/pictures/item-1.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1148,11 +1143,8 @@ label {
 }
 
 .qwpTpABawUcflMy.CjQssQXnqMMeZnt.MJPmnyOHYhyUkJQ {
-  background-image: linear-gradient(
-      rgba(0, 13, 31, 0.55),
-      rgba(0, 13, 31, 0.55)
-    ),
-    url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/6500a67563c4f55354e4b9c6_yacht-boat-x-webflow-template.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/pictures/item-2.jpeg");
   background-position: 0 0, 50% 0;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1357,7 +1349,6 @@ label {
 
 .FlVuWyamYiqNSiQ {
   z-index: -1;
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1373,7 +1364,7 @@ label {
 .FlVuWyamYiqNSiQ.olLRyWUhxGvWryn {
   z-index: 1;
   z-index: 1;
-  background-image: url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/64f8d048cee8ee6cd0414183_enjoy-the-ocean-in-comfort-2-boat-x-webflow-template.jpg");
+  background-image: url("../img/pictures/item-1.jpeg");
   background-position: 100% 0;
   background-size: cover;
   background-attachment: scroll;
@@ -1388,7 +1379,7 @@ label {
 
 .FlVuWyamYiqNSiQ.JuRhufHVGOIjQsT {
   z-index: 1;
-  background-image: url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/64fb4480b2c102bb9e16b2b8_locations-boat-x-webflow-template.jpg");
+  background-image: url("../img/pictures/item-1.jpeg");
   width: 100vw;
   max-width: 56vw;
   top: 0%;
@@ -1398,8 +1389,7 @@ label {
 }
 
 .FlVuWyamYiqNSiQ.zYfNumllevSHRVS {
-  background-image: linear-gradient(rgba(0, 24, 58, 0.2), rgba(0, 24, 58, 0.2)),
-    url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/64fba06a7492160ad51b04f6_find-the-best-yachts-boat-x-webflow-template.jpg");
+  background-image: url("../img/pictures/item-1.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1413,7 +1403,7 @@ label {
 }
 
 .FlVuWyamYiqNSiQ.JWQZGarXQBPGtXL {
-  background-image: url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/64f8cec3e22c98e2d85e9980_enjoy-the-ocean-in-comfort-boat-x-webflow-template.jpg");
+  background-image: url("../img/pictures/item-1.jpeg");
   background-position: 50% 0;
   width: 100vw;
   max-width: 55vw;
@@ -1424,7 +1414,7 @@ label {
 }
 
 .FlVuWyamYiqNSiQ.MrNqiikJxTuMjiH {
-  background-image: url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/6500a25640cd6a97c709c917_get-in-touch-boat-x-webflow-template.jpg");
+  background-image: url("../img/pictures/item-1.jpeg");
   background-position: 50% 28%;
   width: 100vw;
   max-width: 50vw;
@@ -1443,11 +1433,8 @@ label {
 }
 
 .bLcVNNaFZVokyEX.ByKMQyKUAQyIGln {
-  background-image: linear-gradient(
-      rgba(0, 13, 31, 0.55),
-      rgba(0, 13, 31, 0.55)
-    ),
-    url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/64f8fcc02c8424ff96210042_cta-v1-boat-x-webflow-template.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/pictures/item-3.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1856,7 +1843,7 @@ label {
       rgba(0, 23, 55, 0.68),
       rgba(0, 23, 55, 0.68)
     ),
-    url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/652597f210faf129a19c6226_image-01-stast-boat-x-webflow-template.jpg");
+    url("../img/pictures/item-12.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1869,7 +1856,7 @@ label {
       rgba(0, 23, 55, 0.68),
       rgba(0, 23, 55, 0.68)
     ),
-    url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/65259b6f7bc6077c6b93f688_image-02-stast-boat-x-webflow-template.jpg");
+    url("../img/pictures/item-3.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1882,7 +1869,7 @@ label {
       rgba(0, 23, 55, 0.68),
       rgba(0, 23, 55, 0.68)
     ),
-    url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/65259b93943abafd3f0f856e_image-03-stast-boat-x-webflow-template.jpg");
+    url("../img/pictures/item-10.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -2169,11 +2156,7 @@ label {
   }
 
   .qwpTpABawUcflMy.CjQssQXnqMMeZnt.MJPmnyOHYhyUkJQ {
-    background-image: linear-gradient(
-        rgba(0, 13, 31, 0.55),
-        rgba(0, 13, 31, 0.55)
-      ),
-      url("https://assets-global.website-files.com/64f89912bc1d0da5a8bbfbb9/6500a67563c4f55354e4b9c6_yacht-boat-x-webflow-template.jpg");
+    background-image: url("../img/pictures/item-1.jpeg");
     background-position: 0 0, 50%;
     background-size: auto, cover;
     padding-top: 160px;
@@ -3074,7 +3057,7 @@ label {
   .bxsrYVLVutfHlsI.AOvlmcbtcuNGyEt.hjiBdVQfQNpGOXr {
     grid-column-gap: 12px;
     grid-row-gap: 12px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .bxsrYVLVutfHlsI.bPdbqQmeABRjAEN {
