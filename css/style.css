@@ -2169,3 +2169,10 @@ img {
 .faq-q {
   max-height: 0;
 }
+
+.text-blocks {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
