@@ -18,17 +18,7 @@ function addStyle() {
 }
 addBurger();
 
-window.addEventListener("scroll", function () {
-  var scrollPosition = window.scrollY;
-
-  if (scrollPosition > 100) {
-    headerBottom.style.backgroundColor = "#fff";
-  } else {
-    headerBottom.style.backgroundColor = "#fff";
-  }
-});
-
-const dropdown = document.querySelectorAll(".faq-a");
+const dropdown = document.querySelectorAll(".VvesUQAzktpenYU");
 const toggleDropdown = (element) => {
   element.currentTarget.classList.toggle("faq__visible");
   const item = element.currentTarget.nextElementSibling;
