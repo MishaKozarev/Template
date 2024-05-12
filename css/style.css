@@ -1129,7 +1129,7 @@ img {
   grid-template-columns: max-content;
   grid-auto-columns: max-content;
   grid-auto-flow: column;
-  justify-content: center;
+  justify-content: space-between;
   display: grid;
 }
 
