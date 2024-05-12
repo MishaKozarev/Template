@@ -1078,12 +1078,15 @@ img {
   grid-column-gap: 2rem;
   grid-row-gap: 1rem;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: start;
 }
 
 .AWwVQoEhxQEyXvl {
   padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ASsvVbMBbBocCxt {
@@ -1091,7 +1094,7 @@ img {
   grid-template-rows: auto;
   grid-template-columns: 100%;
   grid-auto-columns: 100%;
-  align-items: flex-start;
+  align-items: center;
   justify-items: start;
   display: flex;
 }
@@ -1794,7 +1797,7 @@ img {
 
   .RtJSWqHEMxzoouc {
     grid-row-gap: 3rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .XvqTmzFCkeoXSnZ {
