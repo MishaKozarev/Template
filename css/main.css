@@ -57,48 +57,49 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.gratitude {
+.thanks {
   height: 100vh;
-  background-color: #efeeeb;
+  background-color: #f2f6f9;
 }
 
-.gratitude__container {
+.thanks__container {
   max-width: 700px;
   gap: 20px;
   padding: 130px 30px 0;
 }
 
-.gratitude__title {
+.thanks__title {
   font-size: 3rem;
 }
 
-.gratitude__content {
+.thanks__content {
   align-items: flex-start;
   gap: 10px;
 }
 
-.gratitude p {
+.thanks p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 /**** DOCUMENT ****/
-.document__container {
-  padding: 200px 40px 80px;
+.special__container {
+  padding: 150px 40px 80px;
   max-width: 800px;
   margin: 0 auto;
   align-items: center;
   gap: 20px;
 }
 
-.document h1 {
+.special h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
   line-height: 50px;
+  letter-spacing: 0.1rem;
 }
 
-.document ol {
+.special ol {
   padding-left: 20px;
   gap: 15px;
   display: flex;
@@ -107,33 +108,34 @@ body {
   justify-content: center;
 }
 
-.document li {
+.special li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 25px;
   color: #535353;
+  border-bottom: 1px solid #c4c0bd;
 }
 
-.document strong {
+.special strong {
   font-weight: 600;
   font-size: 1.3rem;
   color: #535353;
 }
 
-.document a {
+.special a {
   color: #f15f0b;
 }
 
 @media (max-width: 830px) {
-  .document__container {
+  .special__container {
     padding: 150px 40px 80px;
   }
 }
 
 @media (max-width: 480px) {
-  .document h1 {
+  .special h1 {
     font-size: 2.4rem;
   }
 }
