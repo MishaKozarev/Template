@@ -18,14 +18,16 @@ function addStyle() {
 }
 addBurger();
 
-const dropdown = document.querySelectorAll(".VvesUQAzktpenYU");
+const dropdown = document.querySelectorAll(".smSgqMFbULfHboY");
 const toggleDropdown = (element) => {
   element.currentTarget.classList.toggle("faq__visible");
   const item = element.currentTarget.nextElementSibling;
   if (element.currentTarget.classList.contains("faq__visible")) {
     item.style.maxHeight = "350px";
+    item.style.display = "block";
   } else {
     item.style.maxHeight = 0;
+    item.style.display = "none";
   }
 };
 if (dropdown) {

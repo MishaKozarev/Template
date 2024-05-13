@@ -153,7 +153,6 @@ h1 {
 
 .GcuvOXcFHhTYzzX {
   color: #333;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
   width: 100%;
@@ -203,7 +202,7 @@ textarea.GcuvOXcFHhTYzzX {
   white-space: nowrap;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  /* padding: 20px; */
   text-decoration: none;
   position: relative;
 }
@@ -328,7 +327,6 @@ label {
 }
 
 .NbAPtiiUPNxmqwp {
-  border-radius: var(--radius-large);
   background-color: var(--light-tone);
   padding-top: 96px;
   padding-bottom: 96px;
@@ -485,7 +483,6 @@ label {
 }
 
 .JmWWbfWuqhxLWLr {
-  border-radius: var(--radius-large);
   background-color: var(--secondary-100);
   color: var(--white-body-text);
   padding-top: 96px;
@@ -646,9 +643,10 @@ label {
 .kvBasSuYCVXmxvW {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   display: flex;
+  width: 100%;
 }
 
 .fuwyIWqhpIsAisl {
@@ -1014,7 +1012,7 @@ label {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 24px 18px;
+  /* padding: 24px 18px; */
   display: flex;
 }
 
@@ -1755,4 +1753,16 @@ label {
   .ODtEZiASUCyvsDE {
     padding: 36px 18px 18px;
   }
+}
+
+.kDEkKWYWAzomKXm {
+  max-height: 0;
+}
+
+.margin-section {
+  margin: 30px;
+}
+
+.margin-top {
+  margin-top: 120px;
 }
