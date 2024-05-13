@@ -1770,3 +1770,62 @@ label {
 .margin-top {
   padding-top: 140px;
 }
+
+.section-text {
+  background-color: #073630;
+}
+
+.section-text__container {
+  padding: 80px 20px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.section-text__container li {
+  list-style-type: none;
+}
+
+.rounded {
+  counter-reset: li;
+  list-style: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  padding: 20px 30px 0;
+}
+
+.rounded li {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.4em 0.4em 2em;
+  margin: 0.5em 0;
+  background-color: #1d4b45;
+  border-radius: 0.3em;
+  color: white;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.625rem;
+  border-radius: 10px;
+}
+
+.rounded li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  color: #1d4b45;
+  background: #fb4d16;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: 0.3em solid white;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+  border-radius: 10px;
+}
+
+.text__title {
+  text-align: center;
+}
