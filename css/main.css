@@ -236,6 +236,7 @@ body {
   background-color: inherit;
   border: 1px solid #078939;
   color: #078939;
+  transition: 0.5s;
 }
 
 .header__btn:hover {

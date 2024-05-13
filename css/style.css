@@ -1004,7 +1004,7 @@ img {
 }
 
 .LbidBYKyvbwGYQf {
-  background-image: url("https://assets-global.website-files.com/65d96d247cdbea321b6baac5/65ee8cdec7531e81680472cf_demo-form-bg.jpg");
+  background-image: url("../img/icons/bg-1.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1026,7 +1026,7 @@ img {
 
 .NktzEKUhetofKbT {
   background-color: #f3fbf6;
-  background-image: url("https://assets-global.website-files.com/65d96d247cdbea321b6baac5/65e0dc06f193b826a79349d6_cta-bg.png");
+  background-image: url("../img/icons/bg-2.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1043,8 +1043,8 @@ img {
 }
 
 .einKyRsQaVjVTtU {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .lZrVHKdsJwKOzkV {
@@ -1060,7 +1060,7 @@ img {
 
 .atqTrpgCETfKkGc {
   color: var(--text-color--text-secondary);
-  background-image: url("https://assets-global.website-files.com/65d96d247cdbea321b6baac5/65e0dfb1e39dc0acf1543286_footer-bg.png");
+  background-image: url("../img/icons/bg-3.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1612,8 +1612,9 @@ img {
 }
 
 .ijIZrNsIYVTWSoQ {
-  width: 33.33%;
   overflow: visible;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .PFdGgfKnHXrNwYM {
@@ -1641,11 +1642,10 @@ img {
   transform-style: preserve-3d;
   width: 100%;
   position: relative;
-  transform: translate(-18%, 20px) scale3d(1.4, 1.5, 1);
 }
 
 .TRIiXfUrTHoVLEK {
-  background-image: url("https://assets-global.website-files.com/65d96d247cdbea321b6baac5/65edf7206ef1975f6b1e8013_hero-v1-bg.png");
+  background-image: url("../img/icons/bg-4.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1887,10 +1887,6 @@ img {
   .YXlQfWiXlaRKJvM {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .ijIZrNsIYVTWSoQ {
-    width: 50%;
   }
 
   .PFdGgfKnHXrNwYM {
@@ -2218,10 +2214,6 @@ img {
     font-size: 1.25rem;
   }
 
-  .ijIZrNsIYVTWSoQ {
-    width: 80%;
-  }
-
   .PFdGgfKnHXrNwYM {
     padding-right: 1.5rem;
   }
@@ -2425,7 +2417,12 @@ img {
   color: white;
 }
 
-
 .padding-top {
   padding-top: 100px;
+}
+
+@media (max-width: 600px) {
+  .ijIZrNsIYVTWSoQ {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
