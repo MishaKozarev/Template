@@ -469,6 +469,7 @@ strong {
   margin-right: auto;
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 100px;
 }
 
 .UrqWlQPyRJMBurr {
@@ -566,6 +567,7 @@ strong {
   grid-row-gap: 0px;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
+  padding-top: 200px;
 }
 
 .YuphxazATGjvmQN {
@@ -1155,10 +1157,12 @@ strong {
   .WExMJWlxszPysHl {
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 100px;
   }
 
   .fPjhnuPQksNdoHC {
     padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .UtSUdzKNFLWmrKx {
@@ -1974,4 +1978,12 @@ a {
 
 .GrsBvkulPEeSGQY {
   max-height: 0;
+}
+
+.EatfjWFYIjXhGUn:hover {
+  color: #ecaf3e;
+}
+
+.color-dark {
+  background-color: #e6e6e6;
 }
