@@ -946,7 +946,7 @@ img {
 
 .vGBiGTLESogOjrn {
   background-color: #0c0b1a;
-  background-image: url("https://assets-global.website-files.com/65f3c85f2d95933422c197a0/6634789678e1057faad7a2de_About%20One%20Blur%20Effect.svg");
+  background-image: url("../img/icons/bg.svg");
   background-position: 100% 0;
   background-repeat: no-repeat;
   padding-top: 115px;
@@ -1109,7 +1109,8 @@ img {
 }
 
 .QQXyersHeAXTvbF {
-  background-image: url("https://assets-global.website-files.com/65f3c85f2d95933422c197a0/661773bd42503fcdec03a219_About%20Banner.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/pictures/home-0.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1409,7 +1410,8 @@ img {
 }
 
 .lIzosEtMmFZpsYf {
-  background-image: url("https://assets-global.website-files.com/65f3c85f2d95933422c197a0/6617778cd38d17089035e676_About%20Two%20Hero%20Image.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/pictures/about-0.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
