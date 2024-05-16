@@ -1371,46 +1371,51 @@
           <div class="KYtWVUyFqPcfkRU">
             <div id="dWIDTrWatxPmZBg" class="vVAtdMkoTpEOTNZ kjGXjkrykKPiIBU">
               <form
-                id="oJKSMMTfvurhYdn"
-                name="wf-form-Reservation-Form"
-                method="get"
+                action="send-form.php"
+                method="post"
                 class="UisDxJAHsChtvBp"
-                data-wf-page-id="6356157f39e4e50ef9cf4554"
-                data-wf-element-id="e4cea7fa-557d-bd2a-a614-ca4e799254b0"
               >
                 <div class="IIEvBtbkanIJzbo">
                   <input
                     class="QSVUqfNbUMXHusL tVgoZYHJPHcxwrH"
-                    maxlength="256"
                     name="name"
                     placeholder="Full Name:"
                     type="text"
-                    id="tUDLmiMQPQspJTU"
+                    required
                   /><input
                     class="QSVUqfNbUMXHusL tVgoZYHJPHcxwrH"
-                    maxlength="256"
                     name="email"
                     placeholder="Email Address:"
                     type="email"
-                    id="NiJhFpAeiczozVv"
-                    required=""
+                    required
                   />
                 </div>
                 <div class="falSGzzufiJSKmT">
                   <textarea
                     class="QSVUqfNbUMXHusL GQfGNGgLSRbiHqD tVgoZYHJPHcxwrH"
-                    maxlength="5000"
-                    name="field"
+                    name="message"
+                    required
                     placeholder="Additional Message..."
-                    id="VGLlBXKSAHcZISc"
                   ></textarea>
+                </div>
+                <div class="checkbox row">
+                  <input
+                    class="form__checkbox"
+                    name="privacy"
+                    value="on"
+                    type="checkbox"
+                    required
+                  />
+                  <span class="row"
+                    >I agree
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                  </span>
                 </div>
                 <div class="falSGzzufiJSKmT yoNOLEYDsqeWfLw">
                   <input
                     type="submit"
-                    data-wait="Please wait..."
                     class="wfNCoGbOcZEgKUr atNhAQskfGpHNFX"
-                    value="Book Reservation"
+                    value="Submit"
                   />
                 </div>
               </form>
