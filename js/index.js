@@ -3,6 +3,7 @@ const header = document.querySelector(".header");
 const links = document.querySelectorAll(".menu__link");
 const nav = document.querySelector(".nav");
 const btn = document.querySelector(".burger__btn");
+const dropdown = document.querySelectorAll(".EGVKkPJWhylNXvt");
 
 function addBurger() {
   btn.addEventListener("click", addStyle);
@@ -17,7 +18,16 @@ function addStyle() {
 }
 addBurger();
 
-const dropdown = document.querySelectorAll(".DwpSWCqREPuQGqA");
+window.addEventListener("scroll", function () {
+  var scrollPosition = window.scrollY;
+
+  if (scrollPosition > 100) {
+    header.style.borderBottom = "1px solid #a88343";
+  } else {
+    header.style.borderBottom = "1px solid #f2ede6";
+  }
+});
+
 const toggleDropdown = (element) => {
   element.currentTarget.classList.toggle("faq__visible");
   const item = element.currentTarget.nextElementSibling;

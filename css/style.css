@@ -20,6 +20,7 @@ template {
 
 a {
   background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
 }
 
 a:active,
@@ -147,7 +148,6 @@ label {
 
 .IVKzFeFhPRvfFGc {
   color: #333;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
   width: 100%;
@@ -331,7 +331,6 @@ h3 {
 
 a {
   color: var(--color--accent);
-  text-decoration: underline;
 }
 
 .hrOGGwDSXQXXnDB {
@@ -523,6 +522,7 @@ a {
   justify-content: space-between;
   align-items: flex-start;
   display: flex;
+  padding-top: 40px;
 }
 
 .MleMcfTYdmfjPhq {
@@ -595,7 +595,6 @@ a {
 .GoFQLHeFDboMwpL {
   justify-content: flex-start;
   align-items: center;
-  height: 26px;
   display: flex;
 }
 
