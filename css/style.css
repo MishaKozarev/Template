@@ -192,7 +192,6 @@ label {
 
 .HwtQQTYcphJnHNp {
   color: #333;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
   width: 100%;
@@ -3222,4 +3221,8 @@ img {
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+.info-element {
+  padding: 20px;
 }

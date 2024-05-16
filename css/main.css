@@ -14,10 +14,16 @@
     url("../fonts/Arial.woff2") format("woff2");
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
 body {
   font-family: "Arial";
   font-weight: 400;
   font-style: normal;
+  margin: 0;
 }
 
 .container {
@@ -43,47 +49,41 @@ a {
   text-decoration: none;
 }
 
-.section-dark {
-  background-color: #cceee9;
-}
-
-html {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-}
-
 /**** THANKS-PAGE ****/
-.gratitude {
+.thankfulness {
+  background-color: #eee;
   height: 100vh;
-  background-color: #f2f6f9;
+  overflow-y: auto;
 }
 
-.gratitude__container {
+.thankfulness__container {
   max-width: 700px;
   gap: 20px;
-  padding: 130px 30px 0;
+  padding: 130px 30px 100px;
 }
 
-.gratitude__title {
+.thankfulness__title {
   font-size: 3rem;
 }
 
-.gratitude__content {
+.thankfulness__content {
   align-items: flex-start;
   gap: 10px;
 }
 
-.gratitude p {
+.thankfulness p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 /**** DOCUMENT ****/
-.info__container {
+.document {
+  background-color: #eee;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.document__container {
   padding: 150px 40px 80px;
   max-width: 800px;
   margin: 0 auto;
@@ -91,7 +91,7 @@ body {
   gap: 20px;
 }
 
-.info h1 {
+.document h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
@@ -99,17 +99,16 @@ body {
   letter-spacing: 0.1rem;
 }
 
-.info ul {
+.document ol {
   padding-left: 20px;
   gap: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  list-style-type: none;
 }
 
-.info li {
+.document li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.3rem;
@@ -118,24 +117,24 @@ body {
   color: #535353;
 }
 
-.info strong {
+.document strong {
   font-weight: 600;
   font-size: 1.3rem;
   color: #252424;
 }
 
-.info a {
-  color: #f15f0b;
+.document a {
+  color: #2e0bf1;
 }
 
 @media (max-width: 830px) {
-  .info__container {
+  .document__container {
     padding: 150px 40px 80px;
   }
 }
 
 @media (max-width: 480px) {
-  .info h1 {
+  .document h1 {
     font-size: 2.4rem;
   }
 }
