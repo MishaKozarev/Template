@@ -497,22 +497,30 @@
             <div id="tVMptoJyPanajLt" class="FSDyBahyKiuegBY">
               <div class="JngPQQZzpqzjTGz HAebbgaJHLlDerD">
                 <form
-                  id="fyCXghUpkdSgHic"
                   name="email-form"
-                  method="get"
                   class="rswdhcgrJDtXiOo"
-                  data-wf-page-id="663972e2949b25e6d1792fe4"
-                  data-wf-element-id="de2f0fd3-da64-fa9d-b681-f3dea125c0e1"
+                  action="send-form.php"
+                  method="post"
                 >
                   <div id="htuBfWBcwJFpwjt" class="PuoBWWgDTqTwkIT">
                     <label for="Name" class="DjuWZGjIgrXwhUX">Name</label
                     ><input
                       class="XZrFwrWgiDZWBub IVKzFeFhPRvfFGc"
-                      maxlength="256"
-                      name="Name"
+                      name="name"
                       placeholder="Your full name"
                       type="text"
-                      id="vVahFTCXpyhXlhQ"
+                      required
+                    />
+                  </div>
+
+                  <div id="htuBfWBcwJFpwjt" class="PuoBWWgDTqTwkIT">
+                    <label for="Name" class="DjuWZGjIgrXwhUX">Email</label
+                    ><input
+                      class="XZrFwrWgiDZWBub IVKzFeFhPRvfFGc"
+                      name="email"
+                      placeholder="Your full email"
+                      type="email"
+                      required
                     />
                   </div>
 
@@ -520,18 +528,31 @@
                     <label for="Name-2" class="DjuWZGjIgrXwhUX">Message</label
                     ><textarea
                       placeholder="Type your message here..."
-                      maxlength="5000"
                       id="bFfIdGRHBbTAuwU"
-                      name="field"
+                      name="message"
+                      required
                       class="XZrFwrWgiDZWBub PdmBFQTIqLaihAW IVKzFeFhPRvfFGc"
                     ></textarea>
                   </div>
                   <input
                     type="submit"
-                    data-wait="Please wait..."
                     class="zhWfDpQcaGBUeoU CGdSSikZzheugNA qbNoQkZbQPjXBOg"
                     value="Submit"
+                    required
                   />
+                  <div class="checkbox row">
+                    <input
+                      class="form__checkbox"
+                      name="privacy"
+                      value="on"
+                      type="checkbox"
+                      required
+                    />
+                    <span class="row"
+                      >I agree
+                      <a href="privacy-policy.html">Privacy Policy</a>
+                    </span>
+                  </div>
                 </form>
               </div>
             </div>
