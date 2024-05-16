@@ -59,7 +59,7 @@ body {
 /**** THANKS-PAGE ****/
 .gratitude {
   height: 100vh;
-  background-color: #f2f6f9;
+  background-color: #ebe4db;
 }
 
 .gratitude__container {
@@ -99,14 +99,13 @@ body {
   letter-spacing: 0.1rem;
 }
 
-.info ul {
+.info ol {
   padding-left: 20px;
   gap: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  list-style-type: none;
 }
 
 .info li {
@@ -116,6 +115,7 @@ body {
   font-weight: 400;
   line-height: 25px;
   color: #535353;
+  border-bottom: 1px solid #d8cdcd;
 }
 
 .info strong {
@@ -125,7 +125,7 @@ body {
 }
 
 .info a {
-  color: #f15f0b;
+  color: #7c530c;
 }
 
 @media (max-width: 830px) {
