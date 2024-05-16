@@ -3,7 +3,7 @@ const header = document.querySelector(".header");
 const links = document.querySelectorAll(".menu__link");
 const nav = document.querySelector(".nav");
 const btn = document.querySelector(".burger__btn");
-const dropdown = document.querySelectorAll(".EGVKkPJWhylNXvt");
+const dropdown = document.querySelectorAll(".ktrVYtbnDifFtOS");
 
 function addBurger() {
   btn.addEventListener("click", addStyle);
@@ -33,8 +33,10 @@ const toggleDropdown = (element) => {
   const item = element.currentTarget.nextElementSibling;
   if (element.currentTarget.classList.contains("faq__visible")) {
     item.style.maxHeight = "350px";
+    item.style.display = "block";
   } else {
     item.style.maxHeight = 0;
+    item.style.display = "none";
   }
 };
 if (dropdown) {
