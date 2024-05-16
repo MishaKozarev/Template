@@ -14,10 +14,16 @@
     url("../fonts/Arial.woff2") format("woff2");
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
 body {
   font-family: "Arial";
   font-weight: 400;
   font-style: normal;
+  margin: 0;
 }
 
 .container {
@@ -43,47 +49,35 @@ a {
   text-decoration: none;
 }
 
-.section-dark {
-  background-color: #cceee9;
-}
-
-html {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-}
-
 /**** THANKS-PAGE ****/
-.gratitude {
+.thankfulness {
+  background-color: #eee;
   height: 100vh;
-  background-color: #f2f6f9;
+  overflow-y: auto;
 }
 
-.gratitude__container {
+.thankfulness__container {
   max-width: 700px;
   gap: 20px;
-  padding: 130px 30px 0;
+  padding: 130px 30px 100px;
 }
 
-.gratitude__title {
+.thankfulness__title {
   font-size: 3rem;
 }
 
-.gratitude__content {
+.thankfulness__content {
   align-items: flex-start;
   gap: 10px;
 }
 
-.gratitude p {
+.thankfulness p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 /**** DOCUMENT ****/
-.info__container {
+.document__container {
   padding: 150px 40px 80px;
   max-width: 800px;
   margin: 0 auto;
@@ -91,7 +85,7 @@ body {
   gap: 20px;
 }
 
-.info h1 {
+.document h1 {
   font-weight: 600;
   font-size: 3rem;
   padding-bottom: 5px;
@@ -99,17 +93,16 @@ body {
   letter-spacing: 0.1rem;
 }
 
-.info ul {
+.document ol {
   padding-left: 20px;
   gap: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  list-style-type: none;
 }
 
-.info li {
+.document li {
   padding: 0 0 5px 0;
   align-self: flex-start;
   font-size: 1.3rem;
@@ -118,24 +111,24 @@ body {
   color: #535353;
 }
 
-.info strong {
+.document strong {
   font-weight: 600;
   font-size: 1.3rem;
   color: #252424;
 }
 
-.info a {
-  color: #f15f0b;
+.document a {
+  color: #2e0bf1;
 }
 
 @media (max-width: 830px) {
-  .info__container {
+  .document__container {
     padding: 150px 40px 80px;
   }
 }
 
 @media (max-width: 480px) {
-  .info h1 {
+  .document h1 {
     font-size: 2.4rem;
   }
 }
@@ -174,25 +167,68 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
-  background-color: black;
 }
 
 .header__container {
   height: 100%;
 }
 
+.header-top {
+  width: 100%;
+  height: fit-content;
+  justify-content: flex-start;
+  color: #a9a9a9;
+  padding: 10px;
+  background-color: #19181b;
+}
+
 .header-bottom {
   width: 100%;
+  height: 60%;
+  background-color: #eee;
 }
 
 .header-bottom__container {
   justify-content: space-between;
 }
 
+.header-top__container {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__block-menu {
+  gap: 20px;
+}
+
+.header__block-item {
+  gap: 6px;
+}
+
+.header__block-item a {
+  color: white;
+}
+
+.header__block-item img {
+  width: 20px;
+  height: 20px;
+}
+
+.header__block-item p {
+  display: none;
+}
+
+.header__address {
+  color: white;
+  font-size: 1rem;
+  padding-left: 10px;
+  font-weight: 400;
+}
+
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 120px;
+  width: 150px;
   display: flex;
   gap: 15px;
   align-items: center;
@@ -222,62 +258,39 @@ body {
   width: 40px;
 }
 
-.header__info {
-  gap: 20px;
-}
-
-.header__info p {
-  display: none;
-}
-
-.header__info img {
-  width: 30px;
-  height: 30px;
-}
-
 .nav {
   display: flex;
   align-items: center;
   gap: 20px;
   transform: translateX(0);
   transition: transform 0.3s ease;
-  overflow-y: auto;
 }
 
 .menu__link {
   display: block;
   position: relative;
   transition: 0.2s ease;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: white;
+  color: #19181b;
+  text-decoration: none;
 }
 
 .menu__link:hover {
-  color: #e94431;
+  color: #9df018;
 }
 
 .header__btn {
-  padding: 5px 16px;
   border: 1px solid white;
-  background-color: inherit;
-  color: white;
-  transition: 0.4s;
+  padding: 10px 20px;
 }
 
-.header__btn:hover {
-  color: #e94431;
-  border: 1px solid #e94431;
-}
-
-@media (max-width: 930px) {
-  .header__block-menu {
-    flex-direction: column;
-    align-items: flex-start;
+@media (max-width: 760px) {
+  .header-top {
+    display: none;
   }
 }
-
 /**** BURGER ****/
 
 .burger__btn {
@@ -294,10 +307,10 @@ body {
 
 .burger__btn span {
   display: inline-block;
-  width: 34px;
+  width: 28px;
   height: 3px;
   border-radius: 4px;
-  background-color: white;
+  background-color: black;
   transition: 0.4s ease;
 }
 
@@ -309,7 +322,7 @@ body {
   width: 34px;
   height: 3px;
   border-radius: 4px;
-  background-color: white;
+  background-color: black;
   transition: 0.3s ease;
 }
 
@@ -337,12 +350,13 @@ body {
   background-color: white;
 }
 
-@media (max-width: 740px) {
-  .header__info {
-    display: none;
-  }
+@media (max-width: 620px) {
   .burger__btn {
     display: flex;
+  }
+
+  .header__top {
+    display: none;
   }
 
   .nav {
@@ -350,31 +364,30 @@ body {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    width: 100%;
+    top: 0;
+    right: -100px;
     padding: 100px 70px;
-    transform: translateY(-100%);
+    transition: right 0.3s ease;
     opacity: 0;
   }
 
   .menu__link {
+    color: white;
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 500;
     border-bottom: none;
     text-decoration: none;
-    color: white;
   }
 
   .menu__link:hover {
-    color: #e94431;
+    color: #9ff712;
   }
 
   .nav.active {
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 0);
-    width: fit-content;
-    min-width: 280px;
+    width: 320px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -382,17 +395,6 @@ body {
     align-items: center;
     overflow: hidden;
     background-color: black;
-    opacity: 0.2;
-    transform: translateX(0);
     opacity: 1;
-    font-size: 1.1rem;
-    margin-top: 10px;
-    margin-right: 10px;
-  }
-}
-
-@media (max-width: 540px) {
-  .header__phone {
-    display: none;
   }
 }
