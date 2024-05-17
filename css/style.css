@@ -2453,7 +2453,7 @@ body {
 
 /**** THANKS-PAGE ****/
 .thanks-pages {
-  background-color: #fff2de;
+  background-color: #feedff;
 }
 
 .thanks-pages__title {
@@ -2496,7 +2496,7 @@ body {
 
 /**** DOCUMENT ****/
 .document__section {
-  background-color: #fff2de;
+  background-color: #feedff;
 }
 
 .document__container {
@@ -2542,7 +2542,6 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
-  background-color: #fffcf8;
   background-color: #feedff;
 }
 
