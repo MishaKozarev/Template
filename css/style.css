@@ -148,9 +148,9 @@ p {
 :root {
   --color--dark: #07152c;
   --color--body-text-color: #2f3339;
-  --color--primary_blue: #05f;
+  --color--primary_blue: #5d001e;
   --color--accent_01: #e6e6e7;
-  --color--light_2: #e6eeff;
+  --color--light_2: #ffdefb;
   --size--8px: 8px;
   --color-dark\<deleted\|variable-4c30bdc2\>: #1c1d20;
   --color--light: #f8fcff;
@@ -370,7 +370,7 @@ img {
 }
 
 .oQnEEZYWUiuMkTw {
-  background-color: #e6eeff;
+  background-color: #ffdefb;
   padding-top: 120px;
   padding-bottom: 100px;
   overflow: hidden;
@@ -696,7 +696,7 @@ img {
 }
 
 .XdEGEFaKylYmDcq {
-  background-color: #e6eeff;
+  background-color: #ffdefb;
   overflow: hidden;
 }
 
@@ -1979,9 +1979,9 @@ p {
 :root {
   --color--dark: #07152c;
   --color--body-text-color: #2f3339;
-  --color--primary_blue: #05f;
+  --color--primary_blue: #5d001e;
   --color--accent_01: #e6e6e7;
-  --color--light_2: #e6eeff;
+  --color--light_2: #ffdefb;
   --size--8px: 8px;
   --color-dark\<deleted\|variable-4c30bdc2\>: #1c1d20;
   --color--light: #f8fcff;
@@ -2324,7 +2324,7 @@ body {
 }
 
 .gratitude__container span {
-  color: #05f;
+  color: #5d001e;
 }
 
 .gratitude__content {
@@ -2333,15 +2333,15 @@ body {
 }
 
 .gratitude__btn {
-  border: 2px solid #05f;
+  border: 2px solid #5d001e;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #05f;
+  color: #5d001e;
 }
 
 .gratitude__btn:hover {
-  background-color: #05f;
+  background-color: #5d001e;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
@@ -2361,7 +2361,7 @@ body {
 .info-page h1 {
   font-weight: 600;
   font-size: 3rem;
-  color: #05f;
+  color: #5d001e;
 }
 
 .info-page__container ol {
@@ -2373,14 +2373,14 @@ body {
   align-self: flex-start;
   font-size: 1.2rem;
   font-weight: 400;
-  border-bottom: 1px solid #05f;
+  border-bottom: 1px solid #5d001e;
 }
 
 .info-page__container strong {
   font-weight: 600;
   font-size: 1.3rem;
   padding: 0 0 10px 0;
-  color: #05f;
+  color: #5d001e;
 }
 
 .info-page__container a {
@@ -2398,7 +2398,7 @@ body {
   max-height: fit-content;
   width: 100%;
   color: black;
-  background-color: #e6eeff;
+  background-color: #ffdefb;
 }
 
 .header__container {
@@ -2462,16 +2462,16 @@ body {
 
 .header__btn {
   padding: 10px 16px;
-  border: 1px solid #05f;
-  background-color: #05f;
+  border: 1px solid #5d001e;
+  background-color: #5d001e;
   color: white;
   transition: 0.4s;
 }
 
 .header__btn:hover {
   background-color: white;
-  color: #05f;
-  border: 1px solid #05f;
+  color: #5d001e;
+  border: 1px solid #5d001e;
 }
 
 .nav {
@@ -2492,12 +2492,12 @@ body {
   text-transform: uppercase;
   color: black;
   padding-bottom: 3px;
-  border-bottom: 2px solid #e6eeff;
+  border-bottom: 2px solid #ffdefb;
 }
 
 .menu__link:hover {
-  color: #05f;
-  border-bottom: 2px solid #05f;
+  color: #5d001e;
+  border-bottom: 2px solid #5d001e;
   padding-bottom: 3px;
 }
 
@@ -2527,7 +2527,7 @@ body {
   width: 34px;
   height: 5px;
   border-radius: 4px;
-  background-color: #05f;
+  background-color: #5d001e;
   transition: 0.4s ease;
 }
 
@@ -2539,7 +2539,7 @@ body {
   width: 34px;
   height: 5px;
   border-radius: 4px;
-  background-color: #05f;
+  background-color: #5d001e;
   transition: 0.3s ease;
 }
 
@@ -2612,7 +2612,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #05f;
+    background-color: #5d001e;
     opacity: 0.2;
     transform: translateY(0);
     max-height: 750px;
@@ -2630,7 +2630,7 @@ body {
 
 /**** FOOTER ****/
 .footer {
-  background-color: #05f;
+  background-color: #5d001e;
 }
 
 .footer__container {
