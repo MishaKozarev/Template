@@ -2272,7 +2272,7 @@ body {
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1128px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -2801,4 +2801,16 @@ body {
 
 .section-text {
   font-size: 1.3rem;
+}
+
+.wrbCbKlCrumqVrR {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+@media (max-width: 1920px) {
+  .wrbCbKlCrumqVrR {
+    gap: 20px;
+  }
 }
