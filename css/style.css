@@ -2300,7 +2300,7 @@ body {
 
 /**** DOCUMENT ****/
 .document__container {
-  padding: 190px 40px;
+  padding: 230px 40px;
   max-width: 800px;
   margin: 0 auto;
   gap: 20px;
@@ -2456,7 +2456,11 @@ body {
   }
 
   .info__container {
-    padding: 270px 40px;
+    padding: 240px 40px;
+  }
+
+  .document__container {
+    padding: 180px 40px;
   }
 }
 
