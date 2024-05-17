@@ -2440,12 +2440,12 @@ body {
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 160px;
+  width: 80px;
   display: flex;
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 0;
+  padding: 10px 0;
   background-color: inherit;
 }
 
@@ -2699,11 +2699,7 @@ body {
 }
 
 .footer__logo {
-  width: 200px;
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  z-index: 2;
+  width: 100px;
 }
 
 .footer__logo:hover {
@@ -2795,4 +2791,14 @@ body {
   height: 2px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.lywYogvGyRYEtRL {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.section-text {
+  font-size: 1.3rem;
 }
