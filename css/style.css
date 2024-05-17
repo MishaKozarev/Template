@@ -651,7 +651,7 @@ figure {
   position: relative;
   padding-top: 200px;
   padding-bottom: 175px;
-  background-color: #fffcf8;
+  background-color: #feedff;
 }
 
 .oelGFgeGtlkBtnt {
@@ -755,7 +755,7 @@ figure {
   position: relative;
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #faf3e8;
+  background-color: #f7cbed;
 }
 
 .IYWRhKCuvGeAwSr {
@@ -1100,7 +1100,7 @@ figure {
 .zTAHsmpAfHeFyJK {
   padding-top: 95px;
   padding-bottom: 100px;
-  background-color: #faf3e8;
+  background-color: #f7cbed;
 }
 
 .sgfzJUeakSJTWJH {
@@ -1355,7 +1355,7 @@ figure {
 .IpYjcVMRSoAhYpG {
   padding-top: 150px;
   padding-bottom: 100px;
-  background-color: #faf3e8;
+  background-color: #feedff;
 }
 
 .QroftoTDzjuoQpw {
@@ -1988,6 +1988,7 @@ figure {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column-reverse;
+    gap: 20px;
   }
 
   .ZUKyVnRvdBGDRIN {
@@ -2542,6 +2543,7 @@ body {
   max-height: fit-content;
   width: 100%;
   background-color: #fffcf8;
+  background-color: #feedff;
 }
 
 .header__container {
@@ -2860,4 +2862,8 @@ body {
   color: #222222;
   margin: 0;
   font-size: 1.1rem;
+}
+
+.color-section {
+  background-color: #feedff;
 }
