@@ -2541,6 +2541,7 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
+  background-color: #fffcf8;
 }
 
 .header__container {
@@ -2836,4 +2837,27 @@ body {
 
 .text__container {
   gap: 20px;
+}
+
+.ZZmFQiLHfjvpgWr {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ZZmFQiLHfjvpgWr a {
+  color: #222222;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.ZZmFQiLHfjvpgWr a:hover {
+  color: #dfa245;
+}
+
+.ZZmFQiLHfjvpgWr p {
+  color: #222222;
+  margin: 0;
+  font-size: 1.1rem;
 }

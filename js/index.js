@@ -17,13 +17,3 @@ function addStyle() {
   logo.classList.toggle("active");
 }
 addBurger();
-
-window.addEventListener("scroll", function () {
-  var scrollPosition = window.scrollY;
-
-  if (scrollPosition > 100) {
-    headerBottom.style.backgroundColor = "white";
-  } else {
-    headerBottom.style.backgroundColor = "inherit";
-  }
-});
