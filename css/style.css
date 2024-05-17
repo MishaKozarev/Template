@@ -79,7 +79,7 @@ img {
 .txWAlxXXtkKCAkk {
   display: inline-block;
   padding: 9px 15px;
-  background-color: #3898ec;
+  background-color: #418dd0;
   color: white;
   border: 0;
   line-height: inherit;
@@ -160,7 +160,7 @@ figure {
   color: #999;
 }
 .oIkJikgVBVkRSUs:focus {
-  border-color: #3898ec;
+  border-color: #418dd0;
   outline: 0;
 }
 textarea.oIkJikgVBVkRSUs {
@@ -3378,7 +3378,7 @@ body {
 }
 
 .thanks__container span {
-  color: #3898ec;
+  color: #418dd0;
 }
 
 .thanks__content {
@@ -3387,16 +3387,16 @@ body {
 }
 
 .thanks__btn {
-  border: 2px solid #3898ec;
+  border: 2px solid #418dd0;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #3898ec;
+  color: #418dd0;
   border-radius: 20px;
 }
 
 .thanks__btn:hover {
-  background-color: #3898ec;
+  background-color: #418dd0;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
@@ -3438,7 +3438,7 @@ body {
 }
 
 .info__container a {
-  color: #3898ec;
+  color: #418dd0;
 }
 
 /**** HEADER ****/
@@ -3451,7 +3451,7 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
-  background-color: #3898ec;
+  background-color: #418dd0;
   color: white;
 }
 
@@ -3502,12 +3502,12 @@ body {
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 160px;
+  width: 120px;
   display: flex;
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 0;
+  padding: 15px 0;
   background-color: inherit;
 }
 
@@ -3546,13 +3546,13 @@ body {
   position: relative;
   transition: 0.2s ease;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   color: white;
 }
 
 .menu__link:hover {
-  color: 2px solid rgb(142, 235, 21);
+  color: rgb(142, 235, 21);
 }
 
 .header__btn {
@@ -3560,20 +3560,9 @@ body {
   padding: 10px 20px;
 }
 
-@media (max-width: 930px) {
-  .header__block-menu {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .info__container {
-    padding: 270px 40px;
-  }
-}
-
-@media (max-width: 540px) {
-  .info__container {
-    padding: 125px 40px;
+@media (max-width: 740px) {
+  .header-top {
+    display: none;
   }
 }
 
@@ -3666,7 +3655,7 @@ body {
   .menu__link {
     color: white;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 500;
     border-bottom: none;
     text-decoration: none;
   }
@@ -3686,7 +3675,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #3898ec;
+    background-color: #418dd0;
     opacity: 0.2;
     transform: translateX(0);
     max-height: 750px;
@@ -3708,7 +3697,7 @@ body {
 
 /**** FOOTER ****/
 .footer {
-  background-color: #3898ec;
+  background-color: #418dd0;
 }
 
 .footer__container {
@@ -3885,7 +3874,7 @@ textarea {
 }
 
 .checkbox a {
-  color: #3898ec;
+  color: #418dd0;
 }
 
 @media (max-width: 860px) {
@@ -3918,7 +3907,7 @@ textarea {
 }
 
 .title-color {
-  color: #3898ec;
+  color: #418dd0;
 }
 
 .title-color span {
