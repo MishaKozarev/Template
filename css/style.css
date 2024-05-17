@@ -605,7 +605,7 @@ figure {
   border-width: 1.5px;
   border-color: hsla(0, 0%, 100%, 0.4);
   background-color: transparent;
-  background-image: url("../img/icons/bg-4.png");
+  background-image: url("../img/icons/icon-phone.png");
   background-position: 30px 50%;
   background-size: 15px 15px;
   background-repeat: no-repeat;
@@ -2828,4 +2828,12 @@ body {
   margin-bottom: 0px;
   font-size: 18px;
   line-height: 28px;
+}
+
+.GmDFzHgVCixCKeY {
+  padding: 100px 20px;
+}
+
+.text__container {
+  gap: 20px;
 }
