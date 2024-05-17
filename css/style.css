@@ -462,46 +462,46 @@ p {
 
 .YdDGagpVLGcdAiN.LOvUZIEjJxmshtV {
   z-index: 9;
-  background-image: linear-gradient(45deg, #51bcb7, #47b9b5);
+  background-image: linear-gradient(45deg, #440085, #440085);
 }
 
 .YdDGagpVLGcdAiN.FnxbabaqFimeYNu {
   z-index: 8;
-  background-image: linear-gradient(135deg, #2b2f45, #56526a);
+  background-image: linear-gradient(135deg, #614491, #694f8b);
 }
 
 .YdDGagpVLGcdAiN.LpyoliUkEseBNEQ {
   z-index: 7;
-  background-image: linear-gradient(135deg, #90abd6, #3d5a8d);
+  background-image: linear-gradient(135deg, #440085, #440085);
 }
 
 .YdDGagpVLGcdAiN.EkeMjFYLisQStiQ {
   z-index: 5;
-  background-image: linear-gradient(135deg, #5049d1, #332bc6);
+  background-image: linear-gradient(135deg, #614491, #694f8b);
 }
 
 .YdDGagpVLGcdAiN.wSCRHOWirNyJOFu {
   z-index: 6;
-  background-image: linear-gradient(135deg, #2b2f45, #56526a);
+  background-image: linear-gradient(135deg, #440085, #440085);
 }
 
 .YdDGagpVLGcdAiN.PEKkBItKBqqeJRh {
   z-index: 4;
-  background-image: linear-gradient(45deg, #0aa1ca, #0755ce);
+  background-image: linear-gradient(45deg, #614491, #694f8b);
 }
 
 .YdDGagpVLGcdAiN.mmVuwGcsGLRSRqa {
   z-index: 2;
-  background-image: linear-gradient(45deg, #5ab8c5, #2d7d88);
+  background-image: linear-gradient(45deg, #440085, #440085);
 }
 
 .YdDGagpVLGcdAiN.iwxAHMPzHkERkRA {
   z-index: 1;
-  background-image: linear-gradient(135deg, #788bb6, #434c75);
+  background-image: linear-gradient(135deg, #614491, #694f8b);
 }
 
 .YdDGagpVLGcdAiN.WqmfuwsNfQOLpxq {
-  background-image: linear-gradient(135deg, #6186fe, #111497);
+  background-image: linear-gradient(135deg, #440085, #440085);
 }
 
 .TUXdbyBKEKPaiPW {
@@ -681,7 +681,7 @@ p {
     from(#3b5889),
     to(#3b5889)
   );
-  background-image: linear-gradient(180deg, #3b5889, #3b5889);
+  background-image: linear-gradient(180deg, #614491, #614491);
 }
 
 .ULhiWWqjOtjNRjM {
@@ -2326,7 +2326,7 @@ body {
   z-index: 997;
   max-height: fit-content;
   width: 100%;
-  background-color: #47b9b5;
+  background-color: #440085;
   color: white;
 }
 
@@ -2556,7 +2556,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #47b9b5;
+    background-color: #440085;
     opacity: 0.2;
     transform: translateX(0);
     max-height: 750px;
@@ -2796,4 +2796,8 @@ body {
     -ms-flex-align: stretch;
     align-items: stretch;
   }
+}
+
+.vpBHLqPjEFYYJZY {
+  background-color: #ece1ff;
 }
