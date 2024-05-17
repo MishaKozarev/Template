@@ -3362,46 +3362,46 @@ body {
 }
 
 /**** THANKS-PAGE ****/
-.thanks-page__title {
+.thanks__title {
   font-size: 3rem;
 }
 
-.thanks-page__container {
+.thanks__container {
   max-width: 850px;
   gap: 20px;
   padding: 75px 30px 0;
 }
 
-.thanks-page__container p {
+.thanks__container p {
   font-size: 1.3rem;
   font-weight: 500;
 }
 
-.thanks-page__container span {
+.thanks__container span {
   color: #3898ec;
 }
 
-.thanks-page__content {
+.thanks__content {
   gap: 20px;
   align-items: flex-start;
 }
 
-.thanks-page__btn {
+.thanks__btn {
   border: 2px solid #3898ec;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
   color: #3898ec;
-  border-radius: 6px;
+  border-radius: 20px;
 }
 
-.thanks-page__btn:hover {
+.thanks__btn:hover {
   background-color: #3898ec;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
 
-.thanks-page__section {
+.thanks__section {
   height: 100vh;
 }
 
