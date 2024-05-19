@@ -240,7 +240,7 @@ textarea.NRzdsrsdqKuhhDM {
   --bg-color: #f6f6f6;
   --paragraph-color: rgba(29, 29, 29, 0.8);
   --white: white;
-  --accent-color: #64b45c;
+  --accent-color: #501b1d;
   --medium-gap: 32px;
   --small-gap: 20px;
   --smallest-gap: 12px;
@@ -672,7 +672,7 @@ a {
 }
 
 .wXqkbPgTGanutfi {
-  background-color: #64b45c;
+  background-color: #501b1d;
 }
 
 .OTdBwMJqhUOCzfe {
@@ -704,7 +704,7 @@ a {
 }
 
 .OTdBwMJqhUOCzfe.ARfcIcVCXPGkCgr {
-  color: #292727;
+  color: #ffffff;
   font-size: 18px;
 }
 
@@ -2221,15 +2221,15 @@ body {
 }
 
 .gratitude__btn {
-  border: 2px solid #64b45c;
+  border: 2px solid #501b1d;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #64b45c;
+  color: #501b1d;
 }
 
 .gratitude__btn:hover {
-  background-color: #64b45c;
+  background-color: #501b1d;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
@@ -2368,22 +2368,22 @@ body {
 }
 
 .menu__link:hover {
-  color: #64b45c;
-  border-bottom: 2px solid #64b45c;
+  color: #501b1d;
+  border-bottom: 2px solid #501b1d;
 }
 
 .header__btn {
   padding: 10px 16px;
-  border: 1px solid #64b45c;
-  background-color: #64b45c;
+  border: 1px solid #501b1d;
+  background-color: #501b1d;
   color: white;
   transition: 0.4s;
 }
 
 .header__btn:hover {
   background-color: white;
-  color: #64b45c;
-  border: 1px solid #64b45c;
+  color: #501b1d;
+  border: 1px solid #501b1d;
 }
 
 @media (max-width: 930px) {
@@ -2412,7 +2412,7 @@ body {
   width: 22px;
   height: 5px;
   border-radius: 4px;
-  background-color: #64b45c;
+  background-color: #501b1d;
   transition: 0.4s ease;
 }
 
@@ -2424,7 +2424,7 @@ body {
   width: 34px;
   height: 5px;
   border-radius: 4px;
-  background-color: #64b45c;
+  background-color: #501b1d;
   transition: 0.3s ease;
 }
 
@@ -2497,7 +2497,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #64b45c;
+    background-color: #501b1d;
     opacity: 0.2;
     transform: translateX(0);
     max-height: 750px;
