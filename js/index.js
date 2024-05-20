@@ -22,10 +22,8 @@ window.addEventListener("scroll", function () {
   var scrollPosition = window.scrollY;
 
   if (scrollPosition > 100) {
-    headerBottom.style.backgroundColor = "white";
-    headerBottom.style.borderBottom = "1px solid black";
+    headerBottom.style.borderBottom = "1px solid #116466";
   } else {
-    headerBottom.style.backgroundColor = "inherit";
     headerBottom.style.borderBottom = "none";
   }
 });
