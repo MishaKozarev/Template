@@ -375,7 +375,7 @@ a {
 }
 
 .iUJNxyGjQguUnvP.VNiwZFxlWZNEjXK {
-  padding-top: 140px;
+  padding-top: 10px;
   padding-bottom: 240px;
 }
 
@@ -2239,10 +2239,6 @@ body {
 }
 
 /**** DOCUMENT ****/
-.information {
-  background-color: #d7f0d4;
-}
-
 .information__container {
   padding: 190px 40px;
   max-width: 800px;
@@ -2309,7 +2305,7 @@ body {
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 0;
+  padding: 10px 0;
   background-color: inherit;
 }
 
@@ -2696,4 +2692,8 @@ body {
 
 .UmkSZJdohaeAJDr a:hover {
   color: #6eee18;
+}
+
+.padding-top {
+  padding-top: 140px;
 }

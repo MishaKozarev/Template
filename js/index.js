@@ -21,7 +21,7 @@ window.addEventListener("scroll", function () {
   var scrollPosition = window.scrollY;
 
   if (scrollPosition > 100) {
-    header.style.borderBottom = "1px solid #64b45c";
+    header.style.borderBottom = "1px solid #501b1d";
   } else {
     header.style.borderBottom = "1px solid #f6f6f6";
   }
