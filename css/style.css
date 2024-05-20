@@ -59,7 +59,7 @@ html {
 
 body {
   color: #333;
-  background-color: #fff;
+  background-color: rgb(241 252 250);
   min-height: 100%;
   margin: 0;
 
@@ -263,9 +263,8 @@ textarea.WckLSWwbTdAOXJA {
 }
 
 body {
-  background-color: var(--white);
+  background-color: rgb(241 252 250);
   color: var(--font-bg);
-
   font-size: 19px;
   font-weight: 400;
   line-height: 29px;
@@ -389,7 +388,6 @@ a {
 }
 
 .zuHJUZEwiPoBoEh.oKzQWnaRhXSzFFu {
-  background-color: var(--bg-gray);
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -426,7 +424,6 @@ a {
 }
 
 .iTKuBPsYmrxAIQI {
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1782,7 +1779,7 @@ a {
 
 @media screen and (min-width: 1280px) {
   body {
-    background-color: var(--white);
+    background-color: rgb(241 252 250);
   }
 
   .cGQrNtcvnrCOSlh:hover {
@@ -2564,7 +2561,7 @@ body {
 
 /**** THANKS-PAGE ****/
 .thanks-pages {
-  background-color: #d5cec6;
+  background-color: rgb(241 252 250);
 }
 
 .thanks-pages__title {
@@ -2859,7 +2856,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #8e9194;
+    background-color: #379683;
     opacity: 0.2;
     transform: translateX(0);
     max-height: 750px;
