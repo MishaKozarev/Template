@@ -161,9 +161,9 @@ p {
 }
 
 :root {
-  --coverd-white: #fdfbf8;
+  --coverd-white: rgb(198 222 236 / 30%);
   --black-2: #2f3033;
-  --dark-orange: #f8971f;
+  --dark-orange: #1fabf8;
   --cornflower-blue: #5b95f4;
   --black: black;
   --white: white;
@@ -635,7 +635,7 @@ p {
 }
 
 .NrtBXytUfaVZsyy.RYQegDTmCjfweSU {
-  background-color: rgba(236, 220, 198, 0.3);
+  background-color: rgb(198 222 236 / 30%);
 }
 
 .NrtBXytUfaVZsyy.RmitqlsdXrjZymb {
@@ -664,7 +664,7 @@ p {
 
 .ckzUXhpakLPoEpT {
   height: 55px;
-  background-color: rgba(236, 220, 198, 0.25);
+  background-color: var(--coverd-white);
   border: 1px #000;
   border-radius: 3px;
 
@@ -1235,7 +1235,7 @@ p {
   display: block;
   padding: 0.4em 0.4em 0.4em 2em;
   margin: 0.5em 0;
-  background: #faf4ee;
+  background: #f7fcff;
   border-radius: 0.3em;
   color: var(--black-800);
   margin-bottom: 0;
@@ -1252,6 +1252,7 @@ p {
   top: 50%;
   margin-top: -1.3em;
   background: #f8971f;
+  background: #1fabf8;
   height: 2em;
   width: 2em;
   line-height: 2em;
@@ -1326,7 +1327,7 @@ p {
   align-items: flex-start;
   width: 60%;
   gap: 15px;
-  border-bottom: 3px solid #f8971f;
+  border-bottom: 3px solid #1fabf8;
 }
 .vtkNKqnmIRleVNW h3 {
   font-size: 2rem;
@@ -1438,15 +1439,15 @@ body {
 }
 
 .thanks-pages__btn {
-  border: 2px solid #f8971f;
+  border: 2px solid #1fabf8;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #f8971f;
+  color: #1fabf8;
 }
 
 .thanks-pages__btn:hover {
-  background-color: #f8971f;
+  background-color: #1fabf8;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
@@ -1517,12 +1518,12 @@ body {
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 160px;
+  width: 120px;
   display: flex;
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 0;
+  padding: 10px 0;
   background-color: inherit;
 }
 
@@ -1581,22 +1582,22 @@ body {
 }
 
 .menu__link:hover {
-  color: #f8971f;
-  border-bottom: 2px solid #f8971f;
+  color: #1fabf8;
+  border-bottom: 2px solid #1fabf8;
 }
 
 .header__btn {
   padding: 10px 16px;
-  border: 1px solid #f8971f;
-  background-color: #f8971f;
+  border: 1px solid #1fabf8;
+  background-color: #1fabf8;
   color: white;
   transition: 0.4s;
 }
 
 .header__btn:hover {
   background-color: white;
-  color: #f8971f;
-  border: 1px solid #f8971f;
+  color: #1fabf8;
+  border: 1px solid #1fabf8;
 }
 
 @media (max-width: 930px) {
@@ -1637,7 +1638,7 @@ body {
   width: 34px;
   height: 5px;
   border-radius: 4px;
-  background-color: #f8971f;
+  background-color: #1fabf8;
   transition: 0.3s ease;
 }
 
@@ -1690,8 +1691,8 @@ body {
     font-weight: 700;
     border-bottom: none;
     text-decoration: none;
-    border-bottom: 2px solid #f8971f;
-    color: #2d5391;
+    border-bottom: 2px solid #1fabf8;
+    color: #fff;
   }
 
   .menu__link:hover {
@@ -1711,7 +1712,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #f8971f;
+    background-color: #1fabf8;
     border: 1px solid #2d5391;
     opacity: 0.2;
     transform: translateX(0);
