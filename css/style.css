@@ -1466,7 +1466,6 @@ a {
 
   .iUJNxyGjQguUnvP.XRnWTllLJBbfeVZ {
     max-height: 100vh;
-    min-height: 100vh;
     justify-content: flex-end;
     align-items: stretch;
     padding-top: 200px;
@@ -1522,7 +1521,6 @@ a {
 @media screen and (min-width: 1920px) {
   .iUJNxyGjQguUnvP.XRnWTllLJBbfeVZ {
     max-height: 80vh;
-    min-height: 80vh;
   }
 
   .EjyxYRewKRAFQQp {
@@ -2474,6 +2472,7 @@ body {
     font-weight: 700;
     border-bottom: none;
     text-decoration: none;
+    color: #ccc;
   }
 
   .menu__link:hover {
@@ -2688,10 +2687,11 @@ body {
 
 .UmkSZJdohaeAJDr a {
   color: #292727;
+  transition: 0.5s;
 }
 
 .UmkSZJdohaeAJDr a:hover {
-  color: #6eee18;
+  color: #fa4d09;
 }
 
 .padding-top {
