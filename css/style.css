@@ -1744,3 +1744,8 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
+
+.padding-section {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
