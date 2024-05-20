@@ -1937,15 +1937,15 @@ body {
 }
 
 .thanks-pages__btn {
-  border: 2px solid #333;
+  border: 2px solid #116466;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #333;
+  color: #116466;
 }
 
 .thanks-pages__btn:hover {
-  background-color: #333;
+  background-color: #116466;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
