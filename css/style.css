@@ -243,10 +243,10 @@ textarea.WckLSWwbTdAOXJA {
   --white: white;
   --font-bg: #202020;
   --link: #f3a73b;
-  --font-gray: #8e9194;
-  --color\<deleted\|variable-d285b7a3-501d-a20e-3c31-c357bb27704a\>: #e2d8c7;
+  --font-gray: #484b4f;
+  --color\<deleted\|variable-d285b7a3-501d-a20e-3c31-c357bb27704a\>: #379683;
   --bg-gray: #f0f0f0;
-  --darker-black: #161616;
+  --darker-black: #379683;
   --bg-salmon: #e4d8c5;
   --bg-2: #d5cec6;
   --lines: #d5d5d5;
@@ -384,7 +384,7 @@ a {
 }
 
 .zuHJUZEwiPoBoEh.DjEOmVCnfwyjwCf {
-  background-color: var(--font-bg);
+  background-color: #379683;
   padding-top: 0;
 }
 
@@ -405,7 +405,7 @@ a {
 }
 
 .zuHJUZEwiPoBoEh.uAGnIhwhmHolgWz {
-  background-color: var(--bg-salmon);
+  background-color: #8adaca;
   padding-top: 80px;
   padding-bottom: 80px;
   overflow: hidden;
@@ -484,7 +484,7 @@ a {
 .ZExeRVfhOwfWHwt {
   padding-top: 120px;
   position: relative;
-  background-color: #e2d8c7;
+  background-color: #8adaca;
 }
 
 .KVTrTkAmLidMBwW {
@@ -2652,7 +2652,7 @@ body {
   max-height: fit-content;
   width: 100%;
   color: #202020;
-  background-color: #e2d8c7;
+  background-color: #379683;
 }
 
 .header__container {
@@ -2692,12 +2692,12 @@ body {
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 160px;
+  width: 120px;
   display: flex;
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 0;
+  padding: 10px 0;
   background-color: inherit;
   z-index: 5;
 }
