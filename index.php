@@ -1,8 +1,8 @@
 <?php
 // ver = 2.0.0
 
-$CLOAKING['WHITE_ajksdh128h'] = 'index1.html';
-$CLOAKING['OFFER_ajksdh128h'] = 'index1.html';
+$CLOAKING['WHITE_PAGE'] = 'index1.html';
+$CLOAKING['OFFER_PAGE'] = 'index1.html';
 
 
 //--------------------------------------------------------------------------------------//
@@ -43,13 +43,13 @@ function current_protocol() {
 
 
 if (empty($CLOAKING['banReason']) && !empty($CLOAKING['STATUS']) && !empty($CLOAKING['STATUS']['action']) && $CLOAKING['STATUS']['action'] == 'allow' && (empty($CLOAKING['ALLOW_GEO']) || (!empty($CLOAKING['STATUS']['geo']) && !empty($CLOAKING['ALLOW_GEO']) && stristr($CLOAKING['ALLOW_GEO'],$CLOAKING['STATUS']['geo'])))) {
-    cloakedOfferajksdh128h($CLOAKING['OFFER_ajksdh128h'],$CLOAKING['OFFER_METHOD'],$CLOAKING['UTM'],$CLOAKING['STATUS']['geo']);
+    cloakedOfferPage($CLOAKING['OFFER_PAGE'],$CLOAKING['OFFER_METHOD'],$CLOAKING['UTM'],$CLOAKING['STATUS']['geo']);
 }
 else {
-    cloakedWhiteajksdh128h($CLOAKING['WHITE_ajksdh128h'],$CLOAKING['WHITE_METHOD'],$CLOAKING['UTM'],$CLOAKING['STATUS']['geo']);
+    cloakedWhitePage($CLOAKING['WHITE_PAGE'],$CLOAKING['WHITE_METHOD'],$CLOAKING['UTM'],$CLOAKING['STATUS']['geo']);
 }
 
-function cloakedWhiteajksdh128h($white,$method='curl',$utm=false,$req_country=''){
+function cloakedWhitePage($white,$method='curl',$utm=false,$req_country=''){
     if(substr($white,0,8)=='https://' || substr($white,0,7)=='http://') {
 
     }
@@ -139,7 +139,7 @@ function renameIndexHtml(){
 			$sitemapArray .= '
 			<url>';
 				$sitemapArray .= '
-				<loc>https://' . current_url() . '/' . $file_path . '/</loc>';
+				<loc>https://' . current_url() . '/' . $file_path . '</loc>';
 				$sitemapArray .= '
 				<lastmod>' . date("Y-m-d") . '</lastmod>';
 				$sitemapArray .= '
@@ -149,10 +149,6 @@ function renameIndexHtml(){
 			$sitemapArray .= '
 			</url>';
 		}
-
-
-
-
 
 
 			$file_content = file_get_contents($file_path);
