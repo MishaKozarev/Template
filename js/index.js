@@ -21,7 +21,7 @@ addBurger();
 window.addEventListener("scroll", function () {
   var scrollPosition = window.scrollY;
 
-  if (scrollPosition > 100) {
+  if (scrollPosition > 50) {
     headerBottom.style.backgroundColor = "#f8efe2";
   } else {
     headerBottom.style.backgroundColor = "inherit";
