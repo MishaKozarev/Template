@@ -264,7 +264,7 @@ textarea.oQJoIyTnqdlEggX {
 
 :root {
   --text-dark: #232323;
-  --primary: #2d3d33;
+  --primary: #f36624;
   --color: #a36630;
   --white: white;
   --gray: #e9e9e9;
@@ -366,7 +366,7 @@ img {
 .CXlUpaQfkMYSqUl {
   color: #fff;
   text-align: center;
-  background-color: #2d3d33;
+  background-color: #f36624;
   background-image: url("../img/icons/icon-8.svg");
   background-position: 100%;
   background-repeat: no-repeat;
@@ -389,8 +389,7 @@ img {
 
 .xHslTzcqrNrhFSC {
   z-index: 999;
-  background-color: #2d3d33;
-  background-image: url("../img/icons/icon-10.svg");
+  background-color: #f36624;
   background-position: 50%;
   background-size: cover;
   border-bottom-right-radius: 30px;
@@ -534,7 +533,7 @@ img {
   grid-column-gap: 40px;
   grid-row-gap: 0px;
   text-align: center;
-  background-color: #2d3d33;
+  background-color: #f36624;
   border-radius: 20px;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
@@ -584,7 +583,7 @@ img {
 }
 
 .XIZbeXrkucjVQYo.CqYTZHjHtBLIsFc {
-  background-color: #f6f7f9;
+  background-color: #ffdbb2;
 }
 
 .XIZbeXrkucjVQYo.xehCdJsOyhfdDFV {
@@ -596,7 +595,7 @@ img {
 }
 
 .XIZbeXrkucjVQYo.cGmVpvyRLWXIfwN {
-  background-color: #f6f7f9;
+  background-color: #ffdbb2;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   margin-top: -30px;
@@ -714,7 +713,7 @@ img {
 }
 
 .juqCseatfEWWsSl {
-  background-color: #2d3d33;
+  background-color: #f36624;
   border-bottom-right-radius: 200px;
   flex-direction: row;
   justify-content: flex-end;
@@ -775,8 +774,8 @@ img {
 }
 
 .cKROxNHUsKdPvoq:hover {
-  color: #2d3d33;
-  border-bottom-color: #2d3d33;
+  color: #f36624;
+  border-bottom-color: #f36624;
 }
 
 .puLIcURCjxkEBEP {
@@ -796,7 +795,7 @@ img {
 }
 
 .WtMgffLWcNWtbeA {
-  color: #fff;
+  color: #e9e9e9;
   text-transform: capitalize;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -805,7 +804,7 @@ img {
 }
 
 .WtMgffLWcNWtbeA:hover {
-  color: #a36630;
+  color: #fff;
 }
 
 .YWbyUHEeYHuTAfP {
@@ -838,15 +837,15 @@ img {
 }
 
 .GHQJPcjghRedwyv {
-  color: #fff;
+  color: #e9e9e9;
 }
 
 .GHQJPcjghRedwyv:hover {
-  color: #a36630;
+  color: #fff;
 }
 
 .RqvjWjKtvpptwQE {
-  color: #a36630;
+  color: #e9e9e9;
   letter-spacing: 0.2px;
   margin-right: 5px;
   font-size: 14px;
@@ -884,7 +883,7 @@ img {
 .lwlYhvSOvYQXqyz {
   z-index: 999;
   text-align: center;
-  background-color: #2d3d33;
+  background-color: #f36624;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   align-items: flex-start;
@@ -990,7 +989,7 @@ img {
 }
 
 .TItYNoaDOhqRsSa {
-  background-color: #2d3d33;
+  background-color: #f36624;
   border-radius: 100px;
   margin-bottom: 10px;
   padding: 18px;
@@ -1076,7 +1075,7 @@ img {
 }
 
 .WnTXqRGSbooPERF:focus {
-  border: 1px solid #2d3d33;
+  border: 1px solid #f36624;
 }
 
 .WnTXqRGSbooPERF::placeholder {
@@ -1099,7 +1098,7 @@ img {
 
 .eTBdcyGPMlyJQmw:focus {
   color: #232323;
-  border: 1px solid #2d3d33;
+  border: 1px solid #f36624;
 }
 
 .eTBdcyGPMlyJQmw::placeholder {
@@ -1122,7 +1121,7 @@ img {
 }
 
 .MFQJLYAAOullaiQ {
-  background-color: #adb7b1;
+  background-color: #f3cd8f;
   border-radius: 10px;
   width: 100%;
   margin-bottom: 0;
@@ -1132,8 +1131,8 @@ img {
 .PzFKyrEYQWksTil {
   grid-column-gap: 30px;
   grid-row-gap: 10px;
-  background-color: #f6f7f9;
-  border: 1px solid #f6f7f9;
+  background-color: #ffdbb2;
+  border: 1px solid #ffdbb2;
   border-radius: 20px;
   flex-direction: column;
   align-items: flex-start;
@@ -1149,7 +1148,7 @@ img {
 }
 
 .yfjfOtdvMluJNAZ {
-  background-color: #a36630;
+  background-color: #f36624;
   border-radius: 100%;
   padding: 16px;
 }
@@ -1488,7 +1487,7 @@ img {
   }
 
   .yYtLQUzLEGmkbvF {
-    background-color: #2d3d33;
+    background-color: #f36624;
     position: relative;
   }
 
@@ -1920,8 +1919,8 @@ img {
 }
 
 .ExSaunLDPCvUSMu a {
-  color: #2d3d33;
-  border-bottom: 1px solid #2d3d33;
+  color: #f36624;
+  border-bottom: 1px solid #f36624;
 }
 
 .klahVVbofnmmppC {
@@ -1942,7 +1941,7 @@ img {
   display: block;
   padding: 0.4em 0.4em 0.4em 2em;
   margin: 0.5em 0;
-  background: #eefaf0;
+  background: #ffdbb2;
   border-radius: 0.3em;
   color: var(--black-800);
   margin-bottom: 0;
@@ -1958,7 +1957,7 @@ img {
   left: -1.3em;
   top: 50%;
   margin-top: -1.3em;
-  background: #a36630;
+  background: #f36624;
   height: 2em;
   width: 2em;
   line-height: 2em;
@@ -2043,7 +2042,7 @@ body {
 }
 
 .thanks-pages__container span {
-  color: #2d3d33;
+  color: #f36624;
 }
 
 .thanks-pages__content {
@@ -2052,16 +2051,16 @@ body {
 }
 
 .thanks-pages__btn {
-  border: 2px solid #2d3d33;
+  border: 2px solid #f36624;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: 700;
-  color: #2d3d33;
+  color: #f36624;
   border-radius: 20px;
 }
 
 .thanks-pages__btn:hover {
-  background-color: #2d3d33;
+  background-color: #f36624;
   color: whitesmoke;
   border: 2px solid whitesmoke;
 }
@@ -2114,7 +2113,7 @@ body {
   max-height: fit-content;
   width: 100%;
   color: white;
-  background-color: #2d3d33;
+  background-color: #f36624;
 }
 
 .header__container {
@@ -2154,12 +2153,12 @@ body {
 /*HEADER_MAIN*/
 
 .header__logo {
-  width: 160px;
+  width: 100px;
   display: flex;
   gap: 15px;
   align-items: center;
   border-radius: 0;
-  padding: 0;
+  padding: 10px 0;
   background-color: inherit;
   z-index: 1001;
 }
@@ -2328,7 +2327,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: #2d3d33;
+    background-color: #f36624;
     opacity: 0.2;
     transform: translateX(0);
     max-height: 750px;
