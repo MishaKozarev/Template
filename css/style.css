@@ -1944,10 +1944,6 @@ body {
   background-color: inherit;
 }
 
-.header__logo:hover {
-  transform: scale(1.1);
-}
-
 .header__logo p {
   font-size: 1.5rem;
   font-weight: 700;
